@@ -1,0 +1,60 @@
+{
+  "rows": 2698,
+  "successful_requests": 2698,
+  "failed_requests": 0,
+  "valid_json_and_schema": 2695,
+  "schema_valid_rate": 0.9988880652335063,
+  "record_detection": {
+    "tp": 1290,
+    "fp": 13,
+    "fn": 59,
+    "precision": 0.990023023791251,
+    "recall": 0.9562638991845812,
+    "f1": 0.9728506787330318,
+    "tn": 1336,
+    "accuracy": 0.9733135656041513
+  },
+  "hardware_model_normalized": {
+    "tp": 1362,
+    "fp": 60,
+    "fn": 115,
+    "precision": 0.9578059071729957,
+    "recall": 0.9221394719025051,
+    "f1": 0.9396343566747154
+  },
+  "hardware_model_strict_surface": {
+    "tp": 249,
+    "fp": 1178,
+    "fn": 1234,
+    "precision": 0.17449194113524877,
+    "recall": 0.16790289952798382,
+    "f1": 0.1711340206185567
+  },
+  "quantity": {
+    "scored_rows": 832,
+    "tp": 853,
+    "fp": 19,
+    "fn": 30,
+    "precision": 0.9782110091743119,
+    "recall": 0.9660249150622876,
+    "f1": 0.972079772079772
+  },
+  "joint_normalized": {
+    "scored_rows": 799,
+    "tp": 784,
+    "fp": 35,
+    "fn": 52,
+    "precision": 0.9572649572649573,
+    "recall": 0.937799043062201,
+    "f1": 0.9474320241691843
+  },
+  "joint_strict_surface": {
+    "scored_rows": 799,
+    "tp": 89,
+    "fp": 730,
+    "fn": 747,
+    "precision": 0.10866910866910867,
+    "recall": 0.10645933014354067,
+    "f1": 0.10755287009063444
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "excluded_dispositions": [
+    "cpu",
+    "tpu",
+    "npu",
+    "station",
+    "model_or_framework",
+    "unresolved"
+  ],
+  "normalization_precedence": [
+    "hardware_resolution_catalog_or_rule",
+    "default_variant_rule",
+    "reviewed_exact_mapping",
+    "manual_override",
+    "disposition_and_review_flag"
+  ],
+  "retained_type": "GPU benchmark catalog record with a resolved benchmark model",
+  "unknown_semantics": "null or review-required is retained as unknown; it is not converted to zero"
+}

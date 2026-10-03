@@ -1,0 +1,446 @@
+{
+  "analysis_id": "combined_resource_evolution_figure_gpu_first_api_inset_connected_v1_20260914",
+  "title": "Evolution of Computational Resource Configurations and GPU Hardware Characteristics",
+  "plot": {
+    "width_mm": 183,
+    "height_mm": 155,
+    "raster_dpi": 600,
+    "axis_text_color": "#1A1A1A",
+    "grid_color": "#E3E6E8",
+    "frame_color": "#D9DDE0",
+    "frame_linewidth": 0.45,
+    "legend_median_color": "#303030",
+    "legend_p90_color": "#6F6F6F",
+    "legend_iqr_color": "#D9DDE0",
+    "access_inset": {
+      "width_ratios": [
+        3.35,
+        1.0
+      ],
+      "wspace": 0.28,
+      "configurations": [
+        "hardware_api",
+        "api_only"
+      ],
+      "ylim": [
+        0.0,
+        0.21
+      ],
+      "yticks": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2
+      ],
+      "xticks": [
+        2020,
+        2023,
+        2025
+      ],
+      "title": "API-related configurations",
+      "source_ylim": [
+        0.0,
+        0.2
+      ],
+      "connector_color": "#8A8A8A",
+      "connector_linewidth": 0.55,
+      "connector_linestyle": "--"
+    }
+  },
+  "scope": {
+    "panels_a_c_population": "34483 complete positive GPU configurations within the 49090-paper hardware cohort",
+    "panels_a_c_performance_imputation_n": 3524,
+    "panel_d_population": "all 107872 eligible papers",
+    "panel_d_hardware_predicate": "resource_L1 = 1 and resource_L2 = 0 and resource_L3 = 0",
+    "panel_d_api_predicate": "resource_L4 = 1",
+    "panel_d_inset": "connected auxiliary zoom of Hardware + API and API only",
+    "venue_standardized": false
+  },
+  "component_configs": {
+    "hardware_api": {
+      "analysis_id": "hardware_api_configurations_yearly_line_l1l4_palette_v1_20260914",
+      "title": "Evolution of Hardware-API Resource Configurations",
+      "year_min": 2020,
+      "year_max": 2025,
+      "columns": {
+        "paper_id": "paper_id",
+        "year": "year",
+        "l1": "resource_L1",
+        "l2": "resource_L2",
+        "l3": "resource_L3",
+        "l4": "resource_L4"
+      },
+      "configurations": [
+        {
+          "id": "hardware_only",
+          "display_name": "Hardware only",
+          "color": "#315D86",
+          "line_style": "-",
+          "marker": "o"
+        },
+        {
+          "id": "hardware_api",
+          "display_name": "Hardware + API",
+          "color": "#3E8C87",
+          "line_style": "-.",
+          "marker": "s"
+        },
+        {
+          "id": "api_only",
+          "display_name": "API only",
+          "color": "#A54B5E",
+          "line_style": "--",
+          "marker": "^"
+        },
+        {
+          "id": "neither_identified",
+          "display_name": "Neither identified",
+          "color": "#767676",
+          "line_style": ":",
+          "marker": "D"
+        }
+      ],
+      "plot": {
+        "width_mm": 183,
+        "height_mm": 95,
+        "raster_dpi": 600,
+        "y_max": 0.7,
+        "line_width": 1.65,
+        "marker_size": 4.2,
+        "grid_color": "#E3E6E8",
+        "axis_text_color": "#1A1A1A"
+      },
+      "expected": {
+        "input_rows": 107872,
+        "unique_papers": 107872,
+        "years": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "hardware_n": 49090,
+        "api_n": 20633,
+        "union_n": 59510,
+        "configuration_totals": {
+          "hardware_only": 38877,
+          "hardware_api": 10213,
+          "api_only": 10420,
+          "neither_identified": 48362
+        },
+        "annual": {
+          "2020": {
+            "denominator": 11353,
+            "hardware_only": 3526,
+            "hardware_api": 110,
+            "api_only": 217,
+            "neither_identified": 7500
+          },
+          "2021": {
+            "denominator": 13438,
+            "hardware_only": 4714,
+            "hardware_api": 173,
+            "api_only": 261,
+            "neither_identified": 8290
+          },
+          "2022": {
+            "denominator": 14192,
+            "hardware_only": 5595,
+            "hardware_api": 340,
+            "api_only": 401,
+            "neither_identified": 7856
+          },
+          "2023": {
+            "denominator": 17933,
+            "hardware_only": 7084,
+            "hardware_api": 1030,
+            "api_only": 1311,
+            "neither_identified": 8508
+          },
+          "2024": {
+            "denominator": 22294,
+            "hardware_only": 8297,
+            "hardware_api": 3099,
+            "api_only": 3083,
+            "neither_identified": 7815
+          },
+          "2025": {
+            "denominator": 28662,
+            "hardware_only": 9661,
+            "hardware_api": 5461,
+            "api_only": 5147,
+            "neither_identified": 8393
+          }
+        }
+      },
+      "scope": {
+        "population": "2020-2025 papers with usable OpenAlex metadata and resource-identification text",
+        "hardware_predicate": "resource_L1 = 1 and resource_L2 = 0 and resource_L3 = 0",
+        "api_predicate": "resource_L4 = 1",
+        "hardware_requires_complete_gpu_configuration": false,
+        "configurations_mutually_exclusive": true,
+        "annual_denominator": "all eligible papers in the same publication year",
+        "venue_standardized": false
+      }
+    },
+    "gpu_hardware": {
+      "analysis_id": "gpu_hardware_configurations_yearly_panel_palette_v1_20260914",
+      "title": "Evolution of GPU Hardware Configurations",
+      "year_min": 2020,
+      "year_max": 2025,
+      "columns": {
+        "paper_id": "paper_id",
+        "year": "year",
+        "l1": "resource_L1",
+        "l2": "resource_L2",
+        "l3": "resource_L3",
+        "current_complete": "compute_gpu_scale_strict_main_sample",
+        "historical_strict": "compute_strict_gpu",
+        "performance_imputed": "compute_performance_imputed"
+      },
+      "variables": [
+        {
+          "id": "gpu_quantity",
+          "column": "compute_selected_gpu_count",
+          "display_name": "GPU quantity",
+          "unit": "GPUs",
+          "divisor": 1,
+          "ylim": [
+            0,
+            10
+          ],
+          "yticks": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "colors": {
+            "median": "#315D86",
+            "p90": "#5F83A1",
+            "iqr": "#D7E4EE"
+          }
+        },
+        {
+          "id": "gpu_performance",
+          "column": "compute_selected_per_gpu_capability",
+          "display_name": "Per-GPU peak performance",
+          "unit": "TFLOP/s",
+          "divisor": 1000000000000,
+          "ylim": [
+            0,
+            360
+          ],
+          "yticks": [
+            0,
+            100,
+            200,
+            300
+          ],
+          "colors": {
+            "median": "#2F7772",
+            "p90": "#679F9B",
+            "iqr": "#D3E7E4"
+          }
+        },
+        {
+          "id": "gpu_vram",
+          "column": "compute_selected_vram_gb",
+          "display_name": "Per-GPU VRAM",
+          "unit": "GB",
+          "divisor": 1,
+          "ylim": [
+            0,
+            90
+          ],
+          "yticks": [
+            0,
+            20,
+            40,
+            60,
+            80
+          ],
+          "colors": {
+            "median": "#944E5F",
+            "p90": "#B77B87",
+            "iqr": "#EAD9DE"
+          }
+        }
+      ],
+      "plot": {
+        "width_mm": 183,
+        "height_mm": 82,
+        "raster_dpi": 600,
+        "legend_median_color": "#303030",
+        "legend_p90_color": "#6F6F6F",
+        "legend_iqr_color": "#D9DDE0",
+        "grid_color": "#E3E6E8",
+        "axis_text_color": "#1A1A1A",
+        "iqr_alpha": 1.0
+      },
+      "expected": {
+        "input_rows": 107872,
+        "unique_papers": 107872,
+        "years": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "provenance_cohort_n": 49090,
+        "measurement_n": 34483,
+        "performance_imputed_n": 3524,
+        "historical_strict_n": 31088,
+        "annual": {
+          "2020": {
+            "provenance_cohort_n": 3636,
+            "measurement_n": 1870,
+            "gpu_quantity": {
+              "q25": 1,
+              "median": 1,
+              "q75": 4,
+              "p90": 8
+            },
+            "gpu_performance": {
+              "q25": 72.85,
+              "median": 89.2,
+              "q75": 112,
+              "p90": 113.8
+            },
+            "gpu_vram": {
+              "q25": 11,
+              "median": 12,
+              "q75": 16,
+              "p90": 24
+            }
+          },
+          "2021": {
+            "provenance_cohort_n": 4887,
+            "measurement_n": 3014,
+            "gpu_quantity": {
+              "q25": 1,
+              "median": 1,
+              "q75": 4,
+              "p90": 8
+            },
+            "gpu_performance": {
+              "q25": 72.85,
+              "median": 112,
+              "q75": 113.8,
+              "p90": 121.94444444444444
+            },
+            "gpu_vram": {
+              "q25": 11,
+              "median": 16,
+              "q75": 16,
+              "p90": 24
+            }
+          },
+          "2022": {
+            "provenance_cohort_n": 5935,
+            "measurement_n": 3851,
+            "gpu_quantity": {
+              "q25": 1,
+              "median": 1,
+              "q75": 4,
+              "p90": 8
+            },
+            "gpu_performance": {
+              "q25": 72.85,
+              "median": 112,
+              "q75": 113.8,
+              "p90": 188.088
+            },
+            "gpu_vram": {
+              "q25": 12,
+              "median": 16,
+              "q75": 24,
+              "p90": 40
+            }
+          },
+          "2023": {
+            "provenance_cohort_n": 8114,
+            "measurement_n": 5657,
+            "gpu_quantity": {
+              "q25": 1,
+              "median": 1,
+              "q75": 4,
+              "p90": 8
+            },
+            "gpu_performance": {
+              "q25": 72.85,
+              "median": 112,
+              "q75": 165,
+              "p90": 312
+            },
+            "gpu_vram": {
+              "q25": 16,
+              "median": 24,
+              "q75": 40,
+              "p90": 48
+            }
+          },
+          "2024": {
+            "provenance_cohort_n": 11396,
+            "measurement_n": 8440,
+            "gpu_quantity": {
+              "q25": 1,
+              "median": 1,
+              "q75": 4,
+              "p90": 8
+            },
+            "gpu_performance": {
+              "q25": 112,
+              "median": 149.7,
+              "q75": 312,
+              "p90": 312
+            },
+            "gpu_vram": {
+              "q25": 24,
+              "median": 32,
+              "q75": 48,
+              "p90": 80
+            }
+          },
+          "2025": {
+            "provenance_cohort_n": 15122,
+            "measurement_n": 11651,
+            "gpu_quantity": {
+              "q25": 1,
+              "median": 2,
+              "q75": 8,
+              "p90": 8
+            },
+            "gpu_performance": {
+              "q25": 119.1,
+              "median": 312,
+              "q75": 312,
+              "p90": 330
+            },
+            "gpu_vram": {
+              "q25": 24,
+              "median": 40,
+              "q75": 48,
+              "p90": 80
+            }
+          }
+        }
+      },
+      "scope": {
+        "population": "2020-2025 papers with usable OpenAlex metadata and resource-identification text",
+        "provenance_predicate": "resource_L1 = 1 and resource_L2 = 0 and resource_L3 = 0",
+        "measurement_predicate": "provenance predicate and compute_gpu_scale_strict_main_sample = true",
+        "historical_strict_used": false,
+        "performance_imputation_retained": true,
+        "venue_standardized": false
+      }
+    }
+  }
+}

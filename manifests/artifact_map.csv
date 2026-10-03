@@ -1,0 +1,22 @@
+result_id,type,population,input,entry_point,output
+resource_access_modes,table,107872 eligible papers,data/analysis_ready/resource_descriptive.parquet,code/run_all.py,results/reproduced/tables/resource_access_modes.csv
+gpu_api_main_effects,table,29487 papers and four outcomes,data/analysis_ready/baseline_impact.parquet,code/run_all.py,results/reproduced/tables/main_effects.csv
+ksc_interactions,table,29239 papers and sixteen interactions,data/analysis_ready/ksc_impact.parquet,code/run_all.py,results/reproduced/tables/table4_impact_ksc_interactions.csv
+conference_year_counts,table,113822 collected papers,data/corpus/paper_index.parquet,code/run_all.py,results/reproduced/tables/conference_year_counts.csv
+resource_label_definitions,specification,L1-L4,configs/measurement/classification/label_schema_compute_resource_compact.md,docs/measurement_methods.md,configs/measurement/classification/label_schema_compute_resource_compact.md
+boundary_rules,specification,classification windows,configs/measurement/classification/instruction_compute_resource_compact.md,docs/measurement_methods.md,configs/measurement/classification/instruction_compute_resource_compact.md
+retrieval_keywords,specification,candidate retrieval,configs/measurement/retrieval,docs/retrieval_rules.md,configs/measurement/retrieval
+annotation_splits,table,3714 trusted train + 30000 candidate train + 3142 calibration + 4658 test windows,data/measurement/classification/*_membership.csv,code/run_all.py,results/reproduced/measurement/classification/split_summary.csv
+classifier_overall,table,BERT/RoBERTa/SciBERT,data/measurement/classification,code/run_all.py,results/reproduced/measurement/classification/model_metrics.csv
+teacher_performance,table,2472 windows,data/measurement/classification/teacher_gold.jsonl,code/run_all.py,results/reproduced/measurement/classification/per_label_metrics.csv
+classifier_by_label,table,L1-L4,data/measurement/classification,code/run_all.py,results/reproduced/measurement/classification/per_label_metrics.csv
+baseline_impact,table,four models and 69 clusters,data/analysis_ready/baseline_impact.parquet,code/run_all.py,results/reproduced/tables/baseline_regression_impact_table.csv
+hardware_api_full,table,twelve models and 69 clusters,data/analysis_ready/baseline_impact.parquet,code/run_all.py,results/reproduced/tables/appendix_interaction_impact_table.csv
+hardware_api_holm,table,three families of four outcomes,data/analysis_ready/baseline_impact.parquet,code/run_all.py,results/reproduced/tables/appendix_interaction_multiple_testing_table.csv
+ksc_full,table,sixteen models and 69 clusters,data/analysis_ready/ksc_impact.parquet,code/run_all.py,results/reproduced/tables/appendix_full_model_details.csv
+resource_trends,figure,107872 access records and 34483 hardware configurations,data/analysis_ready/resource_descriptive.parquet,code/run_all.py,results/reproduced/figures/combined_computational_resource_evolution
+hardware_api_interactions,figure,606 model-derived coordinates,data/analysis_ready/baseline_impact.parquet,code/run_all.py,results/reproduced/figures/interaction_slopes_cumulative_citations
+ksc_marginal_associations,figure,404 model-derived coordinates,data/analysis_ready/ksc_impact.parquet,code/run_all.py,results/reproduced/figures/ksc_marginal_associations
+gpu_extraction_scores,table,2698 records and two modes,data/measurement/gpu,code/run_all.py,results/reproduced/measurement/gpu/extraction_metrics.csv
+citation_measurements,validation,29591 papers and 2239 reference cells,data/citations,code/verify.py,results/reproduced/verification.json
+sample_flow,table,eleven stages,data/corpus/sample_membership.parquet,code/run_all.py,results/reproduced/tables/sample_flow.csv

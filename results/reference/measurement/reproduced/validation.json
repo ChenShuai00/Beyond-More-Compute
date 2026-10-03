@@ -1,0 +1,101 @@
+{
+  "status": "pass",
+  "asset_hashes_verified": 59,
+  "classification": {
+    "teacher": {
+      "rows": 2472,
+      "papers": 1565,
+      "macro_f1_l1_l4": 0.9492021795092485,
+      "micro_f1_l1_l4": 0.9488875526157546
+    },
+    "bert_base": {
+      "rows": 4658,
+      "papers": 1565,
+      "macro_f1_l1_l4": 0.8620880312016312,
+      "micro_f1_l1_l4": 0.8636771300448431
+    },
+    "roberta_base": {
+      "rows": 4658,
+      "papers": 1565,
+      "macro_f1_l1_l4": 0.8864503944215857,
+      "micro_f1_l1_l4": 0.8868529546495647
+    },
+    "scibert": {
+      "rows": 4658,
+      "papers": 1565,
+      "macro_f1_l1_l4": 0.8997910780314691,
+      "micro_f1_l1_l4": 0.8990136214185064
+    }
+  },
+  "split_pairs_checked": 6,
+  "gpu_gold_rows": 2698,
+  "gpu_modes_verified": [
+    "disabled",
+    "enabled"
+  ],
+  "normalization": {
+    "mapping_rows": 5752,
+    "specification_rows": 191,
+    "catalog_gpu_rows": 168,
+    "mapping_columns": [
+      "gpu_model",
+      "occurrence_count",
+      "count_missing_occurrence_count",
+      "cleaned_gpu_model",
+      "legacy_normalized_hardware_name",
+      "benchmark_gpu_name",
+      "benchmark_type",
+      "gpu_vendor",
+      "benchmark_generation",
+      "benchmark_family",
+      "benchmark_release_date",
+      "benchmark_release_price_usd",
+      "benchmark_tdp_w",
+      "benchmark_memory_bytes",
+      "benchmark_memory_bandwidth_bytes_per_s",
+      "benchmark_fp32_flops",
+      "benchmark_tf32_flops",
+      "benchmark_tensor_fp16_bf16_flops",
+      "benchmark_fp8_flops",
+      "benchmark_max_performance",
+      "benchmark_energy_efficiency",
+      "benchmark_process_size_nm",
+      "extracted_memory",
+      "match_status",
+      "match_method",
+      "normalize_status",
+      "normalize_reason",
+      "manual_rule_id",
+      "catalog_candidate_count",
+      "output_disposition",
+      "review_required",
+      "sample_request_ids_json",
+      "sample_paper_ids_json",
+      "sample_section_titles_json"
+    ]
+  },
+  "performance_supplement": {
+    "models": 132,
+    "generations_with_donors": 11,
+    "status_counts": {
+      "original": 76,
+      "generation_mean_imputed": 29,
+      "no_generation_donor": 27
+    },
+    "donor_rule": "unique originally observed models; exact generation; unweighted arithmetic mean before log transformation"
+  },
+  "ksc": {
+    "focal_papers": 29591,
+    "topic_year_cells": 2167,
+    "primary_topics": 731,
+    "self_conflicts": 1901,
+    "own_h_p_subtracted": 285,
+    "primary_available_focal_papers": 29322,
+    "thresholds": [
+      50,
+      100,
+      200
+    ],
+    "checks": "focal and topic-year arithmetic, missingness, threshold coverage, unique keys and bounds"
+  }
+}

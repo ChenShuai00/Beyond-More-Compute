@@ -1,0 +1,843 @@
+{
+  "schema_version": "frozen_inputs_v1",
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "configs/analysis_variables.json",
+      "bytes": 21243,
+      "sha256": "1e65cc5096f0b8753ababb5aa61305026fed8bddd5eaa09199422f4d509b9b7c"
+    },
+    {
+      "path": "configs/citation_contract.json",
+      "bytes": 3473,
+      "sha256": "7e7ba76a304c4238e93ee575aefb11486074f2da211ef9ea0bdb219b4144850f"
+    },
+    {
+      "path": "configs/figures/qa_review.json",
+      "bytes": 10865,
+      "sha256": "b88c3c1e183a3526fc41ae3cdad777eb4e872bbe6b50eeef8ffaba5fd8be06e4"
+    },
+    {
+      "path": "configs/figures/resource_evolution.json",
+      "bytes": 12359,
+      "sha256": "2c2c3a246d65db4b92aceb1da03ac741858373835a6a92144ea55df0e23b5b00"
+    },
+    {
+      "path": "configs/figures/source_preflight.json",
+      "bytes": 4204,
+      "sha256": "138df486ccda9f679998c68a1086326e9921269ebca10746c1bee28d90119de1"
+    },
+    {
+      "path": "configs/measurement/classification/bert_base_parameters.json",
+      "bytes": 670,
+      "sha256": "949efd28a7a75e6b340621b70b2eb5ea885f6ada6a8557025c052d117492b290"
+    },
+    {
+      "path": "configs/measurement/classification/bert_base_training.json",
+      "bytes": 1751,
+      "sha256": "fd1955ec0f918e55b3e1905051206285d79e82b37a95005773a5a1d92edd10cd"
+    },
+    {
+      "path": "configs/measurement/classification/few_shot/few-shot-v2.md",
+      "bytes": 5066,
+      "sha256": "792f105709f13cf548e056fa702f6db35dc1c84caa723c51ed24fab10f46a6de"
+    },
+    {
+      "path": "configs/measurement/classification/instruction_compute_resource_compact.md",
+      "bytes": 1029,
+      "sha256": "186f65b65b90c568531d46b38e92ae3187378db863f445fefd6d51cc8cccc4ed"
+    },
+    {
+      "path": "configs/measurement/classification/label_schema_compute_resource_compact.md",
+      "bytes": 11050,
+      "sha256": "3cba91a694b719d3a64a129891eee0771898578ab61c91b71c78dd47f0999516"
+    },
+    {
+      "path": "configs/measurement/classification/production_model.json",
+      "bytes": 1291,
+      "sha256": "f95ee9b27c20faeb09819e62f1f8e13b9e6cffe3d304687f1c7aadc1d20541f7"
+    },
+    {
+      "path": "configs/measurement/classification/roberta_base_parameters.json",
+      "bytes": 668,
+      "sha256": "aa1c59f2835913ddd36a65a7dc09a85d04154caac468adeb0bae103ee760770c"
+    },
+    {
+      "path": "configs/measurement/classification/roberta_base_training.json",
+      "bytes": 1746,
+      "sha256": "41672b4f28acc8dfe4ecb49f37062eb12a6754e4b246531098745a1621bd6f58"
+    },
+    {
+      "path": "configs/measurement/classification/scibert_parameters.json",
+      "bytes": 668,
+      "sha256": "59d99e9120ad327344870da2de0e923dc23ca8ba4ecf2aaba2dcebb403b61880"
+    },
+    {
+      "path": "configs/measurement/classification/scibert_training.json",
+      "bytes": 1757,
+      "sha256": "090f4b8b8f3e1dd14a68b8a498a14cb85c9895f74b7b8f92024c46054899dc3f"
+    },
+    {
+      "path": "configs/measurement/classification/teacher_evaluation.json",
+      "bytes": 361,
+      "sha256": "fae513048947ce4146a90211667cee8f1bccb342e78b2dc1f1ca902ff3f0fa37"
+    },
+    {
+      "path": "configs/measurement/gpu/configuration_selection.json",
+      "bytes": 970,
+      "sha256": "aeb43b898d44a15059d09e84c3eadafc829e9485718c0b0f186da77ecf8c47bc"
+    },
+    {
+      "path": "configs/measurement/gpu/extraction_prompt.md",
+      "bytes": 4965,
+      "sha256": "79f2a356ddc049412c78bbb8a54b266423978174ea8431eaf8ccd6e28bb2fed6"
+    },
+    {
+      "path": "configs/measurement/gpu/extraction_schema.json",
+      "bytes": 714,
+      "sha256": "2c427a637562005cb873f4221c1f542d39c252be901d0c02026a72c914bf3d57"
+    },
+    {
+      "path": "configs/measurement/gpu/normalization/gpu_default_benchmark_variants.yaml",
+      "bytes": 14233,
+      "sha256": "469e956e5d83d0ddf39cb04446927c942e1b9334066107da6ec5b8ae5f223838"
+    },
+    {
+      "path": "configs/measurement/gpu/normalization/gpu_manual_normalization_overrides.yaml",
+      "bytes": 13311,
+      "sha256": "c36cd0cd68880d3053ee7efaabbf220fbce1530d7a95dc9283f45343fa07e78a"
+    },
+    {
+      "path": "configs/measurement/gpu/normalization/gpu_reviewed_mapping_import_exceptions.json",
+      "bytes": 800,
+      "sha256": "0cd4d5a3fd3afaf898c52854747e9c257ecf784342482fc79308939a870fbc53"
+    },
+    {
+      "path": "configs/measurement/gpu/normalization/gpu_reviewed_mapping_overrides.yaml",
+      "bytes": 152459,
+      "sha256": "a77ca8e3b5ec13141a2bcd2f5550b2e9ea43f734a91a48293966754f8361c223"
+    },
+    {
+      "path": "configs/measurement/gpu/normalization_policy.json",
+      "bytes": 527,
+      "sha256": "acbda377ac528b6771a38162f67e359bed688fd67f65187814e5a437b08a7cc6"
+    },
+    {
+      "path": "configs/measurement/gpu/performance_supplement.json",
+      "bytes": 346,
+      "sha256": "83e4d8d582aaf48b5c8ce595cd21de3d5ebe69f96e902472ad232194fb5929b8"
+    },
+    {
+      "path": "configs/measurement/gpu/thinking_disabled.json",
+      "bytes": 406,
+      "sha256": "2b30744a2d0b3d779d2bb434298704a1d402fe7a6da6ffc1bb95d24553150eba"
+    },
+    {
+      "path": "configs/measurement/gpu/thinking_enabled.json",
+      "bytes": 405,
+      "sha256": "0cba8ea08cff6ebc7c4302fce5709e58d383e0416bd9a349bec60e3819395f89"
+    },
+    {
+      "path": "configs/measurement/gpu/vram_overrides.csv",
+      "bytes": 1481,
+      "sha256": "0b6f34efa0c902a336004383a7f8b0813b885c3fd83a1e7b8c793080aaf7b3ce"
+    },
+    {
+      "path": "configs/measurement/ksc/run_contract.json",
+      "bytes": 5497,
+      "sha256": "76b77be66714d3a8759820c66a0c7d7e0ddeeff92f71e549874178fa4263bbfb"
+    },
+    {
+      "path": "configs/measurement/retrieval/candidate_recall_patterns.csv",
+      "bytes": 11448,
+      "sha256": "af8c52510872f136cb1f213b8f5aec2a3cc2b41ad3c6704b1b6c27de3ffa7bfc"
+    },
+    {
+      "path": "configs/measurement/retrieval/candidate_recall_terms.parquet",
+      "bytes": 1240034,
+      "sha256": "8f4240acee4b533a9ba266b127ab71882615f04d46506c039846a6d556932de5",
+      "rows": 32706,
+      "columns": [
+        "rule_id",
+        "term",
+        "normalized_term",
+        "source_group",
+        "source_table_name",
+        "source_row_id",
+        "source_id",
+        "candidate_labels",
+        "recall_tier",
+        "confidence",
+        "match_type",
+        "case_sensitive",
+        "word_boundary",
+        "term_type",
+        "notes"
+      ]
+    },
+    {
+      "path": "configs/measurement/retrieval/label_definitions.csv",
+      "bytes": 2986,
+      "sha256": "46e2d4ace96fa8c533eb4127d4697f3cd299c8b5dc15ff6f144407c3e667e0d6"
+    },
+    {
+      "path": "configs/measurement/retrieval/label_rules.csv",
+      "bytes": 2615,
+      "sha256": "f861e2d241095b6a2f8422f0c1f758d6119bdf2b08ca694bca4572ae476cea78"
+    },
+    {
+      "path": "configs/measurement/retrieval/negative_patterns.csv",
+      "bytes": 1796,
+      "sha256": "3d16a09dea36355a4018bfb6902baf12147188a6d0f73fef4fa06114654da112"
+    },
+    {
+      "path": "configs/measurement/retrieval/source_manifest.json",
+      "bytes": 10507,
+      "sha256": "138cf7b95f6851606d21227f4c7ece6240ffeb4e16c0f57543f4522df737491c"
+    },
+    {
+      "path": "data/analysis_ready/baseline_impact.parquet",
+      "bytes": 1048996,
+      "sha256": "afc90175cd5409b24b32b575eaae5433fadf7b03d38c046c8a6ccb4bacbfbb41",
+      "rows": 29591,
+      "columns": [
+        "paper_id",
+        "year",
+        "venue",
+        "venue_year_v14",
+        "base_primary_topic_id",
+        "citation_openalex_primary_topic_id",
+        "citation_openalex_primary_topic_name",
+        "citation_openalex_publication_year",
+        "citation_openalex_type",
+        "citation_metric_status",
+        "citation_cumulative_from_publication_year_current",
+        "citation_current_total",
+        "quantity",
+        "performance",
+        "memory",
+        "quantity_centered",
+        "performance_centered",
+        "memory_centered",
+        "api_x_quantity",
+        "api_x_performance",
+        "api_x_memory",
+        "api",
+        "log_team",
+        "log_org",
+        "company",
+        "prior_team_productivity_5y",
+        "y_cumulative_citations",
+        "y_top10",
+        "y_top5",
+        "y_top1"
+      ]
+    },
+    {
+      "path": "data/analysis_ready/baseline_membership.parquet",
+      "bytes": 474724,
+      "sha256": "c7abf3fa063f897c06f10b29994cf015c82a6c0adb9ff8abaa816cd1a47016da",
+      "rows": 29591,
+      "columns": [
+        "paper_id",
+        "year",
+        "venue",
+        "venue_year_v14",
+        "base_primary_topic_id",
+        "citation_openalex_primary_topic_id",
+        "citation_metric_status",
+        "api",
+        "eligible_impact",
+        "singleton_iteration_impact",
+        "included_impact"
+      ]
+    },
+    {
+      "path": "data/analysis_ready/ksc_impact.parquet",
+      "bytes": 1960272,
+      "sha256": "ae433b42d06d3b44307929cccb15430f4610157a2766ef9dba0918a329e6b860",
+      "rows": 29591,
+      "columns": [
+        "paper_id",
+        "year",
+        "venue",
+        "venue_year_v14",
+        "citation_openalex_primary_topic_id",
+        "citation_openalex_primary_topic_name",
+        "citation_openalex_publication_year",
+        "citation_openalex_type",
+        "citation_metric_status",
+        "citation_cumulative_from_publication_year_current",
+        "citation_current_total",
+        "quantity",
+        "performance",
+        "memory",
+        "quantity_centered",
+        "performance_centered",
+        "memory_centered",
+        "api",
+        "log_team",
+        "log_org",
+        "company",
+        "prior_team_productivity_5y",
+        "y_cumulative_citations",
+        "y_top10",
+        "y_top5",
+        "y_top1",
+        "focal_work_id",
+        "focal_year",
+        "ksc_primary_topic_id",
+        "ksc_primary_topic_name",
+        "focal_self_history_conflict",
+        "own_h_p_subtracted",
+        "own_h_p",
+        "base_eligible_history_count",
+        "eligible_historical_paper_count_after_self_exclusion",
+        "ksc",
+        "mapping_status",
+        "ksc_z",
+        "fe_venue_year",
+        "fe_topic",
+        "cluster_group",
+        "quantity_x_ksc",
+        "performance_x_ksc",
+        "memory_x_ksc",
+        "api_x_ksc"
+      ]
+    },
+    {
+      "path": "data/analysis_ready/ksc_membership.parquet",
+      "bytes": 591546,
+      "sha256": "c775f40cd84791e64859300e5f382c718cb5f5207da3bbf37b1f1cb9b90f82b2",
+      "rows": 29591,
+      "columns": [
+        "paper_id",
+        "year",
+        "venue",
+        "venue_year_v14",
+        "citation_openalex_primary_topic_id",
+        "ksc_primary_topic_id",
+        "ksc",
+        "ksc_z",
+        "mapping_status",
+        "focal_self_history_conflict",
+        "own_h_p_subtracted",
+        "eligible_venue_year_topic_impact",
+        "singleton_iteration_venue_year_topic_impact",
+        "included_venue_year_topic_impact"
+      ]
+    },
+    {
+      "path": "data/analysis_ready/resource_descriptive.parquet",
+      "bytes": 1994762,
+      "sha256": "9244e7048f93bf1fbf2d58f220b30182e0c8db88c6f4987b6b02ce45078edc01",
+      "rows": 107872,
+      "columns": [
+        "paper_id",
+        "year",
+        "venue",
+        "resource_L1",
+        "resource_L2",
+        "resource_L3",
+        "resource_L4",
+        "compute_gpu_scale_strict_main_sample",
+        "compute_strict_gpu",
+        "compute_performance_imputed",
+        "compute_selected_gpu_count",
+        "compute_selected_per_gpu_capability",
+        "compute_selected_vram_gb",
+        "compute_benchmark_gpu_name",
+        "compute_selected_config_id",
+        "compute_selected_config_total_compute_capability",
+        "compute_has_count_conflict",
+        "compute_has_missing_count_mention",
+        "compute_performance_original_flops",
+        "compute_performance_donor_model_count"
+      ]
+    },
+    {
+      "path": "data/citations/asset_sources.json",
+      "bytes": 1317943,
+      "sha256": "4b42f6710fcbb4622997702e97a835ee74c833fafa3a9c504beece7099d360c2"
+    },
+    {
+      "path": "data/citations/counts_by_year_outside_window.parquet",
+      "bytes": 2792,
+      "sha256": "eba6a3d4937385eeaee51455d74fdb6fa844eafc47fafff714c0dc96bb54ee40",
+      "rows": 13,
+      "columns": [
+        "paper_id",
+        "citation_year",
+        "citation_count"
+      ]
+    },
+    {
+      "path": "data/citations/paper_citation_counts_by_year.parquet",
+      "bytes": 1198640,
+      "sha256": "206933cba9de3203a4b595eb5429e98a220fb91ed31ce5a79ab5ba6306b2a21c",
+      "rows": 295910,
+      "columns": [
+        "paper_id",
+        "citation_openalex_work_id_current",
+        "focal_publication_year_current",
+        "citation_year",
+        "citation_count",
+        "in_cumulative_window",
+        "is_prepublication_year"
+      ]
+    },
+    {
+      "path": "data/citations/paper_citation_metrics.parquet",
+      "bytes": 2092152,
+      "sha256": "750c969fba94388a52fdfed56520ab626d3c157e1514da415bad71ee4933422d",
+      "rows": 29591,
+      "columns": [
+        "paper_id",
+        "citation_openalex_work_id_requested",
+        "citation_openalex_work_id_current",
+        "citation_openalex_id_redirected",
+        "citation_canonical_year_v14",
+        "citation_canonical_subfield_id_v14",
+        "citation_canonical_subfield_name_v14",
+        "citation_openalex_publication_year",
+        "citation_openalex_publication_date",
+        "citation_openalex_type",
+        "citation_openalex_primary_topic_id",
+        "citation_openalex_primary_topic_name",
+        "citation_openalex_subfield_id",
+        "citation_openalex_subfield_name",
+        "citation_openalex_updated_date",
+        "citation_openalex_is_xpac",
+        "citation_current_total",
+        "citation_cumulative_from_publication_year_current",
+        "citation_counts_by_year_sum_all",
+        "citation_prepublication_count",
+        "citation_postsnapshot_count",
+        "citation_total_minus_counts_by_year_sum_all",
+        "citation_counts_by_year_status",
+        "citation_reconciliation_status",
+        "citation_year_mismatch_v14",
+        "citation_subfield_mismatch_v14",
+        "citation_type_eligible",
+        "citation_metric_status",
+        "reference_n",
+        "top_cited_10_cutoff",
+        "top_cited_10_reference_count",
+        "top_cited_10_realized_share",
+        "top_cited_5_cutoff",
+        "top_cited_5_reference_count",
+        "top_cited_5_realized_share",
+        "top_cited_1_cutoff",
+        "top_cited_1_reference_count",
+        "top_cited_1_realized_share",
+        "top_cited_10_current",
+        "top_cited_5_current",
+        "top_cited_1_current"
+      ]
+    },
+    {
+      "path": "data/citations/README.md",
+      "bytes": 1047,
+      "sha256": "669629992c143601017843e331800d5f3f41ac0855bd833a45cd20f1b40feafc"
+    },
+    {
+      "path": "data/citations/reference_histograms.parquet",
+      "bytes": 268672,
+      "sha256": "a880184b958f3d6dcc7e42e65de80ba435ff8b17fb3bead85d62679acaa98824",
+      "rows": 145891,
+      "columns": [
+        "reference_publication_year",
+        "reference_primary_topic_short_id",
+        "cited_by_count",
+        "work_count",
+        "source_page"
+      ]
+    },
+    {
+      "path": "data/citations/reference_thresholds.parquet",
+      "bytes": 133757,
+      "sha256": "f9cbccc4eef23e251c3ae9c0f157c315483a8552d17c42bfbcd84569223595b2",
+      "rows": 2239,
+      "columns": [
+        "reference_publication_year",
+        "reference_primary_topic_id",
+        "reference_primary_topic_short_id",
+        "reference_work_types",
+        "reference_corpus",
+        "reference_histogram_pages",
+        "reference_histogram_max_observed",
+        "reference_histogram_page_order_monotonic",
+        "reference_n",
+        "top_cited_10_target_count",
+        "top_cited_10_cutoff",
+        "top_cited_10_reference_count",
+        "top_cited_10_realized_share",
+        "top_cited_5_target_count",
+        "top_cited_5_cutoff",
+        "top_cited_5_reference_count",
+        "top_cited_5_realized_share",
+        "top_cited_1_target_count",
+        "top_cited_1_cutoff",
+        "top_cited_1_reference_count",
+        "top_cited_1_realized_share"
+      ]
+    },
+    {
+      "path": "data/corpus/analysis_frame_membership.parquet",
+      "bytes": 683014,
+      "sha256": "42583236352c6f5fc08877712d20012b455f56b61474d16ea595544528af58b1",
+      "rows": 33698,
+      "columns": [
+        "paper_id",
+        "human_prior_team_productivity_5y_eligible",
+        "human_prior_team_productivity_5y",
+        "text_lexical_record_status",
+        "text_lexical_formal_metric",
+        "prior_team_productivity_strict_eligible",
+        "lexical_v4_canonical_scored",
+        "analysis_sample_included",
+        "analysis_sample_exclusion_reason"
+      ]
+    },
+    {
+      "path": "data/corpus/initial_scope_audit.parquet",
+      "bytes": 1351924,
+      "sha256": "9ba1f7794cfcec1b6c6c04ca2a2f74d652bd8c22c439efeebd6ddf458c13d1d3",
+      "rows": 114618,
+      "columns": [
+        "paper_id",
+        "venue",
+        "year",
+        "source_track",
+        "findings_evidence",
+        "source_track_missing",
+        "exclude_explicit_nonmain_track",
+        "exclude_extended_abstract",
+        "exclude_naacl_industry",
+        "exclude_other_nonresearch",
+        "exclude_duplicate_artifact",
+        "cohort_retained",
+        "exclusion_reason",
+        "metadata_and_text_eligible",
+        "openalex_matched",
+        "has_normalized_gpu"
+      ]
+    },
+    {
+      "path": "data/corpus/paper_index.parquet",
+      "bytes": 6348124,
+      "sha256": "c516292f7a6272b64d473f150e21de6fa42c167d09aa62bf8e325c74ac93f6bf",
+      "rows": 113822,
+      "columns": [
+        "paper_id",
+        "title",
+        "year",
+        "venue",
+        "openalex_work_id",
+        "work_id_norm",
+        "openalex_matched",
+        "focal_publication_date",
+        "scope_is_findings",
+        "scope_source_track",
+        "scope_track_missing",
+        "resource_classification_status",
+        "resource_text_observable",
+        "scope_openalex_matched",
+        "scope_metadata_text_eligible",
+        "scope_version"
+      ]
+    },
+    {
+      "path": "data/corpus/paper_scope.parquet",
+      "bytes": 1241838,
+      "sha256": "f93808b2b684e7ffda48896b1868b2545670cb82405b06140f268235c4b4ea84",
+      "rows": 113822,
+      "columns": [
+        "paper_id",
+        "scope_is_findings",
+        "scope_source_track",
+        "scope_track_missing",
+        "resource_classification_status",
+        "resource_text_observable",
+        "resource_reported_state",
+        "scope_openalex_matched",
+        "scope_metadata_text_eligible",
+        "scope_version"
+      ]
+    },
+    {
+      "path": "data/corpus/sample_membership.parquet",
+      "bytes": 1509699,
+      "sha256": "36c30f9bff1875c213eadb035ce56411ed353bd9b3188fd86b8d446b5dc3ff2b",
+      "rows": 114618,
+      "columns": [
+        "paper_id",
+        "venue",
+        "year",
+        "corpus_included",
+        "exclusion_reason",
+        "has_normalized_gpu",
+        "scope_metadata_text_eligible",
+        "scope_is_findings",
+        "resource_L1",
+        "resource_L2",
+        "resource_L3",
+        "resource_L4",
+        "compute_gpu_scale_strict_main_sample",
+        "compute_performance_imputed",
+        "hardware_eligible",
+        "complete_hardware",
+        "analysis_frame_included",
+        "baseline_included",
+        "ksc_included"
+      ]
+    },
+    {
+      "path": "data/data_dictionary.json",
+      "bytes": 32807,
+      "sha256": "b9f9b1bd1176619c5203d43cc3b8ea3a0abd99b87a314477c3129c499892dd3c"
+    },
+    {
+      "path": "data/measurement/classification/bert_base_predictions.jsonl",
+      "bytes": 2061991,
+      "sha256": "65a5abbed2fab28a1ec7837f97ce5904017c771dc99bc06c093a71be034d8b3f"
+    },
+    {
+      "path": "data/measurement/classification/candidate_train_membership.csv",
+      "bytes": 1768666,
+      "sha256": "3529f0106268323ba9628e4070f272ed1f03b4a44d8aea08e41505f8b1585307"
+    },
+    {
+      "path": "data/measurement/classification/gold_calib_membership.csv",
+      "bytes": 179237,
+      "sha256": "02055edb02a57cc8a975953e92265b38c8bb4d39ed2efbae1be27cf98f1cfc37"
+    },
+    {
+      "path": "data/measurement/classification/gold_test_membership.csv",
+      "bytes": 260620,
+      "sha256": "71cd03d3ebb922c9b3248a0fb23bbf82f81c65d5a37fac0d775cddec37003d82"
+    },
+    {
+      "path": "data/measurement/classification/roberta_base_predictions.jsonl",
+      "bytes": 2065864,
+      "sha256": "444f4bf28acf3a0a8f0a77fbc383ef3ce2470d502cdc4f84b988242b0fa4cf25"
+    },
+    {
+      "path": "data/measurement/classification/scibert_predictions.jsonl",
+      "bytes": 2061746,
+      "sha256": "930d6e6f7c9e3af8fffd66a01904a869dbcfeb780b7abdd04a26761b87011ef4"
+    },
+    {
+      "path": "data/measurement/classification/student_gold.jsonl",
+      "bytes": 1309357,
+      "sha256": "61fb047f06da96b3823aaa720867baadd3c584d9bf25b8bc693dad0117c2f80b"
+    },
+    {
+      "path": "data/measurement/classification/teacher_gold.jsonl",
+      "bytes": 667426,
+      "sha256": "97db1a95940e099cc33d163de6b4ccf79e62ab00eac80887e144bae62b70d7ca"
+    },
+    {
+      "path": "data/measurement/classification/teacher_predictions.jsonl",
+      "bytes": 317540,
+      "sha256": "95d67c5f6118c4c5a1c3de14c3c1583d9df3986163f8cc0b5572ecf7806ed6ed"
+    },
+    {
+      "path": "data/measurement/classification/trusted_train_membership.csv",
+      "bytes": 248864,
+      "sha256": "48356a10c0e33ef00f9d90c03a7dbb7f02ce86987fd0c2ae27bbb72214292edb"
+    },
+    {
+      "path": "data/measurement/gpu/generation_donors.csv",
+      "bytes": 385,
+      "sha256": "82f30787ca3ef3afb73dcba2bb9cab05435552b2a2c6e68150b17781a9d36f6d"
+    },
+    {
+      "path": "data/measurement/gpu/gold.jsonl",
+      "bytes": 715147,
+      "sha256": "8ed05c086dc706ed651ed14126c05e0ee527ceddce351ad9ebf9ecb7a06d53c1"
+    },
+    {
+      "path": "data/measurement/gpu/gpu_model_normalization_mapping.parquet",
+      "bytes": 685673,
+      "sha256": "558b82eae25ec81e3c9479fc15899dd98591981b8467ec79163d7e77b5030f11",
+      "rows": 5752,
+      "columns": [
+        "gpu_model",
+        "occurrence_count",
+        "count_missing_occurrence_count",
+        "cleaned_gpu_model",
+        "legacy_normalized_hardware_name",
+        "benchmark_gpu_name",
+        "benchmark_type",
+        "gpu_vendor",
+        "benchmark_generation",
+        "benchmark_family",
+        "benchmark_release_date",
+        "benchmark_release_price_usd",
+        "benchmark_tdp_w",
+        "benchmark_memory_bytes",
+        "benchmark_memory_bandwidth_bytes_per_s",
+        "benchmark_fp32_flops",
+        "benchmark_tf32_flops",
+        "benchmark_tensor_fp16_bf16_flops",
+        "benchmark_fp8_flops",
+        "benchmark_max_performance",
+        "benchmark_energy_efficiency",
+        "benchmark_process_size_nm",
+        "extracted_memory",
+        "match_status",
+        "match_method",
+        "normalize_status",
+        "normalize_reason",
+        "manual_rule_id",
+        "catalog_candidate_count",
+        "output_disposition",
+        "review_required",
+        "sample_request_ids_json",
+        "sample_paper_ids_json",
+        "sample_section_titles_json"
+      ]
+    },
+    {
+      "path": "data/measurement/gpu/gpu_normalization_review.parquet",
+      "bytes": 53710,
+      "sha256": "bde4da1af9ffa58d3eb473a8d04dde19f62717a2637aca683e8ea7c34ec9055b",
+      "rows": 336,
+      "columns": [
+        "gpu_model",
+        "occurrence_count",
+        "count_missing_occurrence_count",
+        "cleaned_gpu_model",
+        "legacy_normalized_hardware_name",
+        "benchmark_gpu_name",
+        "benchmark_type",
+        "gpu_vendor",
+        "benchmark_generation",
+        "benchmark_family",
+        "benchmark_release_date",
+        "benchmark_release_price_usd",
+        "benchmark_tdp_w",
+        "benchmark_memory_bytes",
+        "benchmark_memory_bandwidth_bytes_per_s",
+        "benchmark_fp32_flops",
+        "benchmark_tf32_flops",
+        "benchmark_tensor_fp16_bf16_flops",
+        "benchmark_fp8_flops",
+        "benchmark_max_performance",
+        "benchmark_energy_efficiency",
+        "benchmark_process_size_nm",
+        "extracted_memory",
+        "match_status",
+        "match_method",
+        "normalize_status",
+        "normalize_reason",
+        "manual_rule_id",
+        "catalog_candidate_count",
+        "output_disposition",
+        "review_required",
+        "sample_request_ids_json",
+        "sample_paper_ids_json",
+        "sample_section_titles_json"
+      ]
+    },
+    {
+      "path": "data/measurement/gpu/hardware_specifications.csv",
+      "bytes": 86966,
+      "sha256": "23e27913974809d761c88488e091fbdf864095445c123655663e7c533d40d762"
+    },
+    {
+      "path": "data/measurement/gpu/model_performance_supplement.csv",
+      "bytes": 13993,
+      "sha256": "e81e6a6e0c45d88eb71a2aa65a662393673f68bd20d9c4cbd5f9d7f0fd9be014"
+    },
+    {
+      "path": "data/measurement/gpu/model_performance_supplement.parquet",
+      "bytes": 9846,
+      "sha256": "d60c45a9ffc41611e03eece2080d2a5ebcf1afc29ecb632a3ac3b9ac20a4c2f7",
+      "rows": 132,
+      "columns": [
+        "benchmark_gpu_name",
+        "benchmark_generation",
+        "benchmark_tensor_fp16_bf16_flops",
+        "generation_mean_flops",
+        "donor_model_count",
+        "original_performance_flops",
+        "imputed",
+        "supplemented_performance_flops",
+        "status"
+      ]
+    },
+    {
+      "path": "data/measurement/gpu/thinking_disabled_predictions.jsonl",
+      "bytes": 595243,
+      "sha256": "ec21f63ebbc6fe20f8bbe03a7dc53cf1c23907060ca576887ef9928652d75d28"
+    },
+    {
+      "path": "data/measurement/gpu/thinking_enabled_predictions.jsonl",
+      "bytes": 593725,
+      "sha256": "5a3b26b96d9eca04433fe64d4ff85c2bbd6c4e2d25d6848fe06b65ae0b112a52"
+    },
+    {
+      "path": "data/measurement/ksc/focal_paper_ksc_mapping.parquet",
+      "bytes": 942977,
+      "sha256": "248d925884745d9b524081816b2fb952efc71ca06a25c9d12af6a2e7e173fd2f",
+      "rows": 29591,
+      "columns": [
+        "paper_id",
+        "focal_work_id",
+        "focal_year",
+        "primary_topic_id",
+        "primary_topic_name",
+        "focal_self_history_conflict",
+        "own_h_p_subtracted",
+        "own_h_p",
+        "base_eligible_history_count",
+        "eligible_historical_paper_count_after_self_exclusion",
+        "ksc",
+        "ksc_min_50",
+        "ksc_min_200",
+        "mapping_status"
+      ]
+    },
+    {
+      "path": "data/measurement/ksc/topic_year_ksc.parquet",
+      "bytes": 58547,
+      "sha256": "882acc9943972a41c0d7f47bcddaffb8817db67b76eaa2237f7b73797b1cbd51",
+      "rows": 2167,
+      "columns": [
+        "primary_topic_id",
+        "focal_year",
+        "window_start_year",
+        "window_end_year",
+        "eligible_historical_paper_count",
+        "h_p_sum",
+        "h_p_mean",
+        "ksc",
+        "ksc_status",
+        "minimum_historical_papers"
+      ]
+    },
+    {
+      "path": "data/measurement/ksc/topic_year_ksc_robustness.parquet",
+      "bytes": 31002,
+      "sha256": "62fcb02584cfca2e1f65b3bb8686c70dd3cfc51c0603fa9acdc3677f61efd0d1",
+      "rows": 6501,
+      "columns": [
+        "primary_topic_id",
+        "focal_year",
+        "window_start_year",
+        "window_end_year",
+        "minimum_historical_papers",
+        "eligible_historical_paper_count",
+        "ksc",
+        "available"
+      ]
+    },
+    {
+      "path": "data/measurement/README.md",
+      "bytes": 2198,
+      "sha256": "08a31d064ba9f64f14a8148033c8451d158d6ba8705d842193044d21823b978f"
+    }
+  ]
+}

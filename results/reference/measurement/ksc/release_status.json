@@ -1,0 +1,8 @@
+{
+  "formal_ksc_complete": true,
+  "manifest_sha256": "12cd925f112095a11b6b863f70180afde541801f66c9f0e40da6556e3329388e",
+  "product_id": "ksc_v1_20260912_v14r1",
+  "schema_version": "ksc_v1_20260912",
+  "status": "formal_frozen",
+  "validated_at": "2026-09-16T00:43:23+00:00"
+}

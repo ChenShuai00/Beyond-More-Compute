@@ -1,0 +1,12 @@
+stage,papers
+initial_records,114618
+collected_corpus,113822
+metadata_text_eligible,107872
+l1_positive,54948
+hardware_eligible,49090
+normalized_gpu,40956
+complete_hardware,34483
+performance_imputed_complete_hardware,3524
+analysis_frame,29591
+baseline_api_regression,29487
+ksc_regression,29239

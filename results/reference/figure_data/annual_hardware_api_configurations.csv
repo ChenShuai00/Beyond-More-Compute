@@ -1,0 +1,25 @@
+year,configuration,display_name,stack_order,paper_count,year_denominator,paper_share
+2020,hardware_only,Hardware only,1,3526,11353,0.3105787016647582
+2020,hardware_api,Hardware + API,2,110,11353,0.009689068968554567
+2020,api_only,API only,3,217,11353,0.019113890601603102
+2020,neither_identified,Neither identified,4,7500,11353,0.6606183387650841
+2021,hardware_only,Hardware only,1,4714,13438,0.35079624944188126
+2021,hardware_api,Hardware + API,2,173,13438,0.012873939574341419
+2021,api_only,API only,3,261,13438,0.01942253311504688
+2021,neither_identified,Neither identified,4,8290,13438,0.6169072778687305
+2022,hardware_only,Hardware only,1,5595,14192,0.3942361894024803
+2022,hardware_api,Hardware + API,2,340,14192,0.023957158962795943
+2022,api_only,API only,3,401,14192,0.02825535512965051
+2022,neither_identified,Neither identified,4,7856,14192,0.5535512965050733
+2023,hardware_only,Hardware only,1,7084,17933,0.39502592984999724
+2023,hardware_api,Hardware + API,2,1030,17933,0.057436011821781076
+2023,api_only,API only,3,1311,17933,0.07310544805665532
+2023,neither_identified,Neither identified,4,8508,17933,0.4744326102715664
+2024,hardware_only,Hardware only,1,8297,22294,0.3721629137884633
+2024,hardware_api,Hardware + API,2,3099,22294,0.13900601058580783
+2024,api_only,API only,3,3083,22294,0.13828832869830449
+2024,neither_identified,Neither identified,4,7815,22294,0.35054274692742443
+2025,hardware_only,Hardware only,1,9661,28662,0.3370664991975438
+2025,hardware_api,Hardware + API,2,5461,28662,0.19053101667713349
+2025,api_only,API only,3,5147,28662,0.17957574488870282
+2025,neither_identified,Neither identified,4,8393,28662,0.2928267392366199

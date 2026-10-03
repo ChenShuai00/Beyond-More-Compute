@@ -1,0 +1,13 @@
+family,outcome,outcome_order,outcome_label,panel,panel_order,hardware,hardware_label,model,interaction_term,raw_p_value,raw_p_value_display,holm_p_value,holm_p_value_display,holm_family,holm_family_size,reject_holm_05
+impact,cumulative_citations,6,Cumulative Citations,A,1,quantity,GPU Quantity,M3_quantity,api_x_quantity,0.9428370674136888,0.943,1.0,1.0,impact:quantity_interaction_across_4_outcomes,4,False
+impact,cumulative_citations,6,Cumulative Citations,B,2,performance,Per-GPU Performance,M3_performance,api_x_performance,0.7378292317482594,0.738,1.0,1.0,impact:performance_interaction_across_4_outcomes,4,False
+impact,cumulative_citations,6,Cumulative Citations,C,3,memory,Per-GPU VRAM,M3_memory,api_x_memory,0.9573241824414924,0.957,1.0,1.0,impact:memory_interaction_across_4_outcomes,4,False
+impact,top10,7,Top-Cited 10%,A,1,quantity,GPU Quantity,M3_quantity,api_x_quantity,0.990382804484058,0.99,1.0,1.0,impact:quantity_interaction_across_4_outcomes,4,False
+impact,top10,7,Top-Cited 10%,B,2,performance,Per-GPU Performance,M3_performance,api_x_performance,0.9389199743890904,0.939,1.0,1.0,impact:performance_interaction_across_4_outcomes,4,False
+impact,top10,7,Top-Cited 10%,C,3,memory,Per-GPU VRAM,M3_memory,api_x_memory,0.9044945324774112,0.904,1.0,1.0,impact:memory_interaction_across_4_outcomes,4,False
+impact,top5,8,Top-Cited 5%,A,1,quantity,GPU Quantity,M3_quantity,api_x_quantity,0.9830302808508872,0.983,1.0,1.0,impact:quantity_interaction_across_4_outcomes,4,False
+impact,top5,8,Top-Cited 5%,B,2,performance,Per-GPU Performance,M3_performance,api_x_performance,0.5121422142985608,0.512,1.0,1.0,impact:performance_interaction_across_4_outcomes,4,False
+impact,top5,8,Top-Cited 5%,C,3,memory,Per-GPU VRAM,M3_memory,api_x_memory,0.9572878644069772,0.957,1.0,1.0,impact:memory_interaction_across_4_outcomes,4,False
+impact,top1,9,Top-Cited 1%,A,1,quantity,GPU Quantity,M3_quantity,api_x_quantity,0.2879457821560486,0.288,1.0,1.0,impact:quantity_interaction_across_4_outcomes,4,False
+impact,top1,9,Top-Cited 1%,B,2,performance,Per-GPU Performance,M3_performance,api_x_performance,0.7535129601457032,0.754,1.0,1.0,impact:performance_interaction_across_4_outcomes,4,False
+impact,top1,9,Top-Cited 1%,C,3,memory,Per-GPU VRAM,M3_memory,api_x_memory,0.6628253824387428,0.663,1.0,1.0,impact:memory_interaction_across_4_outcomes,4,False

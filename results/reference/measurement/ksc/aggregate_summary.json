@@ -1,0 +1,13 @@
+{
+  "finished_at": "2026-09-16T00:42:46+00:00",
+  "focal_mapping_rows": 29591,
+  "robustness_rows": 6501,
+  "schema_version": "ksc_v1_20260912",
+  "status": "complete",
+  "thresholds": [
+    50,
+    100,
+    200
+  ],
+  "topic_year_rows": 2167
+}

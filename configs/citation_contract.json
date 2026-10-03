@@ -1,0 +1,96 @@
+{
+  "schema_version": "citation_contract_v1",
+  "analysis_id": "focal_citation_metrics_v1_20260912",
+  "run_id": "20260912T073217Z",
+  "collection_window_utc": {
+    "completed_at": "2026-09-12T08:10:48+00:00",
+    "started_at": "2026-09-12T07:32:17+00:00"
+  },
+  "snapshot_year": 2026,
+  "annual_start_year": 2017,
+  "annual_end_year": 2026,
+  "annual_rows_per_paper": 10,
+  "paper_id_set_sha256": "76e10ac6acc28f87b0bed6ba6c3fdc3e100c945108d5dfa4e61da698409e3e7e",
+  "expected_rows": {
+    "paper_citation_metrics.parquet": 29591,
+    "paper_citation_counts_by_year.parquet": 295910,
+    "reference_thresholds.parquet": 2239,
+    "reference_histograms.parquet": 145891,
+    "counts_by_year_outside_window.parquet": 13
+  },
+  "reference": {
+    "corpus": "core",
+    "work_types": [
+      "article",
+      "conference-paper",
+      "preprint"
+    ],
+    "cell": [
+      "publication_year",
+      "primary_topic"
+    ],
+    "shares": {
+      "10": 0.1,
+      "5": 0.05,
+      "1": 0.01
+    },
+    "target_tail_count": "max(1, ceil(share * reference_n))",
+    "ascending_rank": "reference_n - target_tail_count + 1",
+    "cutoff": "first citation-count bin whose cumulative work count reaches ascending_rank",
+    "qualifying_reference_count": "reference_n minus number strictly below cutoff",
+    "indicator": "current cited_by_count >= cutoff",
+    "ties": "inclusive_nearest_rank",
+    "histogram_coverage": "ascending prefix sufficient for all three cutoff ranks"
+  },
+  "cumulative": {
+    "start": "current OpenAlex publication_year",
+    "end": 2026,
+    "include_same_publication_year": true,
+    "exclude_self_citations": false,
+    "missing_annual_bins": "zero when counts_by_year status is ok"
+  },
+  "outcomes": {
+    "y_cumulative_citations": "log1p(citation_cumulative_from_publication_year_current)",
+    "y_top10": "top_cited_10_current",
+    "y_top5": "top_cited_5_current",
+    "y_top1": "top_cited_1_current"
+  },
+  "expected_metric_status_counts": {
+    "not_found": 2,
+    "ok": 29547,
+    "ranking_ineligible_work_type": 42
+  },
+  "expected_reconciliation_status_counts": {
+    "annual_sum_below_total": 19,
+    "exact": 29570,
+    "unavailable": 2
+  },
+  "asset_manifest": "data/citations/asset_sources.json",
+  "asset_manifest_sha256": "4b42f6710fcbb4622997702e97a835ee74c833fafa3a9c504beece7099d360c2",
+  "source_methods": [
+    {
+      "source_group": "compute",
+      "source_path": "scripts/analysis/citations/build_focal_citation_metrics_v1.py",
+      "source_sha256": "022763962aa1e666a67b69f53542376b9476433ccfbdc51f0011c9a9717b9084",
+      "source_bytes": 57522
+    },
+    {
+      "source_group": "compute",
+      "source_path": "scripts/analysis/citations/run_gpu_api_citation_association_v14.py",
+      "source_sha256": "c348e37871011e104dba4b5b2419c01756781a28b2807a9206ecfbecfb96b40c",
+      "source_bytes": 46974
+    },
+    {
+      "source_group": "compute",
+      "source_path": "configs/analysis/citations/focal_citation_metrics_v1_20260912.yaml",
+      "source_sha256": "332a68655a8298e3964a3d8fe399e2d53425f9ddd4a55adf00fc70cc4dc29714",
+      "source_bytes": 1552
+    },
+    {
+      "source_group": "compute",
+      "source_path": "outputs/analysis/focal_citation_metrics_v1_20260912/current/summary.json",
+      "source_sha256": "f243912618b224b9acda16923e84d3fdb406dc9c468d2b2bb0f8c172dac278d4",
+      "source_bytes": 4292
+    }
+  ]
+}

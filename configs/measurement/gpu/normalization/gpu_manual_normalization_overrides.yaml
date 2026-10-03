@@ -1,0 +1,341 @@
+manual_gpu_normalization_rules:
+- id: quadro_p6000_alias
+  benchmark_gpu_name: NVIDIA Quadro P6000
+  description: Explicit P6000 model aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:quadro )?p6000(?: \d+gb)?$'
+- id: rtx_a4000_alias
+  benchmark_gpu_name: NVIDIA RTX A4000
+  description: Explicit RTX A4000 model aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?rtx a4000(?: \d+gb)?$'
+  - '^(?:nvidia )?rtxa ?4000(?: \d+gb)?$'
+- id: gtx_titan_alias
+  benchmark_gpu_name: NVIDIA GeForce GTX TITAN
+  description: Explicit GTX TITAN aliases, including OCR titan spelling variants normalized
+    upstream.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?gtx titan(?: \d+gb)?$'
+- id: gtx_titan_black_alias
+  benchmark_gpu_name: NVIDIA GeForce GTX Titan Black
+  description: Explicit GTX TITAN Black aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?gtx titan black(?: \d+gb)?$'
+- id: titan_v_alias
+  benchmark_gpu_name: NVIDIA Titan V
+  description: Explicit TITAN V aliases including compact OCR forms.
+  patterns:
+  - ^(?:nvidia )?(?:geforce )?(?:gpu )?titan v$
+  - ^(?:nvidia )?titanv$
+- id: titan_xp_alias
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  description: Explicit TITAN Xp aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?titan xp(?: \d+gb)?(?: gpu)?$'
+- id: rtx_2080_super_alias
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 SUPER
+  description: Explicit RTX 2080 SUPER aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?rtx 2080 super(?: \d+gb)?$'
+- id: tesla_k40m_alias
+  benchmark_gpu_name: NVIDIA Tesla K40m
+  description: Explicit Tesla K40m aliases.
+  patterns:
+  - ^(?:nvidia )?(?:tesla )?k40m$
+- id: quadro_p5000_alias
+  benchmark_gpu_name: NVIDIA Quadro P5000
+  description: Explicit Quadro P5000 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:quadro )?p5000(?: \d+gb)?$'
+- id: rtx_3090_alias
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  description: Explicit RTX 3090 aliases with reordered vendor or product-line tokens.
+  patterns:
+  - '^(?:nvidia )?rtx (?:nvidia |geforce )?3090(?: \d+gb)?$'
+  - '^(?:nvidia )?geforce rtx 3090(?: \d+gb)?$'
+  - ^rtx \d+gb 3090$
+  - '^(?:nvidia )?quadro rtx 3090(?: \d+gb)?$'
+- id: gtx_1060_alias
+  benchmark_gpu_name: NVIDIA GeForce GTX 1060
+  description: Explicit GTX 1060 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?gtx 1060(?: \d+gb)?$'
+  - ^\d+gb gtx 1060$
+- id: tesla_m60_alias
+  benchmark_gpu_name: NVIDIA TESLA M60
+  description: Explicit Tesla M60 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:tesla )?m60(?: \d+gb)?$'
+- id: quadro_rtx_4000_alias
+  benchmark_gpu_name: NVIDIA Quadro RTX 4000
+  description: Explicit Quadro RTX 4000 aliases only; bare RTX 4000 remains unresolved.
+  patterns:
+  - '^(?:nvidia )?quadro rtx ?4000(?: \d+gb)?$'
+  - '^(?:nvidia )?rtx quadro 4000(?: \d+gb)?$'
+- id: rtx_a6000_alias
+  benchmark_gpu_name: NVIDIA RTX A6000
+  description: Explicit RTX A6000 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:quadro )?rtx a6000(?: \d+gb)?$'
+  - '^(?:nvidia )?rtxa ?6000(?: \d+gb)?$'
+- id: quadro_rtx_5000_alias
+  benchmark_gpu_name: NVIDIA Quadro RTX 5000
+  description: Explicit Quadro RTX 5000 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?quadro rtx ?5000(?: \d+gb)?$'
+- id: rtx_3080_ti_alias
+  benchmark_gpu_name: NVIDIA GeForce RTX 3080 Ti
+  description: Explicit RTX 3080 Ti aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?rtx 3080 ti(?: \d+gb)?$'
+- id: tesla_v100s_alias
+  benchmark_gpu_name: NVIDIA Tesla V100S PCIe 32 GB
+  description: Explicit V100S aliases; the catalog provides one V100S benchmark variant.
+  patterns:
+  - '^(?:nvidia )?(?:tesla )?v ?100s(?: pcie)?(?: \d+gb)?(?: gpu)?$'
+- id: titan_x_pascal_alias
+  benchmark_gpu_name: NVIDIA TITAN X Pascal
+  description: Explicit TITAN X Pascal aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?titan x pascal(?: \d+gb)?(?: gpu)?$'
+- id: rtx_3060_alias
+  benchmark_gpu_name: NVIDIA GeForce RTX 3060
+  description: Explicit RTX 3060 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?rtx 3060(?: \d+gb)?$'
+- id: rtx_4060_ti_alias
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  description: Explicit RTX 4060 Ti aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?rtx 4060 ti(?: \d+gb)?$'
+- id: h20_alias
+  benchmark_gpu_name: NVIDIA HGX H20
+  description: Explicit H20 model references with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:hgx )?h20(?: \d+gb)?$'
+- id: a10g_alias
+  benchmark_gpu_name: NVIDIA A10G
+  description: Explicit A10G aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?a10g(?: \d+gb)?$'
+  - ^\d+gb a10g$
+  - ^(?:nvidia )?a10 g$
+- id: a30_pcie_alias
+  benchmark_gpu_name: NVIDIA A30
+  description: Explicit A30 PCIe aliases.
+  patterns:
+  - ^(?:nvidia )?a30 pcie$
+- id: quadro_p4000_alias
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  description: Explicit Quadro P4000 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:quadro )?p4000(?: \d+gb)?$'
+- id: rtx_2060_super_alias
+  benchmark_gpu_name: NVIDIA GeForce RTX 2060 SUPER
+  description: Explicit RTX 2060 SUPER aliases.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?rtx 2060 super(?: \d+gb)?$'
+- id: rtx_5090_alias
+  benchmark_gpu_name: NVIDIA GeForce RTX 5090
+  description: Explicit RTX 5090 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?rtx 5090(?: \d+gb)?$'
+- id: quadro_rtx_8000_alias
+  benchmark_gpu_name: NVIDIA Quadro RTX 8000
+  description: Explicit Quadro RTX 8000 aliases with reordered product-line tokens.
+  patterns:
+  - '^(?:nvidia )?rtx quadro 8000(?: \d+gb)?$'
+  - '^(?:nvidia )?rtx 8000 quadro(?: \d+gb)?$'
+- id: tesla_t4_alias
+  benchmark_gpu_name: NVIDIA Tesla T4
+  description: Explicit Tesla T4 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?(?:tesla )?t ?4(?: \d+gb)?(?: gpu)?$'
+- id: amd_mi210_alias
+  benchmark_gpu_name: AMD Instinct MI210
+  description: Explicit AMD Instinct MI210 aliases with optional reported memory.
+  patterns:
+  - '^amd instinct mi210(?: \d+gb)?$'
+- id: rtx_2080_alias
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080
+  description: Explicit RTX 2080 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?rtx 2080(?: \d+gb)?$'
+- id: quadro_rtx_6000_alias
+  benchmark_gpu_name: NVIDIA Quadro RTX 6000
+  description: Explicit Quadro RTX 6000 aliases.
+  patterns:
+  - '^(?:nvidia )?quadro rtx ?6000(?: \d+gb)?$'
+  - ^tesla rtx ?6000$
+- id: quadro_m4000_alias
+  benchmark_gpu_name: NVIDIA Quadro M4000
+  description: Explicit Quadro M4000 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:quadro )?m4000(?: \d+gb)?$'
+- id: rtx_4070_ti_alias
+  benchmark_gpu_name: NVIDIA GeForce RTX 4070 Ti
+  description: Explicit RTX 4070 Ti aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?rtx 4070 ti(?: \d+gb)?$'
+- id: rtx_4090_alias
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  description: Explicit RTX 4090 aliases with optional PCIe or memory tokens.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?rtx 4090(?: pcie)?(?: \d+gb)?$'
+  - '^rtx (?:nvidia|geforce) 4090(?: \d+gb)?$'
+- id: tesla_p4_alias
+  benchmark_gpu_name: NVIDIA Tesla P4
+  description: Explicit Tesla P4 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:tesla )?p4(?: \d+gb)?$'
+- id: gtx_980_alias
+  benchmark_gpu_name: NVIDIA GeForce GTX 980
+  description: Explicit GTX 980 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?gtx 980(?: \d+gb)?$'
+- id: p40_alias
+  benchmark_gpu_name: NVIDIA P40
+  description: Explicit P40 aliases.
+  patterns:
+  - '^(?:nvidia )?(?:tesla )?p40(?: \d+gb)?$'
+  - ^p40 tesla$
+  - ^geforce tesla p40$
+- id: l40s_alias
+  benchmark_gpu_name: NVIDIA L40S
+  description: Explicit L40S aliases.
+  patterns:
+  - ^l40 s$
+- id: quadro_gp100_alias
+  benchmark_gpu_name: NVIDIA Quadro GP100
+  description: Explicit Quadro GP100 aliases.
+  patterns:
+  - ^(?:nvidia )?quadro gp ?100$
+- id: rtx_3060_ti_alias
+  benchmark_gpu_name: NVIDIA GeForce RTX 3060 Ti
+  description: Explicit RTX 3060 Ti aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?rtx 3060 ti(?: \d+gb)?$'
+- id: h100_nvl_alias
+  benchmark_gpu_name: NVIDIA H100 NVL
+  description: Explicit H100 NVL aliases.
+  patterns:
+  - ^(?:nvidia )?(?:tesla )?h100nvl$
+  - ^(?:nvidia )?h100 nvl$
+- id: rtx_a5000_alias
+  benchmark_gpu_name: NVIDIA RTX A5000
+  description: Explicit RTX A5000 compact aliases.
+  patterns:
+  - '^(?:nvidia )?rtxa ?5000(?: \d+gb)?$'
+  - '^(?:nvidia )?rtx a5000(?: \d+gb)?$'
+- id: tesla_k20c_alias
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  description: Explicit Tesla K20c aliases.
+  patterns:
+  - ^(?:nvidia )?(?:geforce )?tesla k20c$
+- id: ascend_910b_alias
+  benchmark_gpu_name: Huawei Ascend 910B
+  description: Explicit Huawei Ascend 910B aliases with optional reported memory.
+  patterns:
+  - '^huawei ascend 910b(?: \d+gb)?$'
+- id: l40_pcie_alias
+  benchmark_gpu_name: NVIDIA L40
+  description: Explicit L40 PCIe aliases.
+  patterns:
+  - ^(?:nvidia )?l40 pcie$
+- id: a40_alias
+  benchmark_gpu_name: NVIDIA A40 PCIe
+  description: Explicit RTX/Ampere A40 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:rtx |ampere )?a40(?: \d+gb)?$'
+  - ^nvidia \d+gb a40$
+- id: rtx_3050_alias
+  benchmark_gpu_name: NVIDIA GeForce RTX 3050
+  description: Explicit RTX 3050 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?rtx 3050(?: \d+gb)?$'
+- id: gtx_580_alias
+  benchmark_gpu_name: NVIDIA GeForce GTX 580
+  description: Explicit GTX 580 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?gtx 580(?: \d+gb)?$'
+- id: rtx_6000_ada_alias
+  benchmark_gpu_name: NVIDIA RTX 6000 Ada Generation
+  description: Explicit RTX 6000 Ada Generation aliases.
+  patterns:
+  - ^(?:nvidia )?(?:quadro )?rtx 6000 ada generation$
+- id: rtx_a4500_alias
+  benchmark_gpu_name: NVIDIA RTX A4500
+  description: Explicit RTX A4500 aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:quadro )?rtx a4500(?: \d+gb)?$'
+- id: rtx_3070_ti_alias
+  benchmark_gpu_name: NVIDIA GeForce RTX 3070 Ti
+  description: Explicit RTX 3070 Ti aliases with optional reported memory.
+  patterns:
+  - '^(?:nvidia )?(?:geforce )?rtx 3070 ti(?: \d+gb)?$'
+- id: quadro_p1000_alias
+  benchmark_gpu_name: NVIDIA Quadro P1000
+  description: Explicit P1000 alias found with a Tesla prefix.
+  patterns:
+  - ^(?:nvidia )?(?:tesla )?p1000$
+- id: gtx_titan_x_alias
+  benchmark_gpu_name: NVIDIA GeForce GTX TITAN X
+  description: Explicit GTX TITAN X alias with a reordered Tesla prefix.
+  patterns:
+  - ^tesla geforce gtx titan x$
+- id: rtx_4090d_alias
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  description: Legacy-equivalent RTX 4090D variant mapping.
+  patterns:
+  - '^(?:nvidia )?(?:rtx )?4090 ?d(?: \d+gb)?$'
+  - '^(?:nvidia )?rtx 4090d(?: \d+gb)?$'
+- id: rtx_4090_ti_alias
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  description: Legacy-equivalent RTX 4090 Ti spelling variant mapping.
+  patterns:
+  - '^(?:nvidia )?(?:rtx|gtx )?4090 ti(?: \d+gb)?$'
+  - '^(?:nvidia )?rtx 4090ti(?: \d+gb)?$'
+- id: ampere_a100_alias
+  benchmark_gpu_name: NVIDIA A100
+  description: Explicit generic Ampere A100 or RTX A100 aliases without memory configuration.
+  patterns:
+  - ^(?:nvidia )?ampere a100$
+  - ^(?:nvidia )?rtx a100$
+- id: ampere_a100_80gb_alias
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  description: Explicit Ampere A100 80GB aliases.
+  patterns:
+  - ^(?:nvidia )?ampere a100 80gb$
+  - ^(?:nvidia )?a100l 80gb$
+- id: a100_sxm4_40gb_alias
+  benchmark_gpu_name: NVIDIA A100 SXM4 40 GB
+  description: Explicit A100 SXM4 40GB aliases.
+  patterns:
+  - ^(?:nvidia )?a100 ?sxm4 40gb$
+- id: a100_sxm4_80gb_alias
+  benchmark_gpu_name: NVIDIA A100 SXM4 80 GB
+  description: Explicit A100 SXM4 80GB aliases.
+  patterns:
+  - ^(?:nvidia )?a100 ?sxm4 80gb$
+- id: a800_80gb_alias
+  benchmark_gpu_name: NVIDIA A800 PCIe 80 GB
+  description: Explicit A800 80GB aliases with common RTX/OCR prefixes.
+  patterns:
+  - ^(?:nvidia )?rtx a800 80gb$
+  - ^(?:nvidia )?a8000 80gb$
+- id: l20_alias
+  benchmark_gpu_name: NVIDIA L20 PCle
+  description: Explicit L20 OCR suffix variant.
+  patterns:
+  - ^nvidia l20y$
+- id: v100_sxm2_16gb_alias
+  benchmark_gpu_name: NVIDIA Tesla V100 SXM2 16 GB
+  description: Explicit V100 SMX2 spelling variant without a stated memory configuration.
+  patterns:
+  - ^(?:nvidia )?tesla v100 sxm2$
+- id: v100_sxm2_32gb_alias
+  benchmark_gpu_name: NVIDIA Tesla V100 SXM2 32 GB
+  description: Explicit V100 SMX2 32GB spelling variant.
+  patterns:
+  - ^(?:nvidia )?tesla v100 sxm2 32gb$
+  - ^v100 sxm2 32gb$

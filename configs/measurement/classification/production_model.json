@@ -1,0 +1,37 @@
+{
+  "model_hashes": {
+    "config": "6917e49a11eed45efda8d865e748d0a48a0c9fda77393fd380e1bbea32975887",
+    "weights": "0e2ce5e253b83a9149907e3405a3544120ba70c44a9eece542e6f8d167f8fdcf",
+    "tokenizer": "7b7fd40ab2bc1e1d91b4a53acdd3edcf962603b6dc549e08734b86612e4e61e6",
+    "tokenizer_config": "3060793210b66fb490d6f326eb6eb566e32391000a5dd358935593ad7e6f8bd7",
+    "thresholds": "e0de634f83c886eea2c7474f4c2f9b8701b8ee5ed2ad561035dd5eff1d635e22"
+  },
+  "thresholds": {
+    "L1_INTERNAL": 0.87,
+    "L2_CLOUD": 0.95,
+    "L3_PUBLIC_HPC": 0.38,
+    "L4_EXTERNAL_API": 0.93,
+    "L5_OPEN_MODEL": 0.5
+  },
+  "resource_labels": [
+    "L1_INTERNAL",
+    "L2_CLOUD",
+    "L3_PUBLIC_HPC",
+    "L4_EXTERNAL_API",
+    "L5_OPEN_MODEL"
+  ],
+  "derived_l0_label": "L0_NO_SPECIFIC_RESOURCE",
+  "max_length": 384,
+  "overlap_tokens": 64,
+  "precision": "float32",
+  "excluded_section_kinds": [
+    "abstract",
+    "background",
+    "introduction",
+    "references"
+  ],
+  "excluded_path_pattern": "\\b(?:background|preliminar(?:y|ies)|related\\s+works?|prior\\s+works?|previous\\s+works?|literature\\s+review|bibliograph(?:y|ies)|works\\s+cited)\\b",
+  "encoder": "allenai/scibert_scivocab_uncased",
+  "selected_trial": "trial_00001",
+  "weights_bytes": 439712772
+}

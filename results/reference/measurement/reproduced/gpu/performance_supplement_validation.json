@@ -1,0 +1,10 @@
+{
+  "models": 132,
+  "generations_with_donors": 11,
+  "status_counts": {
+    "original": 76,
+    "generation_mean_imputed": 29,
+    "no_generation_donor": 27
+  },
+  "donor_rule": "unique originally observed models; exact generation; unweighted arithmetic mean before log transformation"
+}

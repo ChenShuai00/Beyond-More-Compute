@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-flash",
+  "backend": "dspy",
+  "max_tokens": 4096,
+  "module": "predict",
+  "thinking": "enabled",
+  "window_input_format": "three_sentence_plain_text",
+  "few_shot_format": "preformatted",
+  "few_shot_count": 0,
+  "rows_selected": 2472,
+  "prediction_failures_this_run": 0,
+  "invalid_predictions_this_run": 9
+}

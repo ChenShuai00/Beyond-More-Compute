@@ -1,0 +1,61 @@
+{
+  "model_name": "models/scibert_scivocab_uncased",
+  "rows": {
+    "trusted_train": 3714,
+    "candidate_train": 30000,
+    "boundary_aux": 1000,
+    "boundary_aux_after_repeat": 3000,
+    "train_total": 36714,
+    "calib": 3142,
+    "test": 0
+  },
+  "resource_heads": [
+    "L1_INTERNAL",
+    "L2_CLOUD",
+    "L3_PUBLIC_HPC",
+    "L4_EXTERNAL_API",
+    "L5_OPEN_MODEL"
+  ],
+  "derived_l0": "L0_NO_SPECIFIC_RESOURCE",
+  "pos_weight": {
+    "L1_INTERNAL": 19.026136026136026,
+    "L2_CLOUD": 30.8326110427,
+    "L3_PUBLIC_HPC": 30.8326110427,
+    "L4_EXTERNAL_API": 30.8326110427,
+    "L5_OPEN_MODEL": 8.38455114822547
+  },
+  "selection_policy": {
+    "objective": "weak_guarded_macro",
+    "macro_weight": 0.7,
+    "l2_floor": 0.85,
+    "l5_floor": 0.85,
+    "weak_penalty": 1.0,
+    "best_calib_selection_score": 0.7829594477503934
+  },
+  "candist_policy": {
+    "yes": "{1}",
+    "no": "{0}",
+    "uncertain": "{0,1} with initial target 0.5 and DR refinement after warmup",
+    "warmup_epochs": 3,
+    "tau_conf": 0.875907983063,
+    "out_of_candidate_threshold": 0.978403866418,
+    "out_of_candidate_weight": 0.0,
+    "supervised_loss_weight": 0.738324682128,
+    "candidate_loss_weight": 1.67284812258
+  },
+  "boundary_aux_policy": {
+    "loss": "masked BCE on aux_target_l1_l5 where aux_mask_l1_l5 is 1",
+    "consistency": "dual-dropout symmetric Bernoulli KL on masked aux labels",
+    "boundary_aux_loss_weight": 1.0,
+    "boundary_aux_consistency_weight": 0.1,
+    "boundary_aux_repeat": 3,
+    "limit_boundary_aux": null
+  },
+  "best_thresholds": {
+    "L1_INTERNAL": 0.87,
+    "L2_CLOUD": 0.95,
+    "L3_PUBLIC_HPC": 0.38,
+    "L4_EXTERNAL_API": 0.93,
+    "L5_OPEN_MODEL": 0.5
+  }
+}

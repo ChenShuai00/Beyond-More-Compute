@@ -1,0 +1,119 @@
+{
+  "checks": [
+    {
+      "detail": 8790624,
+      "name": "historical_paper_count",
+      "passed": true
+    },
+    {
+      "detail": 29591,
+      "name": "focal_mapping_count",
+      "passed": true
+    },
+    {
+      "detail": 2167,
+      "name": "topic_year_count",
+      "passed": true
+    },
+    {
+      "detail": 731,
+      "name": "primary_topic_count",
+      "passed": true
+    },
+    {
+      "detail": 0,
+      "name": "vector_ids_unique_and_model_frozen",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "embedding_audit_present",
+      "passed": true
+    },
+    {
+      "detail": "complete",
+      "name": "embedding_complete",
+      "passed": true
+    },
+    {
+      "detail": 0,
+      "name": "deterministic_reencoding",
+      "passed": true
+    },
+    {
+      "detail": 0,
+      "name": "new_vector_chunk_hashes",
+      "passed": true
+    },
+    {
+      "detail": [
+        29591,
+        29591
+      ],
+      "name": "focal_ids_unique",
+      "passed": true
+    },
+    {
+      "detail": 0,
+      "name": "reference_denominator_conservation",
+      "passed": true
+    },
+    {
+      "detail": 0,
+      "name": "h_bounds",
+      "passed": true
+    },
+    {
+      "detail": 0,
+      "name": "vector_sum_identity",
+      "passed": true
+    },
+    {
+      "detail": 0,
+      "name": "eligibility_contract",
+      "passed": true
+    },
+    {
+      "detail": 0,
+      "name": "missing_below_primary_threshold",
+      "passed": true
+    },
+    {
+      "detail": 0,
+      "name": "threshold_availability_monotonic",
+      "passed": true
+    },
+    {
+      "detail": 0,
+      "name": "nonconflict_mapping_equals_topic_year",
+      "passed": true
+    },
+    {
+      "detail": 0,
+      "name": "per_focal_self_subtraction",
+      "passed": true
+    },
+    {
+      "detail": 1901,
+      "name": "focal_self_conflict_count",
+      "passed": true
+    },
+    {
+      "detail": 0,
+      "name": "focal_id_set_preserved",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "name": "no_residual_temp_files",
+      "passed": true
+    }
+  ],
+  "fail_count": 0,
+  "formal_ksc_complete": true,
+  "pass_count": 21,
+  "product_id": "ksc_v1_20260912_v14r1",
+  "schema_version": "ksc_v1_20260912",
+  "status": "pass",
+  "validated_at": "2026-09-16T00:43:23+00:00"
+}

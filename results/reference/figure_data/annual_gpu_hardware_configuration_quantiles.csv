@@ -1,0 +1,19 @@
+year,variable,display_name,unit,provenance_cohort_n,measurement_n,q25,median,q75,p90
+2020,gpu_quantity,GPU quantity,GPUs,3636,1870,1.0,1.0,4.0,8.0
+2020,gpu_performance,Per-GPU peak performance,TFLOP/s,3636,1870,72.85,89.2,112.0,113.8
+2020,gpu_vram,Per-GPU VRAM,GB,3636,1870,11.0,12.0,16.0,24.0
+2021,gpu_quantity,GPU quantity,GPUs,4887,3014,1.0,1.0,4.0,8.0
+2021,gpu_performance,Per-GPU peak performance,TFLOP/s,4887,3014,72.85,112.0,113.8,121.94444444444444
+2021,gpu_vram,Per-GPU VRAM,GB,4887,3014,11.0,16.0,16.0,24.0
+2022,gpu_quantity,GPU quantity,GPUs,5935,3851,1.0,1.0,4.0,8.0
+2022,gpu_performance,Per-GPU peak performance,TFLOP/s,5935,3851,72.85,112.0,113.8,188.088
+2022,gpu_vram,Per-GPU VRAM,GB,5935,3851,12.0,16.0,24.0,40.0
+2023,gpu_quantity,GPU quantity,GPUs,8114,5657,1.0,1.0,4.0,8.0
+2023,gpu_performance,Per-GPU peak performance,TFLOP/s,8114,5657,72.85,112.0,165.0,312.0
+2023,gpu_vram,Per-GPU VRAM,GB,8114,5657,16.0,24.0,40.0,48.0
+2024,gpu_quantity,GPU quantity,GPUs,11396,8440,1.0,1.0,4.0,8.0
+2024,gpu_performance,Per-GPU peak performance,TFLOP/s,11396,8440,112.0,149.7,312.0,312.0
+2024,gpu_vram,Per-GPU VRAM,GB,11396,8440,24.0,32.0,48.0,80.0
+2025,gpu_quantity,GPU quantity,GPUs,15122,11651,1.0,2.0,8.0,8.0
+2025,gpu_performance,Per-GPU peak performance,TFLOP/s,15122,11651,119.1,312.0,312.0,330.0
+2025,gpu_vram,Per-GPU VRAM,GB,15122,11651,24.0,40.0,48.0,80.0

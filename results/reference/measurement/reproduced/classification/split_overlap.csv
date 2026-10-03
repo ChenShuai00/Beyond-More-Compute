@@ -1,0 +1,7 @@
+left_split,right_split,shared_papers
+trusted_train,candidate_train,0
+trusted_train,gold_calib,0
+trusted_train,gold_test,0
+candidate_train,gold_calib,0
+candidate_train,gold_test,0
+gold_calib,gold_test,0

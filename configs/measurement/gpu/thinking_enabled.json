@@ -1,0 +1,11 @@
+{
+  "model": "deepseek-v4-flash",
+  "thinking": "enabled",
+  "max_tokens": 2048,
+  "temperature": "provider_default_omitted",
+  "reasoning_effort": "provider_default_omitted",
+  "seed": 20260805,
+  "rows_selected": 2698,
+  "gold_sha256": "0e95b8d656da6b519e3d939d26bfe943354306478f66252cb7839429b17256b0",
+  "prompt_sha256": "2495e7f372315783f017df54540dba7203b4c7d8b2f6b71edb5c2f79178cc89d"
+}

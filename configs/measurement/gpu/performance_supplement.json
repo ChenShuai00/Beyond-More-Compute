@@ -1,0 +1,9 @@
+{
+  "models": 132,
+  "status_counts": {
+    "original": 76,
+    "generation_mean_imputed": 29,
+    "no_generation_donor": 27
+  },
+  "method": "Unweighted arithmetic mean across unique observed model names within exact benchmark_generation, calculated in raw FLOPs/s before logs; no recursive imputation; no cross-generation fallback."
+}

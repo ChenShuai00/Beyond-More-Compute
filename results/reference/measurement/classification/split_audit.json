@@ -1,0 +1,156 @@
+{
+  "label_view": "primary_l1_l5_l0",
+  "policy": {
+    "trusted_train": "gold_trusted_extra is used as supervised anchor training data",
+    "gold_calib": "used only for thresholds, early stopping, and model selection",
+    "gold_test": "used only for final held-out evaluation",
+    "candidate_train": "candidate rows must not share paper_id with gold_all",
+    "candidate_states": "yes->{1}, no->{0}, uncertain->{0,1}",
+    "derived_background_label": "L0_NO_SPECIFIC_RESOURCE",
+    "resource_heads": [
+      "L1_INTERNAL",
+      "L2_CLOUD",
+      "L3_PUBLIC_HPC",
+      "L4_EXTERNAL_API",
+      "L5_OPEN_MODEL"
+    ]
+  },
+  "splits": {
+    "trusted_train": {
+      "rows": 3714,
+      "papers": 1054,
+      "label_counts": {
+        "L0_NO_SPECIFIC_RESOURCE": 2920,
+        "L5_OPEN_MODEL": 514,
+        "L1_INTERNAL": 234,
+        "L4_EXTERNAL_API": 82,
+        "L3_PUBLIC_HPC": 16,
+        "L2_CLOUD": 17
+      },
+      "resource_label_counts": {
+        "L5_OPEN_MODEL": 514,
+        "L1_INTERNAL": 234,
+        "L4_EXTERNAL_API": 82,
+        "L3_PUBLIC_HPC": 16,
+        "L2_CLOUD": 17
+      },
+      "l0_rows": 2920
+    },
+    "candidate_train": {
+      "rows": 30000,
+      "papers": 6000,
+      "candidate_state_counts": {
+        "L1_INTERNAL": {
+          "yes": 1371,
+          "no": 28472,
+          "uncertain": 157
+        },
+        "L2_CLOUD": {
+          "yes": 91,
+          "no": 29884,
+          "uncertain": 25
+        },
+        "L3_PUBLIC_HPC": {
+          "yes": 124,
+          "no": 29861,
+          "uncertain": 15
+        },
+        "L4_EXTERNAL_API": {
+          "yes": 596,
+          "no": 29270,
+          "uncertain": 134
+        },
+        "L5_OPEN_MODEL": {
+          "yes": 2762,
+          "no": 26605,
+          "uncertain": 633
+        }
+      },
+      "candidate_possible_counts": {
+        "L5_OPEN_MODEL": 3395,
+        "L1_INTERNAL": 1528,
+        "L4_EXTERNAL_API": 730,
+        "L3_PUBLIC_HPC": 139,
+        "L2_CLOUD": 116
+      },
+      "candidate_yes_counts": {
+        "L5_OPEN_MODEL": 2762,
+        "L1_INTERNAL": 1371,
+        "L4_EXTERNAL_API": 596,
+        "L3_PUBLIC_HPC": 124,
+        "L2_CLOUD": 91
+      },
+      "candidate_uncertain_counts": {
+        "L5_OPEN_MODEL": 633,
+        "L4_EXTERNAL_API": 134,
+        "L1_INTERNAL": 157,
+        "L2_CLOUD": 25,
+        "L3_PUBLIC_HPC": 15
+      }
+    },
+    "gold_calib": {
+      "rows": 3142,
+      "papers": 1039,
+      "label_counts": {
+        "L5_OPEN_MODEL": 396,
+        "L0_NO_SPECIFIC_RESOURCE": 2141,
+        "L1_INTERNAL": 316,
+        "L2_CLOUD": 110,
+        "L3_PUBLIC_HPC": 126,
+        "L4_EXTERNAL_API": 186
+      },
+      "resource_label_counts": {
+        "L5_OPEN_MODEL": 396,
+        "L1_INTERNAL": 316,
+        "L2_CLOUD": 110,
+        "L3_PUBLIC_HPC": 126,
+        "L4_EXTERNAL_API": 186
+      },
+      "l0_rows": 2141
+    },
+    "gold_test": {
+      "rows": 4658,
+      "papers": 1565,
+      "label_counts": {
+        "L0_NO_SPECIFIC_RESOURCE": 3198,
+        "L1_INTERNAL": 419,
+        "L5_OPEN_MODEL": 555,
+        "L4_EXTERNAL_API": 280,
+        "L3_PUBLIC_HPC": 184,
+        "L2_CLOUD": 179
+      },
+      "resource_label_counts": {
+        "L1_INTERNAL": 419,
+        "L5_OPEN_MODEL": 555,
+        "L4_EXTERNAL_API": 280,
+        "L3_PUBLIC_HPC": 184,
+        "L2_CLOUD": 179
+      },
+      "l0_rows": 3198
+    }
+  },
+  "candidate_excluded_gold_paper_rows": 0,
+  "candidate_rejected_rows": 0,
+  "paper_overlap_matrix": {
+    "trusted_train": {
+      "candidate_train": 0,
+      "gold_calib": 0,
+      "gold_test": 0
+    },
+    "candidate_train": {
+      "trusted_train": 0,
+      "gold_calib": 0,
+      "gold_test": 0
+    },
+    "gold_calib": {
+      "trusted_train": 0,
+      "candidate_train": 0,
+      "gold_test": 0
+    },
+    "gold_test": {
+      "trusted_train": 0,
+      "candidate_train": 0,
+      "gold_calib": 0
+    }
+  }
+}

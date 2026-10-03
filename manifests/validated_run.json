@@ -1,0 +1,829 @@
+{
+  "schema_version": "replication_run_v1",
+  "passed": true,
+  "frozen_manifest_sha256": {
+    "manifests/input_manifest.json": "19aea813c274154c34c9735723d44f807c02bded703420bfe232ed786dfe3abc",
+    "manifests/reference_manifest.json": "1ac25674bf8c8f7a0decdc6ed348b1d901bd8678fd986a35480ad65f1359b71a",
+    "manifests/code_manifest.json": "dd0e38ef1a7f2c0881daf1776808775ba2085029c316f7ab1fb98f838ac73513"
+  },
+  "inputs": {
+    "passed": true,
+    "frozen_files_checked": 174,
+    "corpus_rows": 113822,
+    "resource_rows": 107872,
+    "membership_rows": 114618
+  },
+  "corpus": {
+    "passed": true,
+    "sample_counts": {
+      "initial_records": 114618,
+      "collected_corpus": 113822,
+      "metadata_text_eligible": 107872,
+      "l1_positive": 54948,
+      "hardware_eligible": 49090,
+      "normalized_gpu": 40956,
+      "complete_hardware": 34483,
+      "performance_imputed_complete_hardware": 3524,
+      "analysis_frame": 29591,
+      "baseline_api_regression": 29487,
+      "ksc_regression": 29239
+    },
+    "findings_papers": 9917
+  },
+  "analysis": {
+    "primary_models": 32,
+    "auxiliary_context_models": 4,
+    "samples": {
+      "baseline_api": {
+        "n": 29487,
+        "clusters": 69,
+        "sample_sha256": "d6807e4979873472ffa7565585fbeba4d5951f0ac229c12a9e95f5a10513ffb7"
+      },
+      "ksc": {
+        "n": 29239,
+        "clusters": 69,
+        "sample_sha256": "1b6b84deb2b845abca82df6d98abdae1d2e8d682005decb2759a2810247007cc"
+      }
+    },
+    "api_figure_rows": 606,
+    "ksc_figure_rows": 404,
+    "conditional_rows": 48,
+    "multiple_testing": "Holm across four outcomes within each focal resource/test family"
+  },
+  "measurement": {
+    "status": "pass",
+    "asset_hashes_verified": 59,
+    "classification": {
+      "teacher": {
+        "rows": 2472,
+        "papers": 1565,
+        "macro_f1_l1_l4": 0.9492021795092485,
+        "micro_f1_l1_l4": 0.9488875526157546
+      },
+      "bert_base": {
+        "rows": 4658,
+        "papers": 1565,
+        "macro_f1_l1_l4": 0.8620880312016312,
+        "micro_f1_l1_l4": 0.8636771300448431
+      },
+      "roberta_base": {
+        "rows": 4658,
+        "papers": 1565,
+        "macro_f1_l1_l4": 0.8864503944215857,
+        "micro_f1_l1_l4": 0.8868529546495647
+      },
+      "scibert": {
+        "rows": 4658,
+        "papers": 1565,
+        "macro_f1_l1_l4": 0.8997910780314691,
+        "micro_f1_l1_l4": 0.8990136214185064
+      }
+    },
+    "split_pairs_checked": 6,
+    "gpu_gold_rows": 2698,
+    "gpu_modes_verified": [
+      "disabled",
+      "enabled"
+    ],
+    "normalization": {
+      "mapping_rows": 5752,
+      "specification_rows": 191,
+      "catalog_gpu_rows": 168,
+      "mapping_columns": [
+        "gpu_model",
+        "occurrence_count",
+        "count_missing_occurrence_count",
+        "cleaned_gpu_model",
+        "legacy_normalized_hardware_name",
+        "benchmark_gpu_name",
+        "benchmark_type",
+        "gpu_vendor",
+        "benchmark_generation",
+        "benchmark_family",
+        "benchmark_release_date",
+        "benchmark_release_price_usd",
+        "benchmark_tdp_w",
+        "benchmark_memory_bytes",
+        "benchmark_memory_bandwidth_bytes_per_s",
+        "benchmark_fp32_flops",
+        "benchmark_tf32_flops",
+        "benchmark_tensor_fp16_bf16_flops",
+        "benchmark_fp8_flops",
+        "benchmark_max_performance",
+        "benchmark_energy_efficiency",
+        "benchmark_process_size_nm",
+        "extracted_memory",
+        "match_status",
+        "match_method",
+        "normalize_status",
+        "normalize_reason",
+        "manual_rule_id",
+        "catalog_candidate_count",
+        "output_disposition",
+        "review_required",
+        "sample_request_ids_json",
+        "sample_paper_ids_json",
+        "sample_section_titles_json"
+      ]
+    },
+    "performance_supplement": {
+      "models": 132,
+      "generations_with_donors": 11,
+      "status_counts": {
+        "original": 76,
+        "generation_mean_imputed": 29,
+        "no_generation_donor": 27
+      },
+      "donor_rule": "unique originally observed models; exact generation; unweighted arithmetic mean before log transformation"
+    },
+    "ksc": {
+      "focal_papers": 29591,
+      "topic_year_cells": 2167,
+      "primary_topics": 731,
+      "self_conflicts": 1901,
+      "own_h_p_subtracted": 285,
+      "primary_available_focal_papers": 29322,
+      "thresholds": [
+        50,
+        100,
+        200
+      ],
+      "checks": "focal and topic-year arithmetic, missingness, threshold coverage, unique keys and bounds"
+    }
+  },
+  "figures": {
+    "population": {
+      "input_n": 107872,
+      "hardware_n": 49090,
+      "measurement_n": 34483,
+      "api_n": 20633,
+      "performance_imputed_n": 3524
+    },
+    "figures": {
+      "resource_trends": {
+        "alignment": "PASS",
+        "font_minimum_pt": 5,
+        "font_minimum_found_pt": 5.0,
+        "font_text_runs": 77,
+        "font_below_minimum_count": 0,
+        "font_auditable": true,
+        "collision_auditable": true,
+        "collision_failures": 0,
+        "collision_warnings": 0,
+        "formats": [
+          "figures/combined_computational_resource_evolution.png",
+          "figures/combined_computational_resource_evolution.pdf",
+          "figures/combined_computational_resource_evolution.svg"
+        ]
+      },
+      "hardware_api_interactions": {
+        "alignment": "PASS",
+        "font_minimum_pt": 5,
+        "font_minimum_found_pt": 6.0,
+        "font_text_runs": 42,
+        "font_below_minimum_count": 0,
+        "font_auditable": true,
+        "collision_auditable": true,
+        "collision_failures": 0,
+        "collision_warnings": 0,
+        "formats": [
+          "figures/interaction_slopes_cumulative_citations.png",
+          "figures/interaction_slopes_cumulative_citations.pdf",
+          "figures/interaction_slopes_cumulative_citations.svg"
+        ]
+      },
+      "ksc_marginal_associations": {
+        "alignment": "PASS",
+        "font_minimum_pt": 5,
+        "font_minimum_found_pt": 6.0,
+        "font_text_runs": 56,
+        "font_below_minimum_count": 0,
+        "font_auditable": true,
+        "collision_auditable": true,
+        "collision_failures": 0,
+        "collision_warnings": 0,
+        "formats": [
+          "figures/ksc_marginal_associations.png",
+          "figures/ksc_marginal_associations.pdf",
+          "figures/ksc_marginal_associations.svg"
+        ]
+      }
+    },
+    "mode": "released-data and recomputed-model coordinates",
+    "validation": {
+      "schema_version": "figure_validation_v1",
+      "passed": true,
+      "figure_count": 3,
+      "figures": [
+        {
+          "figure_id": "resource_trends",
+          "stem": "combined_computational_resource_evolution",
+          "passed": true,
+          "alignment": {
+            "passed": true,
+            "verdict": "PASS",
+            "tolerance_pt": 1.5
+          },
+          "font": {
+            "passed": true,
+            "auditable": true,
+            "minimum_found_pt": 5.0,
+            "minimum_required_pt": 5,
+            "below_minimum_count": 0,
+            "text_run_count": 77
+          },
+          "collision": {
+            "passed": true,
+            "auditable": true,
+            "failures": 0,
+            "warnings": 0
+          },
+          "visual_review": {
+            "passed": true,
+            "render_style_sha256": "c319ab6fc12e02cc8b1dba37e4fdd78c837ce3e84cbd9b7f24ba37ac0af5d542",
+            "reviewed_style_matches": true,
+            "manual_review_record": "configs/figures/qa_review.json",
+            "manual_review_scope": "Original and locally regenerated panels with the retained drawing styles",
+            "manual_review_result": "All original and final regenerated panels inspected; labels and legends clear, 95% confidence bands intact, auxiliary zoom connections unambiguous; no clipping or overlap.",
+            "current_render": {
+              "same_dimensions": true,
+              "reference": "results/reference/figures/combined_computational_resource_evolution.png",
+              "identical_pixels": true,
+              "mean_absolute_channel_difference": 0.0,
+              "changed_pixel_fraction": 0.0
+            }
+          },
+          "formats": [
+            "figures/combined_computational_resource_evolution.png",
+            "figures/combined_computational_resource_evolution.pdf",
+            "figures/combined_computational_resource_evolution.svg"
+          ]
+        },
+        {
+          "figure_id": "hardware_api_interactions",
+          "stem": "interaction_slopes_cumulative_citations",
+          "passed": true,
+          "alignment": {
+            "passed": true,
+            "verdict": "PASS",
+            "tolerance_pt": 1.5
+          },
+          "font": {
+            "passed": true,
+            "auditable": true,
+            "minimum_found_pt": 6.0,
+            "minimum_required_pt": 5,
+            "below_minimum_count": 0,
+            "text_run_count": 42
+          },
+          "collision": {
+            "passed": true,
+            "auditable": true,
+            "failures": 0,
+            "warnings": 0
+          },
+          "visual_review": {
+            "passed": true,
+            "render_style_sha256": "c319ab6fc12e02cc8b1dba37e4fdd78c837ce3e84cbd9b7f24ba37ac0af5d542",
+            "reviewed_style_matches": true,
+            "manual_review_record": "configs/figures/qa_review.json",
+            "manual_review_scope": "Original and locally regenerated panels with the retained drawing styles",
+            "manual_review_result": "All original and final regenerated panels inspected; labels and legends clear, 95% confidence bands intact, auxiliary zoom connections unambiguous; no clipping or overlap.",
+            "current_render": {
+              "same_dimensions": true,
+              "reference": "results/reference/figures/interaction_slopes_cumulative_citations.png",
+              "identical_pixels": false,
+              "mean_absolute_channel_difference": 9.229761675489131e-05,
+              "changed_pixel_fraction": 0.00017434539190416506
+            }
+          },
+          "formats": [
+            "figures/interaction_slopes_cumulative_citations.png",
+            "figures/interaction_slopes_cumulative_citations.pdf",
+            "figures/interaction_slopes_cumulative_citations.svg"
+          ]
+        },
+        {
+          "figure_id": "ksc_marginal_associations",
+          "stem": "ksc_marginal_associations",
+          "passed": true,
+          "alignment": {
+            "passed": true,
+            "verdict": "PASS",
+            "tolerance_pt": 1.5
+          },
+          "font": {
+            "passed": true,
+            "auditable": true,
+            "minimum_found_pt": 6.0,
+            "minimum_required_pt": 5,
+            "below_minimum_count": 0,
+            "text_run_count": 56
+          },
+          "collision": {
+            "passed": true,
+            "auditable": true,
+            "failures": 0,
+            "warnings": 0
+          },
+          "visual_review": {
+            "passed": true,
+            "render_style_sha256": "c319ab6fc12e02cc8b1dba37e4fdd78c837ce3e84cbd9b7f24ba37ac0af5d542",
+            "reviewed_style_matches": true,
+            "manual_review_record": "configs/figures/qa_review.json",
+            "manual_review_scope": "Original and locally regenerated panels with the retained drawing styles",
+            "manual_review_result": "All original and final regenerated panels inspected; labels and legends clear, 95% confidence bands intact, auxiliary zoom connections unambiguous; no clipping or overlap.",
+            "current_render": {
+              "same_dimensions": true,
+              "reference": "results/reference/figures/ksc_marginal_associations.png",
+              "identical_pixels": false,
+              "mean_absolute_channel_difference": 2.449844621719077e-05,
+              "changed_pixel_fraction": 4.5841160379285777e-05
+            }
+          },
+          "formats": [
+            "figures/ksc_marginal_associations.png",
+            "figures/ksc_marginal_associations.pdf",
+            "figures/ksc_marginal_associations.svg"
+          ]
+        }
+      ]
+    }
+  },
+  "verification": {
+    "passed": true,
+    "regression": {
+      "passed": true,
+      "reference_comparisons": [
+        {
+          "file": "tables/baseline_regression_impact_table.csv",
+          "rows": 32,
+          "maximum_absolute_errors": {
+            "coefficient": 0.0,
+            "standard_error": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "p_value": 2.5849394142282115e-26,
+            "p_value_holm": 0.0,
+            "r2": 0.0,
+            "adjusted_r2": 0.0
+          }
+        },
+        {
+          "file": "tables/interaction_coefficients.csv",
+          "rows": 108,
+          "maximum_absolute_errors": {
+            "coefficient": 0.0,
+            "standard_error": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "p_value": 3.3881317890172014e-21
+          }
+        },
+        {
+          "file": "tables/appendix_interaction_impact_table.csv",
+          "rows": 60,
+          "maximum_absolute_errors": {
+            "coefficient": 0.0,
+            "standard_error": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "p_value": 0.0,
+            "r2": 0.0,
+            "adjusted_r2": 0.0
+          }
+        },
+        {
+          "file": "tables/baseline_main_effects.csv",
+          "rows": 16,
+          "maximum_absolute_errors": {
+            "coefficient": 0.0,
+            "standard_error": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "p_value": 0.0,
+            "p_value_holm": 0.0,
+            "reported_effect": 0.0
+          }
+        },
+        {
+          "file": "tables/linear_coefficients.csv",
+          "rows": 196,
+          "maximum_absolute_errors": {
+            "coefficient": 0.0,
+            "standard_error": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "p_value": 2.5849394142282115e-26
+          }
+        },
+        {
+          "file": "tables/model_metrics.csv",
+          "rows": 16,
+          "maximum_absolute_errors": {
+            "r2": 0.0,
+            "within_r2": 0.0,
+            "sse": 0.0,
+            "design_rank": 0.0
+          }
+        },
+        {
+          "file": "tables/linear_model_metrics.csv",
+          "rows": 20,
+          "maximum_absolute_errors": {
+            "r2": 0.0,
+            "within_r2": 0.0,
+            "adjusted_r2": 0.0,
+            "design_rank": 0.0
+          }
+        },
+        {
+          "file": "tables/interaction_results.csv",
+          "rows": 16,
+          "maximum_absolute_errors": {
+            "coefficient": 0.0,
+            "standard_error": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "p_value": 0.0,
+            "p_value_holm": 0.0,
+            "delta_r2": 3.3881317890172014e-21,
+            "partial_r2": 0.0
+          }
+        },
+        {
+          "file": "tables/table4_impact_ksc_interactions.csv",
+          "rows": 4,
+          "maximum_absolute_errors": {
+            "quantity_coefficient": 0.0,
+            "quantity_p_value": 0.0,
+            "quantity_p_value_holm": 0.0,
+            "performance_coefficient": 0.0,
+            "performance_p_value": 0.0,
+            "performance_p_value_holm": 0.0,
+            "memory_coefficient": 0.0,
+            "memory_p_value": 0.0,
+            "memory_p_value_holm": 0.0,
+            "api_coefficient": 0.0,
+            "api_p_value": 0.0,
+            "api_p_value_holm": 0.0
+          }
+        },
+        {
+          "file": "figure_data/cumulative_citation_interaction_predictions.csv",
+          "rows": 606,
+          "maximum_absolute_errors": {
+            "doublings_from_full_v14_median": 0.0,
+            "adjusted_change": 9.71445146547012e-17,
+            "ci_low": 9.71445146547012e-17,
+            "ci_high": 1.1102230246251565e-16
+          }
+        },
+        {
+          "file": "figure_data/cumulative_citation_interaction_contrasts.csv",
+          "rows": 3,
+          "maximum_absolute_errors": {
+            "slope_api_no": 0.0,
+            "slope_api_yes": 0.0,
+            "slope_api_no_se": 0.0,
+            "slope_api_yes_se": 0.0,
+            "interaction_difference": 0.0,
+            "interaction_se": 0.0,
+            "interaction_p_value": 0.0,
+            "interaction_p_value_holm": 0.0
+          }
+        },
+        {
+          "file": "figure_data/marginal_figure_source.csv",
+          "rows": 404,
+          "maximum_absolute_errors": {
+            "ksc_z": 0.0,
+            "estimate": 0.0,
+            "standard_error": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "marginal_association": 0.0,
+            "marginal_ci_low": 0.0,
+            "marginal_ci_high": 0.0
+          }
+        },
+        {
+          "file": "figure_data/conditional_associations.csv",
+          "rows": 48,
+          "maximum_absolute_errors": {
+            "estimate": 0.0,
+            "standard_error": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "p_value": 0.0,
+            "p_value_holm": 0.0,
+            "marginal_association": 0.0,
+            "marginal_ci_low": 0.0,
+            "marginal_ci_high": 0.0
+          }
+        }
+      ],
+      "covariance_models_checked": 36
+    },
+    "data_summary_tables": [
+      {
+        "table": "conference_year_counts.csv",
+        "rows": 15,
+        "passed": true
+      },
+      {
+        "table": "resource_access_modes.csv",
+        "rows": 4,
+        "passed": true
+      },
+      {
+        "table": "sample_flow.csv",
+        "rows": 11,
+        "passed": true
+      },
+      {
+        "table": "annual_hardware_api_configurations.csv",
+        "rows": 24,
+        "passed": true
+      },
+      {
+        "table": "annual_gpu_hardware_configuration_quantiles.csv",
+        "rows": 18,
+        "passed": true
+      }
+    ],
+    "measurement": {
+      "status": "pass",
+      "asset_hashes_verified": 59,
+      "classification": {
+        "teacher": {
+          "rows": 2472,
+          "papers": 1565,
+          "macro_f1_l1_l4": 0.9492021795092485,
+          "micro_f1_l1_l4": 0.9488875526157546
+        },
+        "bert_base": {
+          "rows": 4658,
+          "papers": 1565,
+          "macro_f1_l1_l4": 0.8620880312016312,
+          "micro_f1_l1_l4": 0.8636771300448431
+        },
+        "roberta_base": {
+          "rows": 4658,
+          "papers": 1565,
+          "macro_f1_l1_l4": 0.8864503944215857,
+          "micro_f1_l1_l4": 0.8868529546495647
+        },
+        "scibert": {
+          "rows": 4658,
+          "papers": 1565,
+          "macro_f1_l1_l4": 0.8997910780314691,
+          "micro_f1_l1_l4": 0.8990136214185064
+        }
+      },
+      "split_pairs_checked": 6,
+      "gpu_gold_rows": 2698,
+      "gpu_modes_verified": [
+        "disabled",
+        "enabled"
+      ],
+      "normalization": {
+        "mapping_rows": 5752,
+        "specification_rows": 191,
+        "catalog_gpu_rows": 168,
+        "mapping_columns": [
+          "gpu_model",
+          "occurrence_count",
+          "count_missing_occurrence_count",
+          "cleaned_gpu_model",
+          "legacy_normalized_hardware_name",
+          "benchmark_gpu_name",
+          "benchmark_type",
+          "gpu_vendor",
+          "benchmark_generation",
+          "benchmark_family",
+          "benchmark_release_date",
+          "benchmark_release_price_usd",
+          "benchmark_tdp_w",
+          "benchmark_memory_bytes",
+          "benchmark_memory_bandwidth_bytes_per_s",
+          "benchmark_fp32_flops",
+          "benchmark_tf32_flops",
+          "benchmark_tensor_fp16_bf16_flops",
+          "benchmark_fp8_flops",
+          "benchmark_max_performance",
+          "benchmark_energy_efficiency",
+          "benchmark_process_size_nm",
+          "extracted_memory",
+          "match_status",
+          "match_method",
+          "normalize_status",
+          "normalize_reason",
+          "manual_rule_id",
+          "catalog_candidate_count",
+          "output_disposition",
+          "review_required",
+          "sample_request_ids_json",
+          "sample_paper_ids_json",
+          "sample_section_titles_json"
+        ]
+      },
+      "performance_supplement": {
+        "models": 132,
+        "generations_with_donors": 11,
+        "status_counts": {
+          "original": 76,
+          "generation_mean_imputed": 29,
+          "no_generation_donor": 27
+        },
+        "donor_rule": "unique originally observed models; exact generation; unweighted arithmetic mean before log transformation"
+      },
+      "ksc": {
+        "focal_papers": 29591,
+        "topic_year_cells": 2167,
+        "primary_topics": 731,
+        "self_conflicts": 1901,
+        "own_h_p_subtracted": 285,
+        "primary_available_focal_papers": 29322,
+        "thresholds": [
+          50,
+          100,
+          200
+        ],
+        "checks": "focal and topic-year arithmetic, missingness, threshold coverage, unique keys and bounds"
+      }
+    },
+    "citations": {
+      "passed": true,
+      "assets_checked": 5,
+      "paper_rows": 29591,
+      "annual_rows": 295910,
+      "outside_window_annual_rows": 13,
+      "reference_cells_recomputed": 2239,
+      "reference_histogram_bins": 145891,
+      "scored_papers": 29547,
+      "metric_status_counts": {
+        "ok": 29547,
+        "ranking_ineligible_work_type": 42,
+        "not_found": 2
+      },
+      "outcome_checks": {
+        "y_cumulative_citations_max_abs_error": 0.0,
+        "y_top10_max_abs_error": 0.0,
+        "y_top5_max_abs_error": 0.0,
+        "y_top1_max_abs_error": 0.0
+      },
+      "paper_id_set_sha256": "76e10ac6acc28f87b0bed6ba6c3fdc3e100c945108d5dfa4e61da698409e3e7e"
+    },
+    "figures": {
+      "schema_version": "figure_validation_v1",
+      "passed": true,
+      "figure_count": 3,
+      "figures": [
+        {
+          "figure_id": "resource_trends",
+          "stem": "combined_computational_resource_evolution",
+          "passed": true,
+          "alignment": {
+            "passed": true,
+            "verdict": "PASS",
+            "tolerance_pt": 1.5
+          },
+          "font": {
+            "passed": true,
+            "auditable": true,
+            "minimum_found_pt": 5.0,
+            "minimum_required_pt": 5,
+            "below_minimum_count": 0,
+            "text_run_count": 77
+          },
+          "collision": {
+            "passed": true,
+            "auditable": true,
+            "failures": 0,
+            "warnings": 0
+          },
+          "visual_review": {
+            "passed": true,
+            "render_style_sha256": "c319ab6fc12e02cc8b1dba37e4fdd78c837ce3e84cbd9b7f24ba37ac0af5d542",
+            "reviewed_style_matches": true,
+            "manual_review_record": "configs/figures/qa_review.json",
+            "manual_review_scope": "Original and locally regenerated panels with the retained drawing styles",
+            "manual_review_result": "All original and final regenerated panels inspected; labels and legends clear, 95% confidence bands intact, auxiliary zoom connections unambiguous; no clipping or overlap.",
+            "current_render": {
+              "same_dimensions": true,
+              "reference": "results/reference/figures/combined_computational_resource_evolution.png",
+              "identical_pixels": true,
+              "mean_absolute_channel_difference": 0.0,
+              "changed_pixel_fraction": 0.0
+            }
+          },
+          "formats": [
+            "figures/combined_computational_resource_evolution.png",
+            "figures/combined_computational_resource_evolution.pdf",
+            "figures/combined_computational_resource_evolution.svg"
+          ]
+        },
+        {
+          "figure_id": "hardware_api_interactions",
+          "stem": "interaction_slopes_cumulative_citations",
+          "passed": true,
+          "alignment": {
+            "passed": true,
+            "verdict": "PASS",
+            "tolerance_pt": 1.5
+          },
+          "font": {
+            "passed": true,
+            "auditable": true,
+            "minimum_found_pt": 6.0,
+            "minimum_required_pt": 5,
+            "below_minimum_count": 0,
+            "text_run_count": 42
+          },
+          "collision": {
+            "passed": true,
+            "auditable": true,
+            "failures": 0,
+            "warnings": 0
+          },
+          "visual_review": {
+            "passed": true,
+            "render_style_sha256": "c319ab6fc12e02cc8b1dba37e4fdd78c837ce3e84cbd9b7f24ba37ac0af5d542",
+            "reviewed_style_matches": true,
+            "manual_review_record": "configs/figures/qa_review.json",
+            "manual_review_scope": "Original and locally regenerated panels with the retained drawing styles",
+            "manual_review_result": "All original and final regenerated panels inspected; labels and legends clear, 95% confidence bands intact, auxiliary zoom connections unambiguous; no clipping or overlap.",
+            "current_render": {
+              "same_dimensions": true,
+              "reference": "results/reference/figures/interaction_slopes_cumulative_citations.png",
+              "identical_pixels": false,
+              "mean_absolute_channel_difference": 9.229761675489131e-05,
+              "changed_pixel_fraction": 0.00017434539190416506
+            }
+          },
+          "formats": [
+            "figures/interaction_slopes_cumulative_citations.png",
+            "figures/interaction_slopes_cumulative_citations.pdf",
+            "figures/interaction_slopes_cumulative_citations.svg"
+          ]
+        },
+        {
+          "figure_id": "ksc_marginal_associations",
+          "stem": "ksc_marginal_associations",
+          "passed": true,
+          "alignment": {
+            "passed": true,
+            "verdict": "PASS",
+            "tolerance_pt": 1.5
+          },
+          "font": {
+            "passed": true,
+            "auditable": true,
+            "minimum_found_pt": 6.0,
+            "minimum_required_pt": 5,
+            "below_minimum_count": 0,
+            "text_run_count": 56
+          },
+          "collision": {
+            "passed": true,
+            "auditable": true,
+            "failures": 0,
+            "warnings": 0
+          },
+          "visual_review": {
+            "passed": true,
+            "render_style_sha256": "c319ab6fc12e02cc8b1dba37e4fdd78c837ce3e84cbd9b7f24ba37ac0af5d542",
+            "reviewed_style_matches": true,
+            "manual_review_record": "configs/figures/qa_review.json",
+            "manual_review_scope": "Original and locally regenerated panels with the retained drawing styles",
+            "manual_review_result": "All original and final regenerated panels inspected; labels and legends clear, 95% confidence bands intact, auxiliary zoom connections unambiguous; no clipping or overlap.",
+            "current_render": {
+              "same_dimensions": true,
+              "reference": "results/reference/figures/ksc_marginal_associations.png",
+              "identical_pixels": false,
+              "mean_absolute_channel_difference": 2.449844621719077e-05,
+              "changed_pixel_fraction": 4.5841160379285777e-05
+            }
+          },
+          "formats": [
+            "figures/ksc_marginal_associations.png",
+            "figures/ksc_marginal_associations.pdf",
+            "figures/ksc_marginal_associations.svg"
+          ]
+        }
+      ]
+    }
+  },
+  "runtime_seconds": 10.939,
+  "package_versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "pyarrow": "22.0.0",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "PyYAML": "6.0.3",
+    "Pillow": "12.3.0",
+    "PyMuPDF": "1.28.2"
+  }
+}

@@ -1,0 +1,4611 @@
+format_version: 1
+source_workbook:
+  path: compute/outputs/gpu_normalization_review_excel_20260806/gpu_normalization_review.xlsx
+  sha256: 4c1b854951fa1922caaf7d5cbab80914b39facf71ab94e476677799f254801bf
+  sheet: 型号映射审查
+  imported_at: '2026-08-06T03:52:12.219963+00:00'
+manual_reviewed_gpu_mappings:
+- id: reviewed_excel_row_0004
+  raw_gpu_model: 100 40G
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 4
+- id: reviewed_excel_row_0005
+  raw_gpu_model: 100 GPU
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 5
+- id: reviewed_excel_row_0006
+  raw_gpu_model: 100-SXM4-40GB
+  benchmark_gpu_name: NVIDIA A100 SXM4 40 GB
+  source_row: 6
+- id: reviewed_excel_row_0007
+  raw_gpu_model: 1070Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1070
+  source_row: 7
+- id: reviewed_excel_row_0008
+  raw_gpu_model: 1080 Titan
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 8
+- id: reviewed_excel_row_0009
+  raw_gpu_model: 1080X
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 9
+- id: reviewed_excel_row_0018
+  raw_gpu_model: 12080Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 18
+- id: reviewed_excel_row_0032
+  raw_gpu_model: 2080 NVIDIA GPU
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080
+  source_row: 32
+- id: reviewed_excel_row_0033
+  raw_gpu_model: 2080 Super
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 SUPER
+  source_row: 33
+- id: reviewed_excel_row_0035
+  raw_gpu_model: 2080RTXTi
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 35
+- id: reviewed_excel_row_0036
+  raw_gpu_model: 2080Ti server
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 36
+- id: reviewed_excel_row_0038
+  raw_gpu_model: 24 GeForce GTX 1080
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 38
+- id: reviewed_excel_row_0044
+  raw_gpu_model: 3060 NVIDIA GPU
+  benchmark_gpu_name: NVIDIA GeForce RTX 3060
+  source_row: 44
+- id: reviewed_excel_row_0045
+  raw_gpu_model: 3060 Ti 8G
+  benchmark_gpu_name: NVIDIA GeForce RTX 3060 Ti
+  source_row: 45
+- id: reviewed_excel_row_0046
+  raw_gpu_model: 3080 Laptop GPU
+  benchmark_gpu_name: NVIDIA GeForce RTX 3080
+  source_row: 46
+- id: reviewed_excel_row_0047
+  raw_gpu_model: 3090 NVIDIA
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 47
+- id: reviewed_excel_row_0049
+  raw_gpu_model: 3090 RTS
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 49
+- id: reviewed_excel_row_0050
+  raw_gpu_model: 3090 server
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 50
+- id: reviewed_excel_row_0063
+  raw_gpu_model: '4060'
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  source_row: 63
+- id: reviewed_excel_row_0064
+  raw_gpu_model: 4060 RTX
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  source_row: 64
+- id: reviewed_excel_row_0065
+  raw_gpu_model: 4060RTX 8GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  source_row: 65
+- id: reviewed_excel_row_0066
+  raw_gpu_model: 4080 server
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 66
+- id: reviewed_excel_row_0072
+  raw_gpu_model: '5080'
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 72
+- id: reviewed_excel_row_0073
+  raw_gpu_model: 600 ADA 48GB
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 73
+- id: reviewed_excel_row_0075
+  raw_gpu_model: 6G GeForce GTX 1080
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 75
+- id: reviewed_excel_row_0092
+  raw_gpu_model: A-4000 48GB
+  benchmark_gpu_name: NVIDIA RTX A4000
+  source_row: 92
+- id: reviewed_excel_row_0093
+  raw_gpu_model: A10 24
+  benchmark_gpu_name: NVIDIA A10
+  source_row: 93
+- id: reviewed_excel_row_0094
+  raw_gpu_model: A100 32Gb V100 SXM2
+  benchmark_gpu_name: NVIDIA A100 SXM4 40 GB
+  source_row: 94
+- id: reviewed_excel_row_0095
+  raw_gpu_model: A100 40GB PCI
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 95
+- id: reviewed_excel_row_0096
+  raw_gpu_model: A100 80
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 96
+- id: reviewed_excel_row_0097
+  raw_gpu_model: A100 Ampere
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 97
+- id: reviewed_excel_row_0098
+  raw_gpu_model: A100 fat
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 98
+- id: reviewed_excel_row_0099
+  raw_gpu_model: A100 fat 80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 99
+- id: reviewed_excel_row_0100
+  raw_gpu_model: A100 H100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 100
+- id: reviewed_excel_row_0101
+  raw_gpu_model: A100 PCIe 40/80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 101
+- id: reviewed_excel_row_0102
+  raw_gpu_model: A100-80
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 102
+- id: reviewed_excel_row_0103
+  raw_gpu_model: A100-PCIE40GB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 103
+- id: reviewed_excel_row_0104
+  raw_gpu_model: A100-SMX4
+  benchmark_gpu_name: NVIDIA A100 SXM4 80 GB
+  source_row: 104
+- id: reviewed_excel_row_0105
+  raw_gpu_model: A100-SMX4-40GB
+  benchmark_gpu_name: NVIDIA A100 SXM4 40 GB
+  source_row: 105
+- id: reviewed_excel_row_0106
+  raw_gpu_model: A100-SMX4-8
+  benchmark_gpu_name: NVIDIA A100 SXM4 80 GB
+  source_row: 106
+- id: reviewed_excel_row_0107
+  raw_gpu_model: A100-SXM4 NVIDIA GPU 40G
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 107
+- id: reviewed_excel_row_0108
+  raw_gpu_model: A100-SXM4-80
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 108
+- id: reviewed_excel_row_0109
+  raw_gpu_model: A100/H100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 109
+- id: reviewed_excel_row_0110
+  raw_gpu_model: A100/H100 80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 110
+- id: reviewed_excel_row_0111
+  raw_gpu_model: A100G 80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 111
+- id: reviewed_excel_row_0112
+  raw_gpu_model: A100SXM4
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 112
+- id: reviewed_excel_row_0113
+  raw_gpu_model: A1200 32GB
+  benchmark_gpu_name: NVIDIA A10
+  source_row: 113
+- id: reviewed_excel_row_0114
+  raw_gpu_model: A16
+  benchmark_gpu_name: NVIDIA A10
+  source_row: 114
+- id: reviewed_excel_row_0115
+  raw_gpu_model: A2600
+  benchmark_gpu_name: NVIDIA A30
+  source_row: 115
+- id: reviewed_excel_row_0116
+  raw_gpu_model: A500
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 116
+- id: reviewed_excel_row_0117
+  raw_gpu_model: A5000 Ada
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 117
+- id: reviewed_excel_row_0118
+  raw_gpu_model: A550 24GB
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 118
+- id: reviewed_excel_row_0119
+  raw_gpu_model: A6000 48 Go
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 119
+- id: reviewed_excel_row_0120
+  raw_gpu_model: A800 NVLink
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 120
+- id: reviewed_excel_row_0121
+  raw_gpu_model: A800-NVLink
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 121
+- id: reviewed_excel_row_0122
+  raw_gpu_model: A8000
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 122
+- id: reviewed_excel_row_0123
+  raw_gpu_model: Ada 6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 123
+- id: reviewed_excel_row_0124
+  raw_gpu_model: Ada A6000 48GB
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 124
+- id: reviewed_excel_row_0125
+  raw_gpu_model: Ada L4
+  benchmark_gpu_name: NVIDIA L4
+  source_row: 125
+- id: reviewed_excel_row_0126
+  raw_gpu_model: ADA5000
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 126
+- id: reviewed_excel_row_0127
+  raw_gpu_model: Ada6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 127
+- id: reviewed_excel_row_0130
+  raw_gpu_model: AMD 192G-MI300X
+  benchmark_gpu_name: AMD Instinct MI300X
+  source_row: 130
+- id: reviewed_excel_row_0131
+  raw_gpu_model: AMD GPU
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 131
+- id: reviewed_excel_row_0132
+  raw_gpu_model: AMD Instinct MI100
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 132
+- id: reviewed_excel_row_0133
+  raw_gpu_model: AMD Instinct MI200
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 133
+- id: reviewed_excel_row_0134
+  raw_gpu_model: AMD Instinct MI200 64GB
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 134
+- id: reviewed_excel_row_0135
+  raw_gpu_model: AMD Instinct MI250
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 135
+- id: reviewed_excel_row_0136
+  raw_gpu_model: AMD Instinct MI250 64GB
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 136
+- id: reviewed_excel_row_0137
+  raw_gpu_model: AMD MI100
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 137
+- id: reviewed_excel_row_0138
+  raw_gpu_model: AMD MI200X
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 138
+- id: reviewed_excel_row_0139
+  raw_gpu_model: AMD MI250
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 139
+- id: reviewed_excel_row_0140
+  raw_gpu_model: AMD MI250 64GB
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 140
+- id: reviewed_excel_row_0141
+  raw_gpu_model: AMD MI300
+  benchmark_gpu_name: AMD Radeon Instinct MI300
+  source_row: 141
+- id: reviewed_excel_row_0142
+  raw_gpu_model: AMD MI300 192GB
+  benchmark_gpu_name: AMD Radeon Instinct MI300
+  source_row: 142
+- id: reviewed_excel_row_0143
+  raw_gpu_model: AMD MI300X
+  benchmark_gpu_name: AMD Instinct MI300X
+  source_row: 143
+- id: reviewed_excel_row_0144
+  raw_gpu_model: AMD MI300X 192G
+  benchmark_gpu_name: AMD Instinct MI300X
+  source_row: 144
+- id: reviewed_excel_row_0145
+  raw_gpu_model: AMD MI50
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 145
+- id: reviewed_excel_row_0146
+  raw_gpu_model: AMD MI60
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 146
+- id: reviewed_excel_row_0147
+  raw_gpu_model: AMD Radeon Instinct MI50 32GB
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 147
+- id: reviewed_excel_row_0148
+  raw_gpu_model: AMD Radeon Instinct MI60
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 148
+- id: reviewed_excel_row_0149
+  raw_gpu_model: AMD Radeon Pro 5500M
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 149
+- id: reviewed_excel_row_0150
+  raw_gpu_model: AMD Radeon R9 380
+  benchmark_gpu_name: AMD Instinct MI355X
+  source_row: 150
+- id: reviewed_excel_row_0151
+  raw_gpu_model: AMD Radeon R9 M370X
+  benchmark_gpu_name: AMD Instinct MI355X
+  source_row: 151
+- id: reviewed_excel_row_0153
+  raw_gpu_model: Ampere A100 40GB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 153
+- id: reviewed_excel_row_0154
+  raw_gpu_model: Ampere A100 64GB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 154
+- id: reviewed_excel_row_0155
+  raw_gpu_model: Ampere A100 SXM4 80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 155
+- id: reviewed_excel_row_0156
+  raw_gpu_model: AORUS RTX 4090 24GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 156
+- id: reviewed_excel_row_0165
+  raw_gpu_model: Ascend
+  benchmark_gpu_name: Huawei Ascend 920
+  source_row: 165
+- id: reviewed_excel_row_0166
+  raw_gpu_model: Ascend AI Processor
+  benchmark_gpu_name: Huawei Ascend 920
+  source_row: 166
+- id: reviewed_excel_row_0167
+  raw_gpu_model: Ascend H910B 64G
+  benchmark_gpu_name: Huawei Ascend 920
+  source_row: 167
+- id: reviewed_excel_row_0170
+  raw_gpu_model: ce RTX 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 170
+- id: reviewed_excel_row_0178
+  raw_gpu_model: CUDA K80
+  benchmark_gpu_name: NVIDIA Tesla K80
+  source_row: 178
+- id: reviewed_excel_row_0179
+  raw_gpu_model: custom A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 179
+- id: reviewed_excel_row_0183
+  raw_gpu_model: DELL Tesla V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 183
+- id: reviewed_excel_row_0186
+  raw_gpu_model: DGX A100 8x A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 186
+- id: reviewed_excel_row_0187
+  raw_gpu_model: DGX A100-SXM-80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 187
+- id: reviewed_excel_row_0189
+  raw_gpu_model: DGX H100
+  benchmark_gpu_name: NVIDIA H100 PCIe
+  source_row: 189
+- id: reviewed_excel_row_0190
+  raw_gpu_model: DGX V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 190
+- id: reviewed_excel_row_0191
+  raw_gpu_model: DGX V100 Tesla V100 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 191
+- id: reviewed_excel_row_0192
+  raw_gpu_model: DGX-A800
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 192
+- id: reviewed_excel_row_0193
+  raw_gpu_model: DGX-V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 193
+- id: reviewed_excel_row_0198
+  raw_gpu_model: G-Force RTX 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 198
+- id: reviewed_excel_row_0199
+  raw_gpu_model: GALAX GeForce RTX 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 199
+- id: reviewed_excel_row_0200
+  raw_gpu_model: GCP 40GB A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 200
+- id: reviewed_excel_row_0202
+  raw_gpu_model: GeForce 1080 GTX
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 202
+- id: reviewed_excel_row_0203
+  raw_gpu_model: GeForce 2080 Titan RTX
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 203
+- id: reviewed_excel_row_0204
+  raw_gpu_model: GeForce 2080Ti GTX
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 204
+- id: reviewed_excel_row_0205
+  raw_gpu_model: Geforce 780Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 205
+- id: reviewed_excel_row_0206
+  raw_gpu_model: GeForce 980
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 206
+- id: reviewed_excel_row_0207
+  raw_gpu_model: Geforce 980 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 207
+- id: reviewed_excel_row_0209
+  raw_gpu_model: GeForce GT 630
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 209
+- id: reviewed_excel_row_0210
+  raw_gpu_model: GeForce GT 730M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 210
+- id: reviewed_excel_row_0212
+  raw_gpu_model: GeForce GTX 1050 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 212
+- id: reviewed_excel_row_0213
+  raw_gpu_model: GeForce GTX 1070 Max-Q
+  benchmark_gpu_name: NVIDIA GeForce GTX 1070
+  source_row: 213
+- id: reviewed_excel_row_0214
+  raw_gpu_model: GeForce GTX 1070 Max-Q Design
+  benchmark_gpu_name: NVIDIA GeForce GTX 1070
+  source_row: 214
+- id: reviewed_excel_row_0215
+  raw_gpu_model: GeForce GTX 1070 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1070
+  source_row: 215
+- id: reviewed_excel_row_0216
+  raw_gpu_model: GeForce GTX 1080 6G
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 216
+- id: reviewed_excel_row_0217
+  raw_gpu_model: GeForce GTX 1080/1080 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 217
+- id: reviewed_excel_row_0218
+  raw_gpu_model: GeForce GTX 1660
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 218
+- id: reviewed_excel_row_0219
+  raw_gpu_model: GeForce GTX 1660 SUPER
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 219
+- id: reviewed_excel_row_0220
+  raw_gpu_model: GeForce GTX 1660 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 220
+- id: reviewed_excel_row_0221
+  raw_gpu_model: GeForce GTX 4060
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  source_row: 221
+- id: reviewed_excel_row_0222
+  raw_gpu_model: GeForce GTX 4090Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 222
+- id: reviewed_excel_row_0223
+  raw_gpu_model: GeForce GTX 480
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 223
+- id: reviewed_excel_row_0224
+  raw_gpu_model: GeForce GTX 480 1GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 224
+- id: reviewed_excel_row_0225
+  raw_gpu_model: GeForce GTX 590
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 225
+- id: reviewed_excel_row_0226
+  raw_gpu_model: GeForce GTX 745
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 226
+- id: reviewed_excel_row_0227
+  raw_gpu_model: GeForce GTX 750
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 227
+- id: reviewed_excel_row_0228
+  raw_gpu_model: GeForce GTX 750 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 228
+- id: reviewed_excel_row_0229
+  raw_gpu_model: GeForce GTX 770
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 229
+- id: reviewed_excel_row_0230
+  raw_gpu_model: GeForce GTX 780 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 230
+- id: reviewed_excel_row_0231
+  raw_gpu_model: Geforce GTX 780 Ti 3GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 231
+- id: reviewed_excel_row_0232
+  raw_gpu_model: GeForce GTX 780Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 232
+- id: reviewed_excel_row_0233
+  raw_gpu_model: GeForce GTX 880M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 233
+- id: reviewed_excel_row_0234
+  raw_gpu_model: GeForce GTX 950M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 234
+- id: reviewed_excel_row_0235
+  raw_gpu_model: GeForce GTX 960M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 235
+- id: reviewed_excel_row_0236
+  raw_gpu_model: GeForce GTX 970
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 236
+- id: reviewed_excel_row_0237
+  raw_gpu_model: GeForce GTX 970 4GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 237
+- id: reviewed_excel_row_0238
+  raw_gpu_model: GeForce GTX 980 4G
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 238
+- id: reviewed_excel_row_0239
+  raw_gpu_model: GeForce GTX 980 Ti 6G
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 239
+- id: reviewed_excel_row_0240
+  raw_gpu_model: GeForce GTX Tesla P4 8GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 240
+- id: reviewed_excel_row_0241
+  raw_gpu_model: GeForce GTX TITAN Black 6048MB
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 241
+- id: reviewed_excel_row_0242
+  raw_gpu_model: GeForce GTX TITAN X Pascal
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 242
+- id: reviewed_excel_row_0243
+  raw_gpu_model: GeForce GTX Titan X Pascal 12GB
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 243
+- id: reviewed_excel_row_0244
+  raw_gpu_model: GeForce GTX TITAN XP
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 244
+- id: reviewed_excel_row_0247
+  raw_gpu_model: GeForce GTX Titan Z
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 247
+- id: reviewed_excel_row_0248
+  raw_gpu_model: GeForce GTX780Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 248
+- id: reviewed_excel_row_0249
+  raw_gpu_model: GeForce GTX970
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 249
+- id: reviewed_excel_row_0251
+  raw_gpu_model: GeForce MX150 2GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 251
+- id: reviewed_excel_row_0252
+  raw_gpu_model: GeForce MX250
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 252
+- id: reviewed_excel_row_0254
+  raw_gpu_model: GeForce RTX 2070 Mobile
+  benchmark_gpu_name: NVIDIA GeForce RTX 2070
+  source_row: 254
+- id: reviewed_excel_row_0255
+  raw_gpu_model: GeForce RTX 208
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 255
+- id: reviewed_excel_row_0256
+  raw_gpu_model: GeForce RTX 2080 11Go
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 256
+- id: reviewed_excel_row_0257
+  raw_gpu_model: GeForce RTX 2080 8G
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 257
+- id: reviewed_excel_row_0258
+  raw_gpu_model: GeForce RTX 2080 Max-Q
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 258
+- id: reviewed_excel_row_0259
+  raw_gpu_model: GeForce RTX 2080 with Max-Q
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 259
+- id: reviewed_excel_row_0260
+  raw_gpu_model: GeForce RTX 2080T
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 260
+- id: reviewed_excel_row_0261
+  raw_gpu_model: GeForce RTX 3060 Laptop GPU
+  benchmark_gpu_name: NVIDIA GeForce RTX 3060
+  source_row: 261
+- id: reviewed_excel_row_0262
+  raw_gpu_model: GeForce RTX 3080 Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 3080
+  source_row: 262
+- id: reviewed_excel_row_0263
+  raw_gpu_model: GeForce RTX 4090 D
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 263
+- id: reviewed_excel_row_0264
+  raw_gpu_model: GeForce RTX 4090 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 264
+- id: reviewed_excel_row_0265
+  raw_gpu_model: Geforce RTX 4090Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 265
+- id: reviewed_excel_row_0266
+  raw_gpu_model: GeForce TITAN 1080Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 266
+- id: reviewed_excel_row_0267
+  raw_gpu_model: GeForce TRX 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 267
+- id: reviewed_excel_row_0268
+  raw_gpu_model: GeForceRTX 2080 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 268
+- id: reviewed_excel_row_0269
+  raw_gpu_model: GeForceRTX 2080T
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 269
+- id: reviewed_excel_row_0270
+  raw_gpu_model: Gefore RTX 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 270
+- id: reviewed_excel_row_0271
+  raw_gpu_model: GeForece RTX 2080 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 271
+- id: reviewed_excel_row_0273
+  raw_gpu_model: Geoforce RTX 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 273
+- id: reviewed_excel_row_0275
+  raw_gpu_model: GPT H100 80GB
+  benchmark_gpu_name: NVIDIA H100 PCIe
+  source_row: 275
+- id: reviewed_excel_row_0280
+  raw_gpu_model: GPU 1080X
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 280
+- id: reviewed_excel_row_0295
+  raw_gpu_model: GPU TITAN X
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 295
+- id: reviewed_excel_row_0298
+  raw_gpu_model: GPU-2080i
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 298
+- id: reviewed_excel_row_0307
+  raw_gpu_model: Grace Hopper GH200
+  benchmark_gpu_name: NVIDIA GH200
+  source_row: 307
+- id: reviewed_excel_row_0309
+  raw_gpu_model: GRID A100D-10C
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 309
+- id: reviewed_excel_row_0310
+  raw_gpu_model: GTEX 2080 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 310
+- id: reviewed_excel_row_0312
+  raw_gpu_model: GTX 1050 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 312
+- id: reviewed_excel_row_0313
+  raw_gpu_model: GTX 1050 Ti with Max-Q Design
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 313
+- id: reviewed_excel_row_0314
+  raw_gpu_model: GTX 1050Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 314
+- id: reviewed_excel_row_0315
+  raw_gpu_model: GTX 1060 6G
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 315
+- id: reviewed_excel_row_0316
+  raw_gpu_model: GTX 1070 Ti 8G
+  benchmark_gpu_name: NVIDIA GeForce GTX 1070
+  source_row: 316
+- id: reviewed_excel_row_0317
+  raw_gpu_model: GTX 1070Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1070
+  source_row: 317
+- id: reviewed_excel_row_0319
+  raw_gpu_model: GTX 1080 8G
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 319
+- id: reviewed_excel_row_0320
+  raw_gpu_model: GTX 1650 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 320
+- id: reviewed_excel_row_0321
+  raw_gpu_model: GTX 1650 Ti Laptop
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 321
+- id: reviewed_excel_row_0322
+  raw_gpu_model: GTX 1660
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 322
+- id: reviewed_excel_row_0323
+  raw_gpu_model: GTX 1660 SUPER
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 323
+- id: reviewed_excel_row_0324
+  raw_gpu_model: GTX 1660S
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 324
+- id: reviewed_excel_row_0325
+  raw_gpu_model: GTX 4080 Super
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 325
+- id: reviewed_excel_row_0326
+  raw_gpu_model: GTX 570
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 326
+- id: reviewed_excel_row_0327
+  raw_gpu_model: GTX 670
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 327
+- id: reviewed_excel_row_0328
+  raw_gpu_model: GTX 780 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 328
+- id: reviewed_excel_row_0329
+  raw_gpu_model: GTX 780M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 329
+- id: reviewed_excel_row_0330
+  raw_gpu_model: GTX 780Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 330
+- id: reviewed_excel_row_0331
+  raw_gpu_model: GTX 960M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 331
+- id: reviewed_excel_row_0332
+  raw_gpu_model: GTX 970
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 332
+- id: reviewed_excel_row_0333
+  raw_gpu_model: GTX A10
+  benchmark_gpu_name: NVIDIA A10
+  source_row: 333
+- id: reviewed_excel_row_0334
+  raw_gpu_model: GTX A100 40GB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 334
+- id: reviewed_excel_row_0335
+  raw_gpu_model: GTX A6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 335
+- id: reviewed_excel_row_0336
+  raw_gpu_model: GTX A800 80G
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 336
+- id: reviewed_excel_row_0337
+  raw_gpu_model: GTX TITAN 12G Memory GPU
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 337
+- id: reviewed_excel_row_0338
+  raw_gpu_model: GTX Titan RTX
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 338
+- id: reviewed_excel_row_0339
+  raw_gpu_model: GTX TITAN V
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 339
+- id: reviewed_excel_row_0340
+  raw_gpu_model: GTX Titan X Pascal
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 340
+- id: reviewed_excel_row_0341
+  raw_gpu_model: GTX TITAN X Pascal 12G
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 341
+- id: reviewed_excel_row_0342
+  raw_gpu_model: GTX TITAN XP
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 342
+- id: reviewed_excel_row_0346
+  raw_gpu_model: GTX Titan Xp 12GB
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 346
+- id: reviewed_excel_row_0347
+  raw_gpu_model: GTX TitanX Maxwell 980
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 347
+- id: reviewed_excel_row_0348
+  raw_gpu_model: GTX-RTX
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 348
+- id: reviewed_excel_row_0349
+  raw_gpu_model: GTX5070ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 349
+- id: reviewed_excel_row_0350
+  raw_gpu_model: GTX680
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 350
+- id: reviewed_excel_row_0351
+  raw_gpu_model: GTX750 Nvidia
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 351
+- id: reviewed_excel_row_0352
+  raw_gpu_model: GTX760
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 352
+- id: reviewed_excel_row_0353
+  raw_gpu_model: GTX760M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 353
+- id: reviewed_excel_row_0354
+  raw_gpu_model: H100 HBM3
+  benchmark_gpu_name: NVIDIA H100 PCIe
+  source_row: 354
+- id: reviewed_excel_row_0355
+  raw_gpu_model: H100-80GB-HBM3
+  benchmark_gpu_name: NVIDIA H100 PCIe
+  source_row: 355
+- id: reviewed_excel_row_0356
+  raw_gpu_model: H100-HBM3 80GB
+  benchmark_gpu_name: NVIDIA H100 PCIe
+  source_row: 356
+- id: reviewed_excel_row_0357
+  raw_gpu_model: H100-HBM3-80GB
+  benchmark_gpu_name: NVIDIA H100 PCIe
+  source_row: 357
+- id: reviewed_excel_row_0358
+  raw_gpu_model: H20 NVLink
+  benchmark_gpu_name: NVIDIA HGX H20
+  source_row: 358
+- id: reviewed_excel_row_0359
+  raw_gpu_model: H20-NVLink
+  benchmark_gpu_name: NVIDIA HGX H20
+  source_row: 359
+- id: reviewed_excel_row_0362
+  raw_gpu_model: HUAWEI Atlas 200DK
+  benchmark_gpu_name: Huawei Ascend 310
+  source_row: 362
+- id: reviewed_excel_row_0364
+  raw_gpu_model: IDIA 2080 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 364
+- id: reviewed_excel_row_0365
+  raw_gpu_model: IDIA 3090Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 365
+- id: reviewed_excel_row_0366
+  raw_gpu_model: IDIA 4090
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 366
+- id: reviewed_excel_row_0367
+  raw_gpu_model: IDIA 40G A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 367
+- id: reviewed_excel_row_0368
+  raw_gpu_model: IDIA A100 80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 368
+- id: reviewed_excel_row_0369
+  raw_gpu_model: IDIA A40
+  benchmark_gpu_name: NVIDIA A40 PCIe
+  source_row: 369
+- id: reviewed_excel_row_0370
+  raw_gpu_model: IDIA A6000 48GB
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 370
+- id: reviewed_excel_row_0371
+  raw_gpu_model: IDIA A800 80GB
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 371
+- id: reviewed_excel_row_0372
+  raw_gpu_model: IDIA GTX 2080ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 372
+- id: reviewed_excel_row_0374
+  raw_gpu_model: IDIA RTX A5000
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 374
+- id: reviewed_excel_row_0375
+  raw_gpu_model: IDIA RTX2080Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 375
+- id: reviewed_excel_row_0376
+  raw_gpu_model: IDIA Tesla A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 376
+- id: reviewed_excel_row_0377
+  raw_gpu_model: IDIA Tesla A100-SXM4-40GB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 377
+- id: reviewed_excel_row_0378
+  raw_gpu_model: IDIA Tesla V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 378
+- id: reviewed_excel_row_0379
+  raw_gpu_model: IDIA TitanX
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 379
+- id: reviewed_excel_row_0380
+  raw_gpu_model: idia TitanX Pascal 12GB
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 380
+- id: reviewed_excel_row_0381
+  raw_gpu_model: IDIA V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 381
+- id: reviewed_excel_row_0383
+  raw_gpu_model: Instinct MI210 64GB
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 383
+- id: reviewed_excel_row_0384
+  raw_gpu_model: Intel GeForce RTX 3090 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 384
+- id: reviewed_excel_row_0385
+  raw_gpu_model: Intel Tesla K80
+  benchmark_gpu_name: NVIDIA Tesla K80
+  source_row: 385
+- id: reviewed_excel_row_0387
+  raw_gpu_model: Jetson AGX Orin
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 387
+- id: reviewed_excel_row_0388
+  raw_gpu_model: Jetson AGX Orin 32GB
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 388
+- id: reviewed_excel_row_0389
+  raw_gpu_model: Jetson AGX Orin 64GB
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 389
+- id: reviewed_excel_row_0390
+  raw_gpu_model: Jetson AGX Xavier
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 390
+- id: reviewed_excel_row_0391
+  raw_gpu_model: Jetson AGX Xavier 32GB
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 391
+- id: reviewed_excel_row_0392
+  raw_gpu_model: Jetson NANO
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 392
+- id: reviewed_excel_row_0394
+  raw_gpu_model: Jetson Nano 10W
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 394
+- id: reviewed_excel_row_0395
+  raw_gpu_model: Jetson Nano 4GB
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 395
+- id: reviewed_excel_row_0396
+  raw_gpu_model: Jetson Orin
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 396
+- id: reviewed_excel_row_0397
+  raw_gpu_model: Jetson Orin AGX 32G
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 397
+- id: reviewed_excel_row_0398
+  raw_gpu_model: Jetson Orin Nano
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 398
+- id: reviewed_excel_row_0399
+  raw_gpu_model: Jetson Orin Nano GPU
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 399
+- id: reviewed_excel_row_0400
+  raw_gpu_model: Jetson Orin NX
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 400
+- id: reviewed_excel_row_0401
+  raw_gpu_model: Jetson R2
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 401
+- id: reviewed_excel_row_0402
+  raw_gpu_model: Jetson R4
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 402
+- id: reviewed_excel_row_0403
+  raw_gpu_model: Jetson TX2
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 403
+- id: reviewed_excel_row_0404
+  raw_gpu_model: Jetson Xavier
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 404
+- id: reviewed_excel_row_0405
+  raw_gpu_model: Jetson Xavier GPU
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 405
+- id: reviewed_excel_row_0406
+  raw_gpu_model: Jetson Xavier NX
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 406
+- id: reviewed_excel_row_0407
+  raw_gpu_model: JetsonTX2
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 407
+- id: reviewed_excel_row_0409
+  raw_gpu_model: K100
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 409
+- id: reviewed_excel_row_0410
+  raw_gpu_model: K2
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 410
+- id: reviewed_excel_row_0411
+  raw_gpu_model: K2 GPU
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 411
+- id: reviewed_excel_row_0412
+  raw_gpu_model: K20
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 412
+- id: reviewed_excel_row_0413
+  raw_gpu_model: K40 Tesla
+  benchmark_gpu_name: NVIDIA Tesla K40s
+  source_row: 413
+- id: reviewed_excel_row_0415
+  raw_gpu_model: Kepler Tesla K20m
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 415
+- id: reviewed_excel_row_0416
+  raw_gpu_model: L20Z
+  benchmark_gpu_name: NVIDIA L20 PCle
+  source_row: 416
+- id: reviewed_excel_row_0435
+  raw_gpu_model: Maxwell GTX Titan-X
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 435
+- id: reviewed_excel_row_0436
+  raw_gpu_model: Maxwell Titan X
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 436
+- id: reviewed_excel_row_0437
+  raw_gpu_model: Maxwell Titan X GTX
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 437
+- id: reviewed_excel_row_0438
+  raw_gpu_model: Maxwell TitanX
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 438
+- id: reviewed_excel_row_0445
+  raw_gpu_model: MI100
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 445
+- id: reviewed_excel_row_0446
+  raw_gpu_model: MI108 32GB
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 446
+- id: reviewed_excel_row_0447
+  raw_gpu_model: MI120 AMD GPU
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 447
+- id: reviewed_excel_row_0448
+  raw_gpu_model: MI300A
+  benchmark_gpu_name: AMD Instinct MI300A
+  source_row: 448
+- id: reviewed_excel_row_0449
+  raw_gpu_model: MI300X
+  benchmark_gpu_name: AMD Instinct MI300X
+  source_row: 449
+- id: reviewed_excel_row_0450
+  raw_gpu_model: MI50 GPU
+  benchmark_gpu_name: AMD Instinct MI210
+  source_row: 450
+- id: reviewed_excel_row_0455
+  raw_gpu_model: MSI Geforce GTX 1080 Gaming X 8G
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 455
+- id: reviewed_excel_row_0456
+  raw_gpu_model: MSI GeForce RTX 3080 GAMING X TRIO 10G
+  benchmark_gpu_name: NVIDIA GeForce RTX 3080 Ti
+  source_row: 456
+- id: reviewed_excel_row_0457
+  raw_gpu_model: MSI GeForce RTX 3090 Gaming X Trio 24G 24GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 457
+- id: reviewed_excel_row_0459
+  raw_gpu_model: MX350
+  benchmark_gpu_name: AMD Instinct MI350X
+  source_row: 459
+- id: reviewed_excel_row_0461
+  raw_gpu_model: N-Vidia 1080Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 461
+- id: reviewed_excel_row_0463
+  raw_gpu_model: Navidia 2080ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 463
+- id: reviewed_excel_row_0464
+  raw_gpu_model: NAVIDIA Geforce GTX 1660
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 464
+- id: reviewed_excel_row_0465
+  raw_gpu_model: NDVIDIA A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 465
+- id: reviewed_excel_row_0466
+  raw_gpu_model: NIDIA 1080Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 466
+- id: reviewed_excel_row_0467
+  raw_gpu_model: NIVDIA A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 467
+- id: reviewed_excel_row_0468
+  raw_gpu_model: NIVDIA A100 80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 468
+- id: reviewed_excel_row_0469
+  raw_gpu_model: NIVDIA P40
+  benchmark_gpu_name: NVIDIA P40
+  source_row: 469
+- id: reviewed_excel_row_0470
+  raw_gpu_model: NIVDIA TITAN X
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 470
+- id: reviewed_excel_row_0472
+  raw_gpu_model: Nivdia Titan-X
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 472
+- id: reviewed_excel_row_0473
+  raw_gpu_model: NIVIDA A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 473
+- id: reviewed_excel_row_0474
+  raw_gpu_model: NIVIDA A40
+  benchmark_gpu_name: NVIDIA A40 PCIe
+  source_row: 474
+- id: reviewed_excel_row_0475
+  raw_gpu_model: NIVIDA Titan RTX
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 475
+- id: reviewed_excel_row_0476
+  raw_gpu_model: NIVIDIA 1080Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 476
+- id: reviewed_excel_row_0477
+  raw_gpu_model: Nividia A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 477
+- id: reviewed_excel_row_0478
+  raw_gpu_model: NIVIDIA A100 80B
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 478
+- id: reviewed_excel_row_0479
+  raw_gpu_model: Nividia GeForce 3060ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 3060 Ti
+  source_row: 479
+- id: reviewed_excel_row_0480
+  raw_gpu_model: Nividia GeForce 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 480
+- id: reviewed_excel_row_0481
+  raw_gpu_model: Nividia TITAN X
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 481
+- id: reviewed_excel_row_0482
+  raw_gpu_model: Nividia V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 482
+- id: reviewed_excel_row_0483
+  raw_gpu_model: Nividia V100 32G
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 483
+- id: reviewed_excel_row_0486
+  raw_gpu_model: NV A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 486
+- id: reviewed_excel_row_0487
+  raw_gpu_model: NV GeForce RTX 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 487
+- id: reviewed_excel_row_0488
+  raw_gpu_model: NV GeForce RTX 4090
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 488
+- id: reviewed_excel_row_0489
+  raw_gpu_model: Nvda Tesla V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 489
+- id: reviewed_excel_row_0490
+  raw_gpu_model: NVDIA GTX 1080Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 490
+- id: reviewed_excel_row_0491
+  raw_gpu_model: NVDIA RTX 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 491
+- id: reviewed_excel_row_0492
+  raw_gpu_model: NVDIA RTX 8000
+  benchmark_gpu_name: NVIDIA Quadro RTX 8000
+  source_row: 492
+- id: reviewed_excel_row_0493
+  raw_gpu_model: NVIDA GeForce RTX 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 493
+- id: reviewed_excel_row_0494
+  raw_gpu_model: Nvidea 1080 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 494
+- id: reviewed_excel_row_0497
+  raw_gpu_model: NVIDIA 1050
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 497
+- id: reviewed_excel_row_0498
+  raw_gpu_model: NVIDIA 1050ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 498
+- id: reviewed_excel_row_0499
+  raw_gpu_model: NVIDIA 1060
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 499
+- id: reviewed_excel_row_0501
+  raw_gpu_model: NVIDIA 1070 Ti 8GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1070
+  source_row: 501
+- id: reviewed_excel_row_0502
+  raw_gpu_model: NVIDIA 1070TI
+  benchmark_gpu_name: NVIDIA GeForce GTX 1070
+  source_row: 502
+- id: reviewed_excel_row_0503
+  raw_gpu_model: NVIDIA 1080 GTX Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 503
+- id: reviewed_excel_row_0506
+  raw_gpu_model: NVidia 1080 Maxwell
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 506
+- id: reviewed_excel_row_0507
+  raw_gpu_model: NVIDIA 1080 Ti GTX
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 507
+- id: reviewed_excel_row_0508
+  raw_gpu_model: NVIDIA 1080 Titan
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 508
+- id: reviewed_excel_row_0509
+  raw_gpu_model: Nvidia 1080 TX
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 509
+- id: reviewed_excel_row_0513
+  raw_gpu_model: Nvidia 12GB 3080ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 3080 Ti
+  source_row: 513
+- id: reviewed_excel_row_0514
+  raw_gpu_model: NVIDIA 1650Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 514
+- id: reviewed_excel_row_0515
+  raw_gpu_model: NVIDIA 1660 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 515
+- id: reviewed_excel_row_0516
+  raw_gpu_model: NVIDIA 16G V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 516
+- id: reviewed_excel_row_0520
+  raw_gpu_model: NVIDIA 16GB V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 520
+- id: reviewed_excel_row_0521
+  raw_gpu_model: NVIDIA 2*A800 80GB
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 521
+- id: reviewed_excel_row_0522
+  raw_gpu_model: Nvidia 2060 6GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 2060 SUPER
+  source_row: 522
+- id: reviewed_excel_row_0523
+  raw_gpu_model: Nvidia 2060 SUPER
+  benchmark_gpu_name: NVIDIA GeForce RTX 2060 SUPER
+  source_row: 523
+- id: reviewed_excel_row_0524
+  raw_gpu_model: Nvidia 2070 MaxQ
+  benchmark_gpu_name: NVIDIA GeForce RTX 2070
+  source_row: 524
+- id: reviewed_excel_row_0525
+  raw_gpu_model: NVIDIA 2080 GeForce RTX
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 525
+- id: reviewed_excel_row_0526
+  raw_gpu_model: NVIDIA 2080 Ti RTX 11GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 526
+- id: reviewed_excel_row_0528
+  raw_gpu_model: NVIDIA 2080Ti RTX
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 528
+- id: reviewed_excel_row_0529
+  raw_gpu_model: NVIDIA 24G 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 529
+- id: reviewed_excel_row_0530
+  raw_gpu_model: Nvidia 2808 TI
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 530
+- id: reviewed_excel_row_0531
+  raw_gpu_model: NVIDIA 3050 Ti Mobile
+  benchmark_gpu_name: NVIDIA GeForce RTX 3050
+  source_row: 531
+- id: reviewed_excel_row_0532
+  raw_gpu_model: NVIDIA 3060Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 3060 Ti
+  source_row: 532
+- id: reviewed_excel_row_0533
+  raw_gpu_model: NVIDIA 3090/A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 533
+- id: reviewed_excel_row_0535
+  raw_gpu_model: NVIDIA 32G V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 535
+- id: reviewed_excel_row_0537
+  raw_gpu_model: NVIDIA 32G-V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 537
+- id: reviewed_excel_row_0539
+  raw_gpu_model: NVIDIA 32GB V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 539
+- id: reviewed_excel_row_0543
+  raw_gpu_model: NVIDIA 4060 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  source_row: 543
+- id: reviewed_excel_row_0544
+  raw_gpu_model: NVIDIA 4060Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  source_row: 544
+- id: reviewed_excel_row_0545
+  raw_gpu_model: NVIDIA 4090 Mobile
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 545
+- id: reviewed_excel_row_0546
+  raw_gpu_model: NVIDIA 40G A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 546
+- id: reviewed_excel_row_0547
+  raw_gpu_model: NVIDIA 40G-A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 547
+- id: reviewed_excel_row_0549
+  raw_gpu_model: NVIDIA 40GB A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 549
+- id: reviewed_excel_row_0550
+  raw_gpu_model: NVIDIA 48G A6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 550
+- id: reviewed_excel_row_0551
+  raw_gpu_model: NVIDIA 48GB A6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 551
+- id: reviewed_excel_row_0552
+  raw_gpu_model: NVIDIA 50-90
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 552
+- id: reviewed_excel_row_0553
+  raw_gpu_model: Nvidia 5000 Ada
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 553
+- id: reviewed_excel_row_0554
+  raw_gpu_model: NVIDIA 5880 Ada
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 554
+- id: reviewed_excel_row_0556
+  raw_gpu_model: NVIDIA 6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 556
+- id: reviewed_excel_row_0557
+  raw_gpu_model: Nvidia 780M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 557
+- id: reviewed_excel_row_0558
+  raw_gpu_model: NVIDIA 8 × 80GB H100
+  benchmark_gpu_name: NVIDIA H100 PCIe
+  source_row: 558
+- id: reviewed_excel_row_0559
+  raw_gpu_model: NVIDIA 80G A100
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 559
+- id: reviewed_excel_row_0560
+  raw_gpu_model: NVIDIA 80G-A100
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 560
+- id: reviewed_excel_row_0563
+  raw_gpu_model: NVIDIA 80GB A100
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 563
+- id: reviewed_excel_row_0565
+  raw_gpu_model: NVIDIA 80GB A800
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 565
+- id: reviewed_excel_row_0566
+  raw_gpu_model: NVIDIA 8xA800
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 566
+- id: reviewed_excel_row_0567
+  raw_gpu_model: NVIDIA 960M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 567
+- id: reviewed_excel_row_0568
+  raw_gpu_model: Nvidia 970GTX
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 568
+- id: reviewed_excel_row_0569
+  raw_gpu_model: Nvidia 970M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 569
+- id: reviewed_excel_row_0570
+  raw_gpu_model: Nvidia 980M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 570
+- id: reviewed_excel_row_0573
+  raw_gpu_model: NVIDIA A10 Tensor Core GPU 24GB
+  benchmark_gpu_name: NVIDIA A10
+  source_row: 573
+- id: reviewed_excel_row_0574
+  raw_gpu_model: NVIDIA A100 40
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 574
+- id: reviewed_excel_row_0575
+  raw_gpu_model: NVIDIA A100 40GB/80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 575
+- id: reviewed_excel_row_0576
+  raw_gpu_model: NVIDIA A100 40GiB HBM2
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 576
+- id: reviewed_excel_row_0577
+  raw_gpu_model: NVIDIA A100 80
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 577
+- id: reviewed_excel_row_0579
+  raw_gpu_model: NVIDIA A100 80B
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 579
+- id: reviewed_excel_row_0580
+  raw_gpu_model: NVIDIA A100 80GB SMX4
+  benchmark_gpu_name: NVIDIA A100 SXM4 80 GB
+  source_row: 580
+- id: reviewed_excel_row_0581
+  raw_gpu_model: NVIDIA A100 81920MiB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 581
+- id: reviewed_excel_row_0582
+  raw_gpu_model: NVIDIA A100 8358 80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 582
+- id: reviewed_excel_row_0583
+  raw_gpu_model: NVIDIA A100 HBM2e 80GB PCIe
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 583
+- id: reviewed_excel_row_0584
+  raw_gpu_model: NVIDIA A100 Large
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 584
+- id: reviewed_excel_row_0585
+  raw_gpu_model: NVIDIA A100 MIG
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 585
+- id: reviewed_excel_row_0586
+  raw_gpu_model: NVIDIA A100 PCI
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 586
+- id: reviewed_excel_row_0587
+  raw_gpu_model: NVIDIA A100 RTX
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 587
+- id: reviewed_excel_row_0588
+  raw_gpu_model: NVIDIA A100 SMX4
+  benchmark_gpu_name: NVIDIA A100 SXM4 80 GB
+  source_row: 588
+- id: reviewed_excel_row_0589
+  raw_gpu_model: Nvidia A100 SMX4 40GB
+  benchmark_gpu_name: NVIDIA A100 SXM4 40 GB
+  source_row: 589
+- id: reviewed_excel_row_0590
+  raw_gpu_model: NVIDIA A100 SX
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 590
+- id: reviewed_excel_row_0591
+  raw_gpu_model: NVIDIA A100 SXM2 40GB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 591
+- id: reviewed_excel_row_0592
+  raw_gpu_model: NVIDIA A100 SXUM4 40GB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 592
+- id: reviewed_excel_row_0593
+  raw_gpu_model: NVIDIA A100-40
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 593
+- id: reviewed_excel_row_0594
+  raw_gpu_model: NVIDIA A100-80GB SMX4
+  benchmark_gpu_name: NVIDIA A100 SXM4 80 GB
+  source_row: 594
+- id: reviewed_excel_row_0595
+  raw_gpu_model: NVIDIA A100-Large
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 595
+- id: reviewed_excel_row_0596
+  raw_gpu_model: NVIDIA A100-PCI
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 596
+- id: reviewed_excel_row_0597
+  raw_gpu_model: NVIDIA A100-PCI 40GB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 597
+- id: reviewed_excel_row_0598
+  raw_gpu_model: Nvidia A100-SMX4 40GB
+  benchmark_gpu_name: NVIDIA A100 SXM4 40 GB
+  source_row: 598
+- id: reviewed_excel_row_0599
+  raw_gpu_model: NVIDIA A100-SMX4-80GB
+  benchmark_gpu_name: NVIDIA A100 SXM4 80 GB
+  source_row: 599
+- id: reviewed_excel_row_0600
+  raw_gpu_model: NVIDIA A100-SXM4-80
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 600
+- id: reviewed_excel_row_0601
+  raw_gpu_model: NVIDIA A100-SXM4-80GB 80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 601
+- id: reviewed_excel_row_0602
+  raw_gpu_model: Nvidia A100-XM4-80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 602
+- id: reviewed_excel_row_0603
+  raw_gpu_model: Nvidia A100/A40
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 603
+- id: reviewed_excel_row_0604
+  raw_gpu_model: NVIDIA A100/A6000
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 604
+- id: reviewed_excel_row_0605
+  raw_gpu_model: NVIDIA A100/A800 80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 605
+- id: reviewed_excel_row_0606
+  raw_gpu_model: NVIDIA A100/H100 80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 606
+- id: reviewed_excel_row_0607
+  raw_gpu_model: NVIDIA A1000
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 607
+- id: reviewed_excel_row_0610
+  raw_gpu_model: Nvidia A1000 Laptop GPU 4GB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 610
+- id: reviewed_excel_row_0611
+  raw_gpu_model: NVIDIA A100S
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 611
+- id: reviewed_excel_row_0612
+  raw_gpu_model: NVidia A100SXM4
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 612
+- id: reviewed_excel_row_0613
+  raw_gpu_model: NVIDIA A101 80G
+  benchmark_gpu_name: NVIDIA A10
+  source_row: 613
+- id: reviewed_excel_row_0614
+  raw_gpu_model: NVIDIA A16
+  benchmark_gpu_name: NVIDIA A10
+  source_row: 614
+- id: reviewed_excel_row_0615
+  raw_gpu_model: NVIDIA A16 10GB
+  benchmark_gpu_name: NVIDIA A10
+  source_row: 615
+- id: reviewed_excel_row_0616
+  raw_gpu_model: NVIDIA A2
+  benchmark_gpu_name: NVIDIA A30
+  source_row: 616
+- id: reviewed_excel_row_0617
+  raw_gpu_model: NVIDIA A2 8GB
+  benchmark_gpu_name: NVIDIA A30
+  source_row: 617
+- id: reviewed_excel_row_0618
+  raw_gpu_model: Nvidia A2000
+  benchmark_gpu_name: NVIDIA A30
+  source_row: 618
+- id: reviewed_excel_row_0619
+  raw_gpu_model: NVIDIA A3000 Mobile
+  benchmark_gpu_name: NVIDIA A30
+  source_row: 619
+- id: reviewed_excel_row_0620
+  raw_gpu_model: Nvidia A4000 20GB
+  benchmark_gpu_name: NVIDIA RTX A4000
+  source_row: 620
+- id: reviewed_excel_row_0621
+  raw_gpu_model: NVIDIA A4500 mobile
+  benchmark_gpu_name: NVIDIA RTX A4500
+  source_row: 621
+- id: reviewed_excel_row_0622
+  raw_gpu_model: NVIDIA A500
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 622
+- id: reviewed_excel_row_0623
+  raw_gpu_model: NVIDIA A5000-PCIE-24GB
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 623
+- id: reviewed_excel_row_0624
+  raw_gpu_model: Nvidia A550
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 624
+- id: reviewed_excel_row_0625
+  raw_gpu_model: NVIDIA A5880
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 625
+- id: reviewed_excel_row_0626
+  raw_gpu_model: NVIDIA A600
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 626
+- id: reviewed_excel_row_0628
+  raw_gpu_model: NVIDIA A6000 RTX
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 628
+- id: reviewed_excel_row_0629
+  raw_gpu_model: NVIDIA A800 GPU 80GB
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 629
+- id: reviewed_excel_row_0630
+  raw_gpu_model: NVIDIA A8000
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 630
+- id: reviewed_excel_row_0631
+  raw_gpu_model: NVIDIA AD102 (GeForce RTX 4090)
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 631
+- id: reviewed_excel_row_0632
+  raw_gpu_model: Nvidia Ada 5000
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 632
+- id: reviewed_excel_row_0633
+  raw_gpu_model: NVIDIA Ada 6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 633
+- id: reviewed_excel_row_0634
+  raw_gpu_model: NVIDIA Ada A6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 634
+- id: reviewed_excel_row_0639
+  raw_gpu_model: Nvidia Ampere 100 80GB
+  benchmark_gpu_name: NVIDIA A100
+  source_row: 639
+- id: reviewed_excel_row_0640
+  raw_gpu_model: NVIDIA Ampere 40GB A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 640
+- id: reviewed_excel_row_0641
+  raw_gpu_model: NVIDIA Ampere 40GB HBM
+  benchmark_gpu_name: NVIDIA A100
+  source_row: 641
+- id: reviewed_excel_row_0642
+  raw_gpu_model: NVIDIA Ampere A100 40G
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 642
+- id: reviewed_excel_row_0643
+  raw_gpu_model: NVIDIA Ampere A100 40GB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 643
+- id: reviewed_excel_row_0644
+  raw_gpu_model: NVIDIA Ampere Architecture
+  benchmark_gpu_name: NVIDIA A100
+  source_row: 644
+- id: reviewed_excel_row_0645
+  raw_gpu_model: NVIDIA Ampere Architecture 48GB
+  benchmark_gpu_name: NVIDIA A100
+  source_row: 645
+- id: reviewed_excel_row_0646
+  raw_gpu_model: NVIDIA Ampere Architecture 80G
+  benchmark_gpu_name: NVIDIA A100
+  source_row: 646
+- id: reviewed_excel_row_0647
+  raw_gpu_model: NVIDIA Ampere Tesla A40 48GB
+  benchmark_gpu_name: NVIDIA A40 PCIe
+  source_row: 647
+- id: reviewed_excel_row_0650
+  raw_gpu_model: NVIDIA DGX A100 SuperPod
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 650
+- id: reviewed_excel_row_0651
+  raw_gpu_model: Nvidia DGX A40 48GB
+  benchmark_gpu_name: NVIDIA A40 PCIe
+  source_row: 651
+- id: reviewed_excel_row_0652
+  raw_gpu_model: NVIDIA DGX H100
+  benchmark_gpu_name: NVIDIA H100 PCIe
+  source_row: 652
+- id: reviewed_excel_row_0655
+  raw_gpu_model: NVIDIA DGX Station A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 655
+- id: reviewed_excel_row_0656
+  raw_gpu_model: NVIDIA DGX Station v100-SXM2-32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 656
+- id: reviewed_excel_row_0657
+  raw_gpu_model: NVIDIA DGX Tesla V100 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 657
+- id: reviewed_excel_row_0658
+  raw_gpu_model: NVIDIA DGX V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 658
+- id: reviewed_excel_row_0659
+  raw_gpu_model: NVIDIA DGX-V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 659
+- id: reviewed_excel_row_0661
+  raw_gpu_model: NVIDIA DIGITS DevBox with four Titan X GPUs
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 661
+- id: reviewed_excel_row_0663
+  raw_gpu_model: NVIDIA Edge GPU Jetson TX2
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 663
+- id: reviewed_excel_row_0665
+  raw_gpu_model: Nvidia GA100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 665
+- id: reviewed_excel_row_0666
+  raw_gpu_model: NVIDIA GA100 80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 666
+- id: reviewed_excel_row_0667
+  raw_gpu_model: NVIDIA GA102 GeForce RTX 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 667
+- id: reviewed_excel_row_0670
+  raw_gpu_model: Nvidia Geforce 1050
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 670
+- id: reviewed_excel_row_0671
+  raw_gpu_model: Nvidia GeForce 1060
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 671
+- id: reviewed_excel_row_0672
+  raw_gpu_model: NVIDIA GeForce 1070 GTX
+  benchmark_gpu_name: NVIDIA GeForce GTX 1070
+  source_row: 672
+- id: reviewed_excel_row_0673
+  raw_gpu_model: NVIDIA GeForce 1080 Ti GTX
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 673
+- id: reviewed_excel_row_0674
+  raw_gpu_model: Nvidia Geforce 2060 6GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 2060 SUPER
+  source_row: 674
+- id: reviewed_excel_row_0675
+  raw_gpu_model: Nvidia GeForce 2070S
+  benchmark_gpu_name: NVIDIA GeForce RTX 2070
+  source_row: 675
+- id: reviewed_excel_row_0676
+  raw_gpu_model: NVIDIA GeForce 3060 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 3060 Ti
+  source_row: 676
+- id: reviewed_excel_row_0677
+  raw_gpu_model: Nvidia GeForce 3060Ti 8GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 3060 Ti
+  source_row: 677
+- id: reviewed_excel_row_0678
+  raw_gpu_model: Nvidia Geforce 4080S
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 678
+- id: reviewed_excel_row_0679
+  raw_gpu_model: Nvidia GeForce 4090Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 679
+- id: reviewed_excel_row_0680
+  raw_gpu_model: NVIDIA GeForce 640
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 680
+- id: reviewed_excel_row_0681
+  raw_gpu_model: Nvidia GeForce 650M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 681
+- id: reviewed_excel_row_0682
+  raw_gpu_model: NVIDIA GeForce 940MX 2GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 682
+- id: reviewed_excel_row_0683
+  raw_gpu_model: NVIDIA GeForce 980 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 683
+- id: reviewed_excel_row_0684
+  raw_gpu_model: NVIDIA GeForce A800
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 684
+- id: reviewed_excel_row_0686
+  raw_gpu_model: Nvidia GeForce A800 80GB
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 686
+- id: reviewed_excel_row_0689
+  raw_gpu_model: NVIDIA GeForce GT 650M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 689
+- id: reviewed_excel_row_0690
+  raw_gpu_model: NVIDIA GeForce GT 750M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 690
+- id: reviewed_excel_row_0691
+  raw_gpu_model: NVIDIA GeForce GTS A6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 691
+- id: reviewed_excel_row_0694
+  raw_gpu_model: NVIDIA GeForce GTX 1050 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 694
+- id: reviewed_excel_row_0695
+  raw_gpu_model: Nvidia GeForce GTX 1050Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 695
+- id: reviewed_excel_row_0696
+  raw_gpu_model: NVIDIA GeForce GTX 1060 Max-Q
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 696
+- id: reviewed_excel_row_0697
+  raw_gpu_model: NVIDIA GeForce GTX 1070 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1070
+  source_row: 697
+- id: reviewed_excel_row_0699
+  raw_gpu_model: NVIDIA GeForce GTX 1070 with Max-Q
+  benchmark_gpu_name: NVIDIA GeForce GTX 1070
+  source_row: 699
+- id: reviewed_excel_row_0700
+  raw_gpu_model: NVIDIA GeForce GTX 1080 8G
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 700
+- id: reviewed_excel_row_0701
+  raw_gpu_model: Nvidia GeForce GTX 10GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 701
+- id: reviewed_excel_row_0702
+  raw_gpu_model: NVIDIA GeForce GTX 1650 Max-Q
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 702
+- id: reviewed_excel_row_0703
+  raw_gpu_model: NVIDIA GeForce GTX 1650 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 703
+- id: reviewed_excel_row_0704
+  raw_gpu_model: Nvidia GeForce GTX 1660
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 704
+- id: reviewed_excel_row_0705
+  raw_gpu_model: NVIDIA GeForce GTX 1660 SUPER
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 705
+- id: reviewed_excel_row_0706
+  raw_gpu_model: NVIDIA GeForce GTX 1660 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 706
+- id: reviewed_excel_row_0707
+  raw_gpu_model: Nvidia GeForce GTX 1660S
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 707
+- id: reviewed_excel_row_0708
+  raw_gpu_model: Nvidia GeForce GTX 3050 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 3050
+  source_row: 708
+- id: reviewed_excel_row_0709
+  raw_gpu_model: NVIDIA GeForce GTX 4090 Ti 24GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 709
+- id: reviewed_excel_row_0710
+  raw_gpu_model: NVIDIA GeForce GTX 590
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 710
+- id: reviewed_excel_row_0711
+  raw_gpu_model: NVIDIA GeForce GTX 660
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 711
+- id: reviewed_excel_row_0712
+  raw_gpu_model: NVIDIA GeForce GTX 770
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 712
+- id: reviewed_excel_row_0713
+  raw_gpu_model: Nvidia Geforce GTX 780 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 713
+- id: reviewed_excel_row_0715
+  raw_gpu_model: NVIDIA GeForce GTX 780Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 715
+- id: reviewed_excel_row_0716
+  raw_gpu_model: Nvidia GeForce GTX 870M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 716
+- id: reviewed_excel_row_0717
+  raw_gpu_model: NVIDIA GeForce GTX 960M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 717
+- id: reviewed_excel_row_0718
+  raw_gpu_model: Nvidia GeForce GTX 970 4GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 718
+- id: reviewed_excel_row_0719
+  raw_gpu_model: nVidia Geforce GTX 980M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 719
+- id: reviewed_excel_row_0720
+  raw_gpu_model: NVIDIA GeForce GTX A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 720
+- id: reviewed_excel_row_0721
+  raw_gpu_model: NVIDIA Geforce GTX Titan V
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 721
+- id: reviewed_excel_row_0722
+  raw_gpu_model: NVIDIA GeForce GTX TITAN X-p
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 722
+- id: reviewed_excel_row_0723
+  raw_gpu_model: NVIDIA GEFORCE GTX TITAN Xp
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 723
+- id: reviewed_excel_row_0727
+  raw_gpu_model: NVIDIA GeForce GTX TITAN Xp 12GB
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 727
+- id: reviewed_excel_row_0730
+  raw_gpu_model: NVIDIA GeForce GTX TITAN Z
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 730
+- id: reviewed_excel_row_0732
+  raw_gpu_model: NVIDIA GeForce GTX1050Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 732
+- id: reviewed_excel_row_0733
+  raw_gpu_model: NVIDIA GeForce GTX650
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 733
+- id: reviewed_excel_row_0734
+  raw_gpu_model: Nvidia Geforce GXT 1080Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 734
+- id: reviewed_excel_row_0735
+  raw_gpu_model: NVIDIA GeForce MX150
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 735
+- id: reviewed_excel_row_0736
+  raw_gpu_model: NVIDIA GeForce MX250
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 736
+- id: reviewed_excel_row_0737
+  raw_gpu_model: Nvidia GeForce MX250 32GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 737
+- id: reviewed_excel_row_0740
+  raw_gpu_model: NVIDIA GeForce RT 2080Ti 12G
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 740
+- id: reviewed_excel_row_0743
+  raw_gpu_model: NVIDIA GeForce RTX 040
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 743
+- id: reviewed_excel_row_0744
+  raw_gpu_model: NVIDIA GeForce RTX 1070
+  benchmark_gpu_name: NVIDIA GeForce GTX 1070
+  source_row: 744
+- id: reviewed_excel_row_0745
+  raw_gpu_model: NVIDIA GeForce RTX 2048
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 745
+- id: reviewed_excel_row_0746
+  raw_gpu_model: NVIDIA GeForce RTX 2050 Laptop
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 746
+- id: reviewed_excel_row_0747
+  raw_gpu_model: NVIDIA GeForce RTX 2060 6GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 2060 SUPER
+  source_row: 747
+- id: reviewed_excel_row_0748
+  raw_gpu_model: NVIDIA GeForce RTX 2070 Max-Q
+  benchmark_gpu_name: NVIDIA GeForce RTX 2070
+  source_row: 748
+- id: reviewed_excel_row_0749
+  raw_gpu_model: Nvidia Geforce RTX 208
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 749
+- id: reviewed_excel_row_0750
+  raw_gpu_model: NVIDIA GeForce RTX 2080 Ti 11019MB
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 750
+- id: reviewed_excel_row_0751
+  raw_gpu_model: NVIDIA GeForce RTX 2080 Ti Rev. A
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 751
+- id: reviewed_excel_row_0752
+  raw_gpu_model: Nvidia GeForce RTX 2080 Ti TU102
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 752
+- id: reviewed_excel_row_0753
+  raw_gpu_model: NVIDIA GeForce RTX 2080i
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 753
+- id: reviewed_excel_row_0754
+  raw_gpu_model: NVIDIA GeForce RTX 3050 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 3050
+  source_row: 754
+- id: reviewed_excel_row_0756
+  raw_gpu_model: NVIDIA GeForce RTX 3050 Ti Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 3050
+  source_row: 756
+- id: reviewed_excel_row_0757
+  raw_gpu_model: NVIDIA GeForce RTX 3060 Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 3060
+  source_row: 757
+- id: reviewed_excel_row_0759
+  raw_gpu_model: NVIDIA GeForce RTX 3060 Laptop GPU with total memory 14066MB
+  benchmark_gpu_name: NVIDIA GeForce RTX 3060
+  source_row: 759
+- id: reviewed_excel_row_0760
+  raw_gpu_model: NVIDIA GeForce RTX 3070 Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 3070
+  source_row: 760
+- id: reviewed_excel_row_0761
+  raw_gpu_model: NVIDIA GeForce RTX 3070 Ti Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 3070
+  source_row: 761
+- id: reviewed_excel_row_0763
+  raw_gpu_model: Nvidia GeForce RTX 3070 Ti Laptop 8GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 3070
+  source_row: 763
+- id: reviewed_excel_row_0764
+  raw_gpu_model: NVIDIA GeForce RTX 308
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 764
+- id: reviewed_excel_row_0765
+  raw_gpu_model: NVIDIA GeForce RTX 3080 Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 3080
+  source_row: 765
+- id: reviewed_excel_row_0766
+  raw_gpu_model: Nvidia GeForce RTX 3080Ti Laptop 16GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 3080 Ti
+  source_row: 766
+- id: reviewed_excel_row_0767
+  raw_gpu_model: NVIDIA GeForce RTX 3090 Super
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 767
+- id: reviewed_excel_row_0768
+  raw_gpu_model: NVIDIA GeForce RTX 40
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 768
+- id: reviewed_excel_row_0769
+  raw_gpu_model: NVIDIA GeForce RTX 4060
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  source_row: 769
+- id: reviewed_excel_row_0770
+  raw_gpu_model: NVIDIA GeForce RTX 4060 8GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  source_row: 770
+- id: reviewed_excel_row_0771
+  raw_gpu_model: NVIDIA GeForce RTX 4060 Laptop 8GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  source_row: 771
+- id: reviewed_excel_row_0772
+  raw_gpu_model: NVIDIA GeForce RTX 4070 Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 4070
+  source_row: 772
+- id: reviewed_excel_row_0773
+  raw_gpu_model: NVIDIA GeForce RTX 4070 Laptop GPU
+  benchmark_gpu_name: NVIDIA GeForce RTX 4070
+  source_row: 773
+- id: reviewed_excel_row_0774
+  raw_gpu_model: NVIDIA GeForce RTX 4070 Laptop GPU 8GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4070
+  source_row: 774
+- id: reviewed_excel_row_0775
+  raw_gpu_model: NVIDIA GeForce RTX 4070 SUPER
+  benchmark_gpu_name: NVIDIA GeForce RTX 4070 Ti
+  source_row: 775
+- id: reviewed_excel_row_0776
+  raw_gpu_model: NVIDIA GeForce RTX 4070 Ti SUPER
+  benchmark_gpu_name: NVIDIA GeForce RTX 4070 Ti
+  source_row: 776
+- id: reviewed_excel_row_0778
+  raw_gpu_model: NVIDIA GeForce RTX 4070 Ti Super 16GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4070 Ti
+  source_row: 778
+- id: reviewed_excel_row_0779
+  raw_gpu_model: NVIDIA GeForce RTX 4080 Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 779
+- id: reviewed_excel_row_0780
+  raw_gpu_model: Nvidia GeForce RTX 4080 Laptop GPU 12GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 780
+- id: reviewed_excel_row_0781
+  raw_gpu_model: NVIDIA GeForce RTX 4080 SUPER
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 781
+- id: reviewed_excel_row_0784
+  raw_gpu_model: NVIDIA GeForce RTX 4080 SUPER 16GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 784
+- id: reviewed_excel_row_0785
+  raw_gpu_model: NVIDIA GeForce RTX 4080S
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 785
+- id: reviewed_excel_row_0786
+  raw_gpu_model: NVIDIA GeForce RTX 4090 24564MB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 786
+- id: reviewed_excel_row_0787
+  raw_gpu_model: NVIDIA GeForce RTX 4090 D
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 787
+- id: reviewed_excel_row_0788
+  raw_gpu_model: NVIDIA GeForce RTX 4090 D 24GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 788
+- id: reviewed_excel_row_0789
+  raw_gpu_model: NVIDIA GeForce RTX 4090 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 789
+- id: reviewed_excel_row_0790
+  raw_gpu_model: NVIDIA GeForce RTX 4090D
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 790
+- id: reviewed_excel_row_0792
+  raw_gpu_model: NVIDIA GeForce RTX 4090D 24GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 792
+- id: reviewed_excel_row_0793
+  raw_gpu_model: NVIDIA GeForce RTX 4900
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 793
+- id: reviewed_excel_row_0794
+  raw_gpu_model: NVIDIA GeForce RTX 4900 24GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 794
+- id: reviewed_excel_row_0795
+  raw_gpu_model: Nvidia GeForce RTX 6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 795
+- id: reviewed_excel_row_0796
+  raw_gpu_model: NVIDIA GeForce RTX A800
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 796
+- id: reviewed_excel_row_0797
+  raw_gpu_model: NVIDIA GeForce RTX P8 11GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 797
+- id: reviewed_excel_row_0798
+  raw_gpu_model: NVIDIA GeForce RTX-4090Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 798
+- id: reviewed_excel_row_0799
+  raw_gpu_model: NVIDIA GeForce RTX3070 Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 3070
+  source_row: 799
+- id: reviewed_excel_row_0800
+  raw_gpu_model: NVIDIA GeForce Tesla V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 800
+- id: reviewed_excel_row_0801
+  raw_gpu_model: NVIDIA GeForce TITAN 1080Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 801
+- id: reviewed_excel_row_0802
+  raw_gpu_model: NVIDIA GeForce Titan Black
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 802
+- id: reviewed_excel_row_0803
+  raw_gpu_model: NVIDIA GeForce TITAN P6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 803
+- id: reviewed_excel_row_0804
+  raw_gpu_model: NVIDIA GeForce V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 804
+- id: reviewed_excel_row_0806
+  raw_gpu_model: NVIDIA GEFORCE-GTX 16GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 806
+- id: reviewed_excel_row_0808
+  raw_gpu_model: NVIDIA GeForce1080Ti 11GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 808
+- id: reviewed_excel_row_0809
+  raw_gpu_model: NVIDIA GeForce696 RTX 4090
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 809
+- id: reviewed_excel_row_0810
+  raw_gpu_model: Nvidia GeForceRTX 2080 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 810
+- id: reviewed_excel_row_0811
+  raw_gpu_model: Nvidia GeForceRTX2080Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 811
+- id: reviewed_excel_row_0812
+  raw_gpu_model: NVIDIA GF RTX 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 812
+- id: reviewed_excel_row_0813
+  raw_gpu_model: NVIDIA Gforce RTX 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 813
+- id: reviewed_excel_row_0814
+  raw_gpu_model: NVIDIA GH200 Grace Hopper Superchip
+  benchmark_gpu_name: NVIDIA GH200
+  source_row: 814
+- id: reviewed_excel_row_0821
+  raw_gpu_model: NVIDIA Grace Hopper GH200
+  benchmark_gpu_name: NVIDIA GH200
+  source_row: 821
+- id: reviewed_excel_row_0823
+  raw_gpu_model: NVIDIA GRID K520
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 823
+- id: reviewed_excel_row_0825
+  raw_gpu_model: NVIDIA GT 1080 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 825
+- id: reviewed_excel_row_0826
+  raw_gpu_model: NVIDIA GT-1080
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 826
+- id: reviewed_excel_row_0827
+  raw_gpu_model: Nvidia GT-1080 GPU
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 827
+- id: reviewed_excel_row_0828
+  raw_gpu_model: nVidia GT420
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 828
+- id: reviewed_excel_row_0829
+  raw_gpu_model: NVIDIA GT730
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 829
+- id: reviewed_excel_row_0830
+  raw_gpu_model: NVIDIA GTEX 2080 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 830
+- id: reviewed_excel_row_0831
+  raw_gpu_model: NVIDIA GTX
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 831
+- id: reviewed_excel_row_0833
+  raw_gpu_model: NVIDIA GTX 1050 Mobile 4GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 833
+- id: reviewed_excel_row_0834
+  raw_gpu_model: NVIDIA GTX 1050Ti 4GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 834
+- id: reviewed_excel_row_0836
+  raw_gpu_model: NVIDIA GTX 1060 (Mobile)
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 836
+- id: reviewed_excel_row_0837
+  raw_gpu_model: NVIDIA GTX 1060 Mobile
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 837
+- id: reviewed_excel_row_0838
+  raw_gpu_model: NVIDIA GTX 1060Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 838
+- id: reviewed_excel_row_0840
+  raw_gpu_model: NVIDIA GTX 1060Ti 6GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 840
+- id: reviewed_excel_row_0841
+  raw_gpu_model: NVIDIA GTX 1070 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1070
+  source_row: 841
+- id: reviewed_excel_row_0842
+  raw_gpu_model: NVIDIA GTX 108 12GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 842
+- id: reviewed_excel_row_0843
+  raw_gpu_model: NVIDIA GTX 1080 8G
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 843
+- id: reviewed_excel_row_0844
+  raw_gpu_model: NVIDIA GTX 1650 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 844
+- id: reviewed_excel_row_0845
+  raw_gpu_model: NVIDIA GTX 1660
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 845
+- id: reviewed_excel_row_0847
+  raw_gpu_model: NVIDIA GTX 1660 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 847
+- id: reviewed_excel_row_0849
+  raw_gpu_model: NVIDIA GTX 1660S
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 849
+- id: reviewed_excel_row_0850
+  raw_gpu_model: NVIDIA GTX 24GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 850
+- id: reviewed_excel_row_0851
+  raw_gpu_model: NVIDIA GTX 4090D
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 851
+- id: reviewed_excel_row_0852
+  raw_gpu_model: NVIDIA GTX 4090Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 852
+- id: reviewed_excel_row_0853
+  raw_gpu_model: NVIDIA GTX 560
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 853
+- id: reviewed_excel_row_0854
+  raw_gpu_model: NVidia GTX 770
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 854
+- id: reviewed_excel_row_0855
+  raw_gpu_model: Nvidia GTX 780M 4GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 855
+- id: reviewed_excel_row_0856
+  raw_gpu_model: NVIDIA GTX 850M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 856
+- id: reviewed_excel_row_0857
+  raw_gpu_model: NVidia GTX 860M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 857
+- id: reviewed_excel_row_0859
+  raw_gpu_model: NVIDIA GTX 940 2GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 859
+- id: reviewed_excel_row_0860
+  raw_gpu_model: NVIDIA GTX 960 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 860
+- id: reviewed_excel_row_0861
+  raw_gpu_model: NVIDIA GTX 960M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 861
+- id: reviewed_excel_row_0862
+  raw_gpu_model: NVIDIA GTX 960M 2GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 862
+- id: reviewed_excel_row_0863
+  raw_gpu_model: NVIDIA GTX 965M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 863
+- id: reviewed_excel_row_0864
+  raw_gpu_model: NVIDIA GTX 970
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 864
+- id: reviewed_excel_row_0865
+  raw_gpu_model: NVIDIA GTX A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 865
+- id: reviewed_excel_row_0866
+  raw_gpu_model: NVIDIA GTX A100-PCIE-40GB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 866
+- id: reviewed_excel_row_0867
+  raw_gpu_model: NVIDIA GTX A6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 867
+- id: reviewed_excel_row_0868
+  raw_gpu_model: NVIDIA GTX GeForce A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 868
+- id: reviewed_excel_row_0869
+  raw_gpu_model: NVIDIA GTX RTX2080
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 869
+- id: reviewed_excel_row_0870
+  raw_gpu_model: NVIDIA GTX Titan V 12GB
+  benchmark_gpu_name: NVIDIA Titan V
+  source_row: 870
+- id: reviewed_excel_row_0871
+  raw_gpu_model: NVIDIA GTX TITAN XP
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 871
+- id: reviewed_excel_row_0876
+  raw_gpu_model: NVIDIA GTX Titan Xp 12GB
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 876
+- id: reviewed_excel_row_0877
+  raw_gpu_model: NVIDIA GTX TITAN Z
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 877
+- id: reviewed_excel_row_0878
+  raw_gpu_model: NVidia GTX V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 878
+- id: reviewed_excel_row_0880
+  raw_gpu_model: NVIDIA GTX-1050Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 880
+- id: reviewed_excel_row_0881
+  raw_gpu_model: NVIDIA GTX-960M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 881
+- id: reviewed_excel_row_0882
+  raw_gpu_model: Nvidia GTX-970M
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 882
+- id: reviewed_excel_row_0883
+  raw_gpu_model: Nvidia GTX1050 Ti 4GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 883
+- id: reviewed_excel_row_0884
+  raw_gpu_model: NVIDIA GTX1660Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 884
+- id: reviewed_excel_row_0885
+  raw_gpu_model: NVIDIA GTX3090Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 885
+- id: reviewed_excel_row_0886
+  raw_gpu_model: NVIDIA GTX650
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 886
+- id: reviewed_excel_row_0887
+  raw_gpu_model: Nvidia GTX660
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 887
+- id: reviewed_excel_row_0888
+  raw_gpu_model: NVIDIA GTX680
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 888
+- id: reviewed_excel_row_0889
+  raw_gpu_model: Nvidia GTX780Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 889
+- id: reviewed_excel_row_0890
+  raw_gpu_model: NVIDIA GTX970
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 890
+- id: reviewed_excel_row_0891
+  raw_gpu_model: NVIDIA GV102
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 891
+- id: reviewed_excel_row_0892
+  raw_gpu_model: NVIDIA H100 80
+  benchmark_gpu_name: NVIDIA H100 PCIe
+  source_row: 892
+- id: reviewed_excel_row_0893
+  raw_gpu_model: NVIDIA H100 80BG
+  benchmark_gpu_name: NVIDIA H100 PCIe
+  source_row: 893
+- id: reviewed_excel_row_0894
+  raw_gpu_model: NVIDIA H100 HBM3
+  benchmark_gpu_name: NVIDIA H100 PCIe
+  source_row: 894
+- id: reviewed_excel_row_0895
+  raw_gpu_model: NVIDIA H100 P0 96GB
+  benchmark_gpu_name: NVIDIA H100 PCIe
+  source_row: 895
+- id: reviewed_excel_row_0896
+  raw_gpu_model: Nvidia H100 PCEi
+  benchmark_gpu_name: NVIDIA H100 PCIe
+  source_row: 896
+- id: reviewed_excel_row_0897
+  raw_gpu_model: NVIDIA H100/A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 897
+- id: reviewed_excel_row_0898
+  raw_gpu_model: NVIDIA H20 NVLink
+  benchmark_gpu_name: NVIDIA HGX H20
+  source_row: 898
+- id: reviewed_excel_row_0899
+  raw_gpu_model: NVIDIA H20-NVLink
+  benchmark_gpu_name: NVIDIA HGX H20
+  source_row: 899
+- id: reviewed_excel_row_0900
+  raw_gpu_model: Nvidia H200 80B
+  benchmark_gpu_name: NVIDIA H200 SXM
+  source_row: 900
+- id: reviewed_excel_row_0901
+  raw_gpu_model: NVIDIA HGX A100 80x4 MIG
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 901
+- id: reviewed_excel_row_0903
+  raw_gpu_model: NVIDIA Jetson
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 903
+- id: reviewed_excel_row_0905
+  raw_gpu_model: NVIDIA Jetson AGX Orin
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 905
+- id: reviewed_excel_row_0907
+  raw_gpu_model: Nvidia Jetson AGX Orin 32GB
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 907
+- id: reviewed_excel_row_0908
+  raw_gpu_model: NVIDIA Jetson AGX ORIN 64GB
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 908
+- id: reviewed_excel_row_0909
+  raw_gpu_model: NVIDIA Jetson AGX Xavier
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 909
+- id: reviewed_excel_row_0911
+  raw_gpu_model: NVIDIA JETSON NANO
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 911
+- id: reviewed_excel_row_0915
+  raw_gpu_model: Nvidia Jetson Nano 4GB
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 915
+- id: reviewed_excel_row_0916
+  raw_gpu_model: NVIDIA Jetson Nano 8GB
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 916
+- id: reviewed_excel_row_0917
+  raw_gpu_model: NVIDIA Jetson Nano Developer Kit
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 917
+- id: reviewed_excel_row_0918
+  raw_gpu_model: NVIDIA Jetson NX
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 918
+- id: reviewed_excel_row_0920
+  raw_gpu_model: NVidia Jetson NX Xavier
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 920
+- id: reviewed_excel_row_0921
+  raw_gpu_model: NVIDIA Jetson Orin
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 921
+- id: reviewed_excel_row_0922
+  raw_gpu_model: NVIDIA Jetson Orin 32GB
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 922
+- id: reviewed_excel_row_0923
+  raw_gpu_model: Nvidia Jetson Orin AGX
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 923
+- id: reviewed_excel_row_0924
+  raw_gpu_model: NVIDIA Jetson Orin AGX 16GB
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 924
+- id: reviewed_excel_row_0925
+  raw_gpu_model: NVIDIA Jetson Orin AGX 64GB
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 925
+- id: reviewed_excel_row_0926
+  raw_gpu_model: Nvidia Jetson Orin Nano
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 926
+- id: reviewed_excel_row_0927
+  raw_gpu_model: NVIDIA Jetson Orin NX
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 927
+- id: reviewed_excel_row_0929
+  raw_gpu_model: NVIDIA Jetson Orin NX 16GB
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 929
+- id: reviewed_excel_row_0930
+  raw_gpu_model: NVIDIA Jetson TK1
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 930
+- id: reviewed_excel_row_0931
+  raw_gpu_model: NVIDIA Jetson TX1
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 931
+- id: reviewed_excel_row_0933
+  raw_gpu_model: NVIDIA JETSON TX2
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 933
+- id: reviewed_excel_row_0936
+  raw_gpu_model: NVIDIA Jetson TX2 4GB
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 936
+- id: reviewed_excel_row_0937
+  raw_gpu_model: Nvidia Jetson X1
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 937
+- id: reviewed_excel_row_0938
+  raw_gpu_model: NVIDIA Jetson Xavier
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 938
+- id: reviewed_excel_row_0940
+  raw_gpu_model: NVIDIA Jetson Xavier NX
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 940
+- id: reviewed_excel_row_0941
+  raw_gpu_model: Nvidia Jetson Xavier NX 8GB
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 941
+- id: reviewed_excel_row_0942
+  raw_gpu_model: NVIDIA K20
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 942
+- id: reviewed_excel_row_0945
+  raw_gpu_model: NVIDIA K20 Tesla
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 945
+- id: reviewed_excel_row_0946
+  raw_gpu_model: NVIDIA K20s
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 946
+- id: reviewed_excel_row_0947
+  raw_gpu_model: NVIDIA K5200
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 947
+- id: reviewed_excel_row_0948
+  raw_gpu_model: NVIDIA K80/T4
+  benchmark_gpu_name: NVIDIA Tesla K80
+  source_row: 948
+- id: reviewed_excel_row_0949
+  raw_gpu_model: Nvidia K80/T4 16GB
+  benchmark_gpu_name: NVIDIA Tesla K80
+  source_row: 949
+- id: reviewed_excel_row_0950
+  raw_gpu_model: NVidia Kepler
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 950
+- id: reviewed_excel_row_0951
+  raw_gpu_model: NVIDIA LS20 48GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 951
+- id: reviewed_excel_row_0952
+  raw_gpu_model: NVIDIA M6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 952
+- id: reviewed_excel_row_0953
+  raw_gpu_model: NVIDIA M6000 24G
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 953
+- id: reviewed_excel_row_0954
+  raw_gpu_model: NVIDIA M6000 24GB
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 954
+- id: reviewed_excel_row_0956
+  raw_gpu_model: Nvidia Maxwell GTX Titan X
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 956
+- id: reviewed_excel_row_0957
+  raw_gpu_model: NVIDIA Maxwell Titan X
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 957
+- id: reviewed_excel_row_0958
+  raw_gpu_model: NVIDIA MIG A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 958
+- id: reviewed_excel_row_0959
+  raw_gpu_model: NVIDIA MX150
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 959
+- id: reviewed_excel_row_0960
+  raw_gpu_model: NVIDIA NANO
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 960
+- id: reviewed_excel_row_0962
+  raw_gpu_model: NVIDIA NEMO
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 962
+- id: reviewed_excel_row_0967
+  raw_gpu_model: NVIDIA P100 Pascal
+  benchmark_gpu_name: NVIDIA Tesla P100 PCIe 16GB
+  source_row: 967
+- id: reviewed_excel_row_0968
+  raw_gpu_model: NVIDIA P100 Pascal 12GB
+  benchmark_gpu_name: NVIDIA Tesla P100 PCIe 16GB
+  source_row: 968
+- id: reviewed_excel_row_0969
+  raw_gpu_model: Nvidia P8000
+  benchmark_gpu_name: NVIDIA Quadro P6000
+  source_row: 969
+- id: reviewed_excel_row_0973
+  raw_gpu_model: NVIDIA Pascal P100
+  benchmark_gpu_name: NVIDIA Tesla P100 PCIe 16GB
+  source_row: 973
+- id: reviewed_excel_row_0974
+  raw_gpu_model: NVIDIA Pascal Titan X
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 974
+- id: reviewed_excel_row_0976
+  raw_gpu_model: NVIDIA Pascal Titan X 12GB
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 976
+- id: reviewed_excel_row_0977
+  raw_gpu_model: NVIDIA PASCAL TITAN Xp
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 977
+- id: reviewed_excel_row_0978
+  raw_gpu_model: NVIDIA Pascal TitanX
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 978
+- id: reviewed_excel_row_0979
+  raw_gpu_model: NVIDIA PH402 SKU 200
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 979
+- id: reviewed_excel_row_0980
+  raw_gpu_model: NVIDIA QUAD P5000
+  benchmark_gpu_name: NVIDIA Quadro P5000
+  source_row: 980
+- id: reviewed_excel_row_0981
+  raw_gpu_model: NVIDIA Quadpro P8000 48GB
+  benchmark_gpu_name: NVIDIA Quadro P6000
+  source_row: 981
+- id: reviewed_excel_row_0984
+  raw_gpu_model: NVIDIA Quadro 4000
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 984
+- id: reviewed_excel_row_0985
+  raw_gpu_model: NVIDIA Quadro 4000 8GB
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 985
+- id: reviewed_excel_row_0986
+  raw_gpu_model: Nvidia Quadro 5000
+  benchmark_gpu_name: NVIDIA Quadro P5000
+  source_row: 986
+- id: reviewed_excel_row_0987
+  raw_gpu_model: Nvidia Quadro A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 987
+- id: reviewed_excel_row_0988
+  raw_gpu_model: NVIDIA Quadro GV100 Volta
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 988
+- id: reviewed_excel_row_0989
+  raw_gpu_model: Nvidia Quadro K1100M
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 989
+- id: reviewed_excel_row_0990
+  raw_gpu_model: Nvidia Quadro K1100M 2GB
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 990
+- id: reviewed_excel_row_0991
+  raw_gpu_model: Nvidia Quadro K2000
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 991
+- id: reviewed_excel_row_0992
+  raw_gpu_model: NVIDIA Quadro K2100M
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 992
+- id: reviewed_excel_row_0993
+  raw_gpu_model: NVIDIA Quadro K2200
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 993
+- id: reviewed_excel_row_0996
+  raw_gpu_model: NVIDIA Quadro K4200
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 996
+- id: reviewed_excel_row_0997
+  raw_gpu_model: NVIDIA Quadro K5000
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 997
+- id: reviewed_excel_row_0999
+  raw_gpu_model: Nvidia Quadro K5200
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 999
+- id: reviewed_excel_row_1000
+  raw_gpu_model: Nvidia Quadro K600
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1000
+- id: reviewed_excel_row_1001
+  raw_gpu_model: NVIDIA Quadro M1000M
+  benchmark_gpu_name: NVIDIA Quadro P1000
+  source_row: 1001
+- id: reviewed_excel_row_1002
+  raw_gpu_model: NVIDIA Quadro M2000M
+  benchmark_gpu_name: NVIDIA Quadro P1000
+  source_row: 1002
+- id: reviewed_excel_row_1003
+  raw_gpu_model: NVIDIA Quadro M6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1003
+- id: reviewed_excel_row_1005
+  raw_gpu_model: NVIDIA Quadro M6000 24GB
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1005
+- id: reviewed_excel_row_1006
+  raw_gpu_model: NVIDIA Quadro P2000
+  benchmark_gpu_name: NVIDIA Quadro P1000
+  source_row: 1006
+- id: reviewed_excel_row_1007
+  raw_gpu_model: NVIDIA Quadro P2200
+  benchmark_gpu_name: NVIDIA Quadro P1000
+  source_row: 1007
+- id: reviewed_excel_row_1008
+  raw_gpu_model: NVIDIA Quadro P4000 8G
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 1008
+- id: reviewed_excel_row_1009
+  raw_gpu_model: Nvidia Quadro P620
+  benchmark_gpu_name: NVIDIA Quadro P1000
+  source_row: 1009
+- id: reviewed_excel_row_1010
+  raw_gpu_model: NVIDIA Quadro P8000
+  benchmark_gpu_name: NVIDIA Quadro P6000
+  source_row: 1010
+- id: reviewed_excel_row_1012
+  raw_gpu_model: Nvidia Quadro RTX 3000
+  benchmark_gpu_name: NVIDIA Quadro P1000
+  source_row: 1012
+- id: reviewed_excel_row_1013
+  raw_gpu_model: NVIDIA Quadro RTX 48GB
+  benchmark_gpu_name: NVIDIA Quadro P1000
+  source_row: 1013
+- id: reviewed_excel_row_1014
+  raw_gpu_model: NVIDIA Quadro RTX 5000 Max-Q
+  benchmark_gpu_name: NVIDIA Quadro P5000
+  source_row: 1014
+- id: reviewed_excel_row_1015
+  raw_gpu_model: NVIDIA Quadro RTX 5000 Mobile 16GB
+  benchmark_gpu_name: NVIDIA Quadro P5000
+  source_row: 1015
+- id: reviewed_excel_row_1016
+  raw_gpu_model: NVIDIA Quadro RTX 600
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1016
+- id: reviewed_excel_row_1017
+  raw_gpu_model: NVIDIA Quadro RTX 6000/8000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1017
+- id: reviewed_excel_row_1018
+  raw_gpu_model: Nvidia Quadro RTX 800
+  benchmark_gpu_name: NVIDIA Quadro RTX 8000
+  source_row: 1018
+- id: reviewed_excel_row_1019
+  raw_gpu_model: Nvidia Quadro RTX A2000
+  benchmark_gpu_name: NVIDIA A30
+  source_row: 1019
+- id: reviewed_excel_row_1020
+  raw_gpu_model: NVIDIA Quadro T1000 Max-Q
+  benchmark_gpu_name: NVIDIA Quadro P1000
+  source_row: 1020
+- id: reviewed_excel_row_1021
+  raw_gpu_model: Nvidia QuadroGP100
+  benchmark_gpu_name: NVIDIA Tesla P100 PCIe 16GB
+  source_row: 1021
+- id: reviewed_excel_row_1022
+  raw_gpu_model: NVIDIA Quatro RTX 5000
+  benchmark_gpu_name: NVIDIA Quadro P5000
+  source_row: 1022
+- id: reviewed_excel_row_1023
+  raw_gpu_model: Nvidia Quatro RTX 5000 16GB
+  benchmark_gpu_name: NVIDIA Quadro P5000
+  source_row: 1023
+- id: reviewed_excel_row_1024
+  raw_gpu_model: NVIDIA R6000 48GB
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1024
+- id: reviewed_excel_row_1029
+  raw_gpu_model: Nvidia RTX 1060
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080
+  source_row: 1029
+- id: reviewed_excel_row_1030
+  raw_gpu_model: NVIDIA RTX 1070
+  benchmark_gpu_name: NVIDIA GeForce GTX 1070
+  source_row: 1030
+- id: reviewed_excel_row_1031
+  raw_gpu_model: NVIDIA RTX 20 series
+  benchmark_gpu_name: NVIDIA Quadro P1000
+  source_row: 1031
+- id: reviewed_excel_row_1032
+  raw_gpu_model: NVIDIA RTX 2000
+  benchmark_gpu_name: NVIDIA Quadro P1000
+  source_row: 1032
+- id: reviewed_excel_row_1033
+  raw_gpu_model: NVIDIA RTX 2000 Ada 8GB
+  benchmark_gpu_name: NVIDIA Quadro P1000
+  source_row: 1033
+- id: reviewed_excel_row_1034
+  raw_gpu_model: NVIDIA RTX 2000 Ada Mobile
+  benchmark_gpu_name: NVIDIA Quadro P1000
+  source_row: 1034
+- id: reviewed_excel_row_1035
+  raw_gpu_model: NVIDIA RTX 2048
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti
+  source_row: 1035
+- id: reviewed_excel_row_1036
+  raw_gpu_model: NVIDIA RTX 2070S
+  benchmark_gpu_name: NVIDIA GeForce RTX 2070
+  source_row: 1036
+- id: reviewed_excel_row_1037
+  raw_gpu_model: NVIDIA RTX 208
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti
+  source_row: 1037
+- id: reviewed_excel_row_1038
+  raw_gpu_model: Nvidia RTX 2080 Max-Q
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1038
+- id: reviewed_excel_row_1040
+  raw_gpu_model: NVIDIA RTX 3030 ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti
+  source_row: 1040
+- id: reviewed_excel_row_1041
+  raw_gpu_model: Nvidia RTX 3039
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti
+  source_row: 1041
+- id: reviewed_excel_row_1042
+  raw_gpu_model: NVIDIA RTX 3050 Mobile
+  benchmark_gpu_name: NVIDIA GeForce RTX 3050
+  source_row: 1042
+- id: reviewed_excel_row_1043
+  raw_gpu_model: NVIDIA RTX 3060 Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 3060
+  source_row: 1043
+- id: reviewed_excel_row_1044
+  raw_gpu_model: NVIDIA RTX 3060 Laptop 6GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 3060
+  source_row: 1044
+- id: reviewed_excel_row_1045
+  raw_gpu_model: NVIDIA RTX 3070M
+  benchmark_gpu_name: NVIDIA GeForce RTX 3070
+  source_row: 1045
+- id: reviewed_excel_row_1046
+  raw_gpu_model: NVIDIA RTX 3080 Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 3080
+  source_row: 1046
+- id: reviewed_excel_row_1047
+  raw_gpu_model: NVIDIA RTX 3080 Mobile
+  benchmark_gpu_name: NVIDIA GeForce RTX 3080
+  source_row: 1047
+- id: reviewed_excel_row_1048
+  raw_gpu_model: NVIDIA RTX 3080ti 16GB Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 3080 Ti
+  source_row: 1048
+- id: reviewed_excel_row_1049
+  raw_gpu_model: NVIDIA RTX 3090 24Go
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 1049
+- id: reviewed_excel_row_1050
+  raw_gpu_model: NVIDIA RTX 3090Ti 24
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 1050
+- id: reviewed_excel_row_1051
+  raw_gpu_model: Nvidia RTX 3092
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 1051
+- id: reviewed_excel_row_1052
+  raw_gpu_model: NVIDIA RTX 3500 Ada
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti
+  source_row: 1052
+- id: reviewed_excel_row_1055
+  raw_gpu_model: NVIDIA RTX 4000
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 1055
+- id: reviewed_excel_row_1056
+  raw_gpu_model: NVIDIA RTX 4000 16GB
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 1056
+- id: reviewed_excel_row_1057
+  raw_gpu_model: NVIDIA RTX 4000 Ada Generation
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 1057
+- id: reviewed_excel_row_1058
+  raw_gpu_model: NVIDIA RTX 4000 Mobile Ada Generation 12GB
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 1058
+- id: reviewed_excel_row_1059
+  raw_gpu_model: NVIDIA RTX 4060 Laptop 8GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  source_row: 1059
+- id: reviewed_excel_row_1060
+  raw_gpu_model: NVIDIA RTX 4070 Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 4070
+  source_row: 1060
+- id: reviewed_excel_row_1061
+  raw_gpu_model: NVIDIA RTX 4070 SUPER 12GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4070 Ti
+  source_row: 1061
+- id: reviewed_excel_row_1062
+  raw_gpu_model: NVIDIA RTX 4070 Ti Super
+  benchmark_gpu_name: NVIDIA GeForce RTX 4070 Ti
+  source_row: 1062
+- id: reviewed_excel_row_1063
+  raw_gpu_model: NVIDIA RTX 4080 SUPER
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 1063
+- id: reviewed_excel_row_1065
+  raw_gpu_model: NVIDIA RTX 4080 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 1065
+- id: reviewed_excel_row_1066
+  raw_gpu_model: NVIDIA RTX 4080s
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 1066
+- id: reviewed_excel_row_1067
+  raw_gpu_model: NVIDIA RTX 4090 Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 1067
+- id: reviewed_excel_row_1069
+  raw_gpu_model: NVIDIA RTX 4090 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 1069
+- id: reviewed_excel_row_1071
+  raw_gpu_model: NVIDIA RTX 4090TI
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 1071
+- id: reviewed_excel_row_1073
+  raw_gpu_model: NVIDIA RTX 4500 Ada Generation
+  benchmark_gpu_name: NVIDIA RTX A4500
+  source_row: 1073
+- id: reviewed_excel_row_1074
+  raw_gpu_model: NVIDIA RTX 5000 Ada
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 1074
+- id: reviewed_excel_row_1075
+  raw_gpu_model: NVIDIA RTX 5000 Ada Generation
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 1075
+- id: reviewed_excel_row_1076
+  raw_gpu_model: Nvidia RTX 5080
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 1076
+- id: reviewed_excel_row_1077
+  raw_gpu_model: NVIDIA RTX 5500
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 1077
+- id: reviewed_excel_row_1078
+  raw_gpu_model: Nvidia RTX 5880
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 1078
+- id: reviewed_excel_row_1079
+  raw_gpu_model: Nvidia RTX 6000 Ampere
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1079
+- id: reviewed_excel_row_1080
+  raw_gpu_model: NVIDIA RTX 6000A 48Gi
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1080
+- id: reviewed_excel_row_1081
+  raw_gpu_model: NVIDIA RTX 8000 D6 48GB
+  benchmark_gpu_name: NVIDIA Quadro RTX 8000
+  source_row: 1081
+- id: reviewed_excel_row_1083
+  raw_gpu_model: NVIDIA RTX A10
+  benchmark_gpu_name: NVIDIA A10
+  source_row: 1083
+- id: reviewed_excel_row_1084
+  raw_gpu_model: Nvidia RTX A100-SXM4
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 1084
+- id: reviewed_excel_row_1085
+  raw_gpu_model: NVIDIA RTX A1000
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 1085
+- id: reviewed_excel_row_1086
+  raw_gpu_model: NVIDIA RTX A2000
+  benchmark_gpu_name: NVIDIA A30
+  source_row: 1086
+- id: reviewed_excel_row_1087
+  raw_gpu_model: NVIDIA RTX A2000 12GB
+  benchmark_gpu_name: NVIDIA A30
+  source_row: 1087
+- id: reviewed_excel_row_1088
+  raw_gpu_model: Nvidia RTX A2000 Laptop
+  benchmark_gpu_name: NVIDIA A30
+  source_row: 1088
+- id: reviewed_excel_row_1089
+  raw_gpu_model: NVIDIA RTX A30
+  benchmark_gpu_name: NVIDIA A30
+  source_row: 1089
+- id: reviewed_excel_row_1090
+  raw_gpu_model: NVIDIA RTX A300
+  benchmark_gpu_name: NVIDIA A30
+  source_row: 1090
+- id: reviewed_excel_row_1091
+  raw_gpu_model: NVIDIA RTX A4500 Laptop
+  benchmark_gpu_name: NVIDIA RTX A4500
+  source_row: 1091
+- id: reviewed_excel_row_1092
+  raw_gpu_model: NVIDIA RTX A500
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 1092
+- id: reviewed_excel_row_1093
+  raw_gpu_model: NVIDIA RTX A5000 24564MiB
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 1093
+- id: reviewed_excel_row_1094
+  raw_gpu_model: Nvidia RTX A5000 Ada generation 32GB
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 1094
+- id: reviewed_excel_row_1095
+  raw_gpu_model: NVIDIA RTX A600
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1095
+- id: reviewed_excel_row_1096
+  raw_gpu_model: NVIDIA RTX A6000 48
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1096
+- id: reviewed_excel_row_1097
+  raw_gpu_model: NVIDIA RTX A6000 48Go
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1097
+- id: reviewed_excel_row_1098
+  raw_gpu_model: NVIDIA RTX A6000 49140MB
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1098
+- id: reviewed_excel_row_1099
+  raw_gpu_model: NVIDIA RTX A800
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 1099
+- id: reviewed_excel_row_1101
+  raw_gpu_model: NVIDIA RTX Ada 6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1101
+- id: reviewed_excel_row_1102
+  raw_gpu_model: NVIDIA RTX GeForce 2080Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1102
+- id: reviewed_excel_row_1103
+  raw_gpu_model: NVIDIA RTX L40
+  benchmark_gpu_name: NVIDIA L40
+  source_row: 1103
+- id: reviewed_excel_row_1104
+  raw_gpu_model: NVIDIA RTX L40S 48G
+  benchmark_gpu_name: NVIDIA L40S
+  source_row: 1104
+- id: reviewed_excel_row_1105
+  raw_gpu_model: Nvidia RTX L40S 48GB
+  benchmark_gpu_name: NVIDIA L40S
+  source_row: 1105
+- id: reviewed_excel_row_1106
+  raw_gpu_model: NVIDIA RTX Q8000
+  benchmark_gpu_name: NVIDIA Quadro RTX 8000
+  source_row: 1106
+- id: reviewed_excel_row_1107
+  raw_gpu_model: NVIDIA RTX Quadro 6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1107
+- id: reviewed_excel_row_1108
+  raw_gpu_model: NVIDIA RTX Quadro RTX 8000
+  benchmark_gpu_name: NVIDIA Quadro RTX 8000
+  source_row: 1108
+- id: reviewed_excel_row_1109
+  raw_gpu_model: NVIDIA RTX-4060
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  source_row: 1109
+- id: reviewed_excel_row_1110
+  raw_gpu_model: Nvidia RTX2020Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti
+  source_row: 1110
+- id: reviewed_excel_row_1111
+  raw_gpu_model: Nvidia RTX2080 Mobile Max-Q 8GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1111
+- id: reviewed_excel_row_1112
+  raw_gpu_model: NVIDIA RTX2080S
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1112
+- id: reviewed_excel_row_1113
+  raw_gpu_model: NVIDIA RTX3050 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 3050
+  source_row: 1113
+- id: reviewed_excel_row_1114
+  raw_gpu_model: NVIDIA RTX3070Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 3070
+  source_row: 1114
+- id: reviewed_excel_row_1115
+  raw_gpu_model: NVIDIA RTX3080Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 3080 Ti
+  source_row: 1115
+- id: reviewed_excel_row_1118
+  raw_gpu_model: NVIDIA RTX4000
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 1118
+- id: reviewed_excel_row_1119
+  raw_gpu_model: NVIDIA RTX4070Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 4070 Ti
+  source_row: 1119
+- id: reviewed_excel_row_1120
+  raw_gpu_model: NVIDIA RTX4070Ti 12GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4070 Ti
+  source_row: 1120
+- id: reviewed_excel_row_1121
+  raw_gpu_model: NVIDIA RTX4070Ti Super
+  benchmark_gpu_name: NVIDIA GeForce RTX 4070 Ti
+  source_row: 1121
+- id: reviewed_excel_row_1122
+  raw_gpu_model: NVIDIA RTX4080 Super
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 1122
+- id: reviewed_excel_row_1123
+  raw_gpu_model: NVidia RTX4090D
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 1123
+- id: reviewed_excel_row_1124
+  raw_gpu_model: NVIDIA RTX4090D 24GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 1124
+- id: reviewed_excel_row_1125
+  raw_gpu_model: NVIDIA RTX4500 Ada
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 1125
+- id: reviewed_excel_row_1126
+  raw_gpu_model: Nvidia RTX6K
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 1126
+- id: reviewed_excel_row_1127
+  raw_gpu_model: Nvidia RTX6K 24GB
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 1127
+- id: reviewed_excel_row_1128
+  raw_gpu_model: Nvidia RTXA4/5/6000
+  benchmark_gpu_name: NVIDIA A40 PCIe
+  source_row: 1128
+- id: reviewed_excel_row_1129
+  raw_gpu_model: NVIDIA RTXA600
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1129
+- id: reviewed_excel_row_1130
+  raw_gpu_model: NVIDIA RX 2080TI
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1130
+- id: reviewed_excel_row_1131
+  raw_gpu_model: NVIDIA SM3090 24GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 1131
+- id: reviewed_excel_row_1132
+  raw_gpu_model: NVIDIA SMX4-A100-80GB
+  benchmark_gpu_name: NVIDIA A100 SXM4 80 GB
+  source_row: 1132
+- id: reviewed_excel_row_1137
+  raw_gpu_model: NVIDIA Tegra K1
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 1137
+- id: reviewed_excel_row_1141
+  raw_gpu_model: Nvidia Telsa V100 32
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1141
+- id: reviewed_excel_row_1142
+  raw_gpu_model: NVIDIA Telsa V100 32GO
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1142
+- id: reviewed_excel_row_1143
+  raw_gpu_model: NVIDIA Telsla A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 1143
+- id: reviewed_excel_row_1144
+  raw_gpu_model: Nvidia Terga4
+  benchmark_gpu_name: NVIDIA A40 PCIe
+  source_row: 1144
+- id: reviewed_excel_row_1145
+  raw_gpu_model: NVIDIA Teska V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1145
+- id: reviewed_excel_row_1149
+  raw_gpu_model: NVIDIA Tesla 32G V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1149
+- id: reviewed_excel_row_1151
+  raw_gpu_model: NVIDIA Tesla 32G-V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1151
+- id: reviewed_excel_row_1152
+  raw_gpu_model: NVIDIA Tesla 32GB V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1152
+- id: reviewed_excel_row_1154
+  raw_gpu_model: NVIDIA Tesla 40GA100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 1154
+- id: reviewed_excel_row_1155
+  raw_gpu_model: NVIDIA Tesla 40GB A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 1155
+- id: reviewed_excel_row_1156
+  raw_gpu_model: NVIDIA Tesla 80G A100
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 1156
+- id: reviewed_excel_row_1158
+  raw_gpu_model: NVIDIA Tesla A10
+  benchmark_gpu_name: NVIDIA A10
+  source_row: 1158
+- id: reviewed_excel_row_1159
+  raw_gpu_model: NVIDIA Tesla A100 Ampere 40GB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 1159
+- id: reviewed_excel_row_1160
+  raw_gpu_model: NVIDIA Tesla A100 SMX4 40GB
+  benchmark_gpu_name: NVIDIA A100 SXM4 40 GB
+  source_row: 1160
+- id: reviewed_excel_row_1161
+  raw_gpu_model: NVIDIA Tesla A100/V100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 1161
+- id: reviewed_excel_row_1162
+  raw_gpu_model: NVIDIA Tesla A100s 80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 1162
+- id: reviewed_excel_row_1163
+  raw_gpu_model: NVIDIA Tesla A2
+  benchmark_gpu_name: NVIDIA A30
+  source_row: 1163
+- id: reviewed_excel_row_1164
+  raw_gpu_model: Nvidia Tesla A4
+  benchmark_gpu_name: NVIDIA A40 PCIe
+  source_row: 1164
+- id: reviewed_excel_row_1165
+  raw_gpu_model: NVIDIA Tesla A5000
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 1165
+- id: reviewed_excel_row_1166
+  raw_gpu_model: NVIDIA Tesla A6000 48GB
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1166
+- id: reviewed_excel_row_1168
+  raw_gpu_model: NVIDIA Tesla K10
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 1168
+- id: reviewed_excel_row_1169
+  raw_gpu_model: NVIDIA Tesla K20
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 1169
+- id: reviewed_excel_row_1172
+  raw_gpu_model: NVIDIA Tesla K20m
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 1172
+- id: reviewed_excel_row_1173
+  raw_gpu_model: NVidia Tesla K20Xm
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 1173
+- id: reviewed_excel_row_1175
+  raw_gpu_model: Nvidia Tesla K50c
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 1175
+- id: reviewed_excel_row_1176
+  raw_gpu_model: Nvidia Tesla K80 Dual GPU Module
+  benchmark_gpu_name: NVIDIA Tesla K80
+  source_row: 1176
+- id: reviewed_excel_row_1177
+  raw_gpu_model: NVIDIA Tesla M2090
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 SUPER
+  source_row: 1177
+- id: reviewed_excel_row_1180
+  raw_gpu_model: Nvidia Tesla P100 Pascal
+  benchmark_gpu_name: NVIDIA Tesla P100 PCIe 16GB
+  source_row: 1180
+- id: reviewed_excel_row_1181
+  raw_gpu_model: NVIDIA Tesla P100-PICE
+  benchmark_gpu_name: NVIDIA Tesla P100 PCIe 16GB
+  source_row: 1181
+- id: reviewed_excel_row_1182
+  raw_gpu_model: Nvidia Tesla P100s
+  benchmark_gpu_name: NVIDIA Tesla P100 PCIe 16GB
+  source_row: 1182
+- id: reviewed_excel_row_1184
+  raw_gpu_model: NVIDIA Tesla PH402 SKU 200
+  benchmark_gpu_name: NVIDIA Tesla K40s
+  source_row: 1184
+- id: reviewed_excel_row_1186
+  raw_gpu_model: NVIDIA Tesla V
+  benchmark_gpu_name: NVIDIA Titan V
+  source_row: 1186
+- id: reviewed_excel_row_1187
+  raw_gpu_model: NVIDIA Tesla V100 32
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1187
+- id: reviewed_excel_row_1188
+  raw_gpu_model: NVIDIA TESLA V100 32Go
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1188
+- id: reviewed_excel_row_1189
+  raw_gpu_model: NVIDIA Tesla V100 SXM3
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1189
+- id: reviewed_excel_row_1190
+  raw_gpu_model: NVIDIA Tesla V100 TensorCore
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1190
+- id: reviewed_excel_row_1191
+  raw_gpu_model: NVIDIA Tesla V100 Volta
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1191
+- id: reviewed_excel_row_1193
+  raw_gpu_model: Nvidia Tesla V100-FHHL 16GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1193
+- id: reviewed_excel_row_1194
+  raw_gpu_model: Nvidia Tesla V100-S 24GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1194
+- id: reviewed_excel_row_1195
+  raw_gpu_model: NVIDIA Tesla V100-SMX2
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1195
+- id: reviewed_excel_row_1196
+  raw_gpu_model: NVIDIA Tesla V100-SXM3
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1196
+- id: reviewed_excel_row_1197
+  raw_gpu_model: NVIDIA Tesla V100/P100 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1197
+- id: reviewed_excel_row_1198
+  raw_gpu_model: NVIDIA Tesla V100f
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1198
+- id: reviewed_excel_row_1199
+  raw_gpu_model: NVIDIA Tesla V100x
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1199
+- id: reviewed_excel_row_1202
+  raw_gpu_model: NVIDIA TESLA Volta V100 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1202
+- id: reviewed_excel_row_1203
+  raw_gpu_model: NVIDIA Tesla Volta V100 32GiB PCIe
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1203
+- id: reviewed_excel_row_1204
+  raw_gpu_model: Nvidia Tesla Volta V100-SXM2 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1204
+- id: reviewed_excel_row_1205
+  raw_gpu_model: NVIDIA Tesla-A6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1205
+- id: reviewed_excel_row_1206
+  raw_gpu_model: NVIDIA TeslaV100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1206
+- id: reviewed_excel_row_1207
+  raw_gpu_model: NVIDIA TESTLA V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1207
+- id: reviewed_excel_row_1208
+  raw_gpu_model: NVIDIA TI 1080
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1208
+- id: reviewed_excel_row_1209
+  raw_gpu_model: NVIDIA Tian X
+  benchmark_gpu_name: NVIDIA GeForce GTX TITAN X
+  source_row: 1209
+- id: reviewed_excel_row_1210
+  raw_gpu_model: NVIDIA TIAN Xp
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1210
+- id: reviewed_excel_row_1211
+  raw_gpu_model: NVIDIA Tian Xp 12GB
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1211
+- id: reviewed_excel_row_1213
+  raw_gpu_model: NVIDIA Titan 1070 8G
+  benchmark_gpu_name: NVIDIA GeForce GTX 1070
+  source_row: 1213
+- id: reviewed_excel_row_1214
+  raw_gpu_model: NVIDIA TITAN 1080
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1214
+- id: reviewed_excel_row_1216
+  raw_gpu_model: NVIDIA Titan 1080Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1216
+- id: reviewed_excel_row_1218
+  raw_gpu_model: NVIDIA TITAN 2080Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1218
+- id: reviewed_excel_row_1222
+  raw_gpu_model: Nvidia Titan 2080Ti 11GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1222
+- id: reviewed_excel_row_1223
+  raw_gpu_model: Nvidia Titan 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 1223
+- id: reviewed_excel_row_1224
+  raw_gpu_model: NVIDIA Titan A100 40G
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 1224
+- id: reviewed_excel_row_1225
+  raw_gpu_model: NVIDIA TITAN A100 40GB
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 1225
+- id: reviewed_excel_row_1226
+  raw_gpu_model: NVIDIA Titan A800 80G
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 1226
+- id: reviewed_excel_row_1227
+  raw_gpu_model: NVIDIA Titan Black
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1227
+- id: reviewed_excel_row_1231
+  raw_gpu_model: Nvidia Titan Black 6GB
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1231
+- id: reviewed_excel_row_1232
+  raw_gpu_model: NVIDIA Titan Black GPU
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1232
+- id: reviewed_excel_row_1233
+  raw_gpu_model: NVIDIA TITAN GTX
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1233
+- id: reviewed_excel_row_1234
+  raw_gpu_model: NVIDIA TITAN GTX 24GB
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1234
+- id: reviewed_excel_row_1235
+  raw_gpu_model: Nvidia Titan P100
+  benchmark_gpu_name: NVIDIA Tesla P100 PCIe 16GB
+  source_row: 1235
+- id: reviewed_excel_row_1236
+  raw_gpu_model: Nvidia Titan RTX 2080
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1236
+- id: reviewed_excel_row_1237
+  raw_gpu_model: NVIDIA TITAN RTX 24220MB
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1237
+- id: reviewed_excel_row_1238
+  raw_gpu_model: NVIDIA TITAN RTX 25 Go
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1238
+- id: reviewed_excel_row_1239
+  raw_gpu_model: NVIDIA TITAN RTX 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 1239
+- id: reviewed_excel_row_1240
+  raw_gpu_model: NVIDIA TiTAN RTX A6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1240
+- id: reviewed_excel_row_1241
+  raw_gpu_model: NVIDIA TITAN RTX3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 1241
+- id: reviewed_excel_row_1242
+  raw_gpu_model: NVIDIA TITAN V GV100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1242
+- id: reviewed_excel_row_1243
+  raw_gpu_model: Nvidia Titan X/Xp 12GB
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1243
+- id: reviewed_excel_row_1244
+  raw_gpu_model: NVIDIA Titan XP 1080
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1244
+- id: reviewed_excel_row_1245
+  raw_gpu_model: Nvidia Titan XP 1080i
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1245
+- id: reviewed_excel_row_1246
+  raw_gpu_model: NVIDIA Titan Xp Pascal
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1246
+- id: reviewed_excel_row_1247
+  raw_gpu_model: NVIDIA Titan Z
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1247
+- id: reviewed_excel_row_1248
+  raw_gpu_model: Nvidia TITAN Z 12GB
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1248
+- id: reviewed_excel_row_1249
+  raw_gpu_model: NVIDIA Titan-X 12G Pascal
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1249
+- id: reviewed_excel_row_1250
+  raw_gpu_model: Nvidia TitanX 1080 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1250
+- id: reviewed_excel_row_1251
+  raw_gpu_model: NVIDIA TitanX 1080ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1251
+- id: reviewed_excel_row_1252
+  raw_gpu_model: Nvidia TitanX 2080 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1252
+- id: reviewed_excel_row_1253
+  raw_gpu_model: NVIDIA TITANX RTX
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1253
+- id: reviewed_excel_row_1254
+  raw_gpu_model: NVIDIA TitanX/1080Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1254
+- id: reviewed_excel_row_1255
+  raw_gpu_model: Nvidia TitanZ
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1255
+- id: reviewed_excel_row_1256
+  raw_gpu_model: Nvidia TitianX
+  benchmark_gpu_name: NVIDIA GeForce GTX TITAN X
+  source_row: 1256
+- id: reviewed_excel_row_1257
+  raw_gpu_model: NVIDIA TK40 16GB
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 1257
+- id: reviewed_excel_row_1259
+  raw_gpu_model: Nvidia TU102GL Quadro RTX 6000/8000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1259
+- id: reviewed_excel_row_1263
+  raw_gpu_model: NVIDIA V
+  benchmark_gpu_name: NVIDIA Titan V
+  source_row: 1263
+- id: reviewed_excel_row_1265
+  raw_gpu_model: NVIDIA V100 16/32G
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1265
+- id: reviewed_excel_row_1266
+  raw_gpu_model: NVIDIA V100 32
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1266
+- id: reviewed_excel_row_1268
+  raw_gpu_model: NVIDIA V100 32GB SMX3
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1268
+- id: reviewed_excel_row_1269
+  raw_gpu_model: NVIDIA v100 NV32
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1269
+- id: reviewed_excel_row_1270
+  raw_gpu_model: NVIDIA V100 SMX2
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1270
+- id: reviewed_excel_row_1271
+  raw_gpu_model: NVIDIA V100 SMX2 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1271
+- id: reviewed_excel_row_1272
+  raw_gpu_model: Nvidia V100 SXM2 32 Go
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1272
+- id: reviewed_excel_row_1273
+  raw_gpu_model: NVIDIA V100 SXM2-HBM2 16GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1273
+- id: reviewed_excel_row_1274
+  raw_gpu_model: NVIDIA V100 SXM2-HBM2 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1274
+- id: reviewed_excel_row_1275
+  raw_gpu_model: NVIDIA V100 Tesla
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1275
+- id: reviewed_excel_row_1276
+  raw_gpu_model: NVIDIA V100 Tesla 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1276
+- id: reviewed_excel_row_1277
+  raw_gpu_model: NVIDIA V100 Volta
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1277
+- id: reviewed_excel_row_1278
+  raw_gpu_model: NVIDIA V100 Volta 32G
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1278
+- id: reviewed_excel_row_1279
+  raw_gpu_model: NVIDIA V100-DGXS
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1279
+- id: reviewed_excel_row_1280
+  raw_gpu_model: Nvidia V100-SMX2
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1280
+- id: reviewed_excel_row_1281
+  raw_gpu_model: NVIDIA V100-SXM4-40GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1281
+- id: reviewed_excel_row_1282
+  raw_gpu_model: NVIDIA V100/A5000
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1282
+- id: reviewed_excel_row_1283
+  raw_gpu_model: Nvidia V100DX-8C
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1283
+- id: reviewed_excel_row_1284
+  raw_gpu_model: NVidia V100SXM2
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1284
+- id: reviewed_excel_row_1285
+  raw_gpu_model: NVidia V100SXM2 16G
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1285
+- id: reviewed_excel_row_1288
+  raw_gpu_model: NVIDIA V6000 48G
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1288
+- id: reviewed_excel_row_1290
+  raw_gpu_model: Nvidia Volta A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 1290
+- id: reviewed_excel_row_1291
+  raw_gpu_model: Nvidia Volta V100-SXM2-32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1291
+- id: reviewed_excel_row_1293
+  raw_gpu_model: NVIDIA Xp
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1293
+- id: reviewed_excel_row_1296
+  raw_gpu_model: NVIDIA Xp 11GB
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1296
+- id: reviewed_excel_row_1297
+  raw_gpu_model: NVIDIA(R) Tesla(R) V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1297
+- id: reviewed_excel_row_1298
+  raw_gpu_model: NVIDIA-3090 GTX
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 1298
+- id: reviewed_excel_row_1299
+  raw_gpu_model: NVIDIA-A100x80G
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 1299
+- id: reviewed_excel_row_1300
+  raw_gpu_model: Nvidia-Ada 6000 49GB
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1300
+- id: reviewed_excel_row_1301
+  raw_gpu_model: NVIDIA-DGX V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1301
+- id: reviewed_excel_row_1302
+  raw_gpu_model: NVIDIA-GeForce RTX 2080 series
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1302
+- id: reviewed_excel_row_1303
+  raw_gpu_model: NVIDIA-GeForce Tesla V100 SXM2 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1303
+- id: reviewed_excel_row_1306
+  raw_gpu_model: NVIDIA-H100-80
+  benchmark_gpu_name: NVIDIA H100 PCIe
+  source_row: 1306
+- id: reviewed_excel_row_1307
+  raw_gpu_model: NVIDIA-L20Z-80GB
+  benchmark_gpu_name: NVIDIA L20 PCle
+  source_row: 1307
+- id: reviewed_excel_row_1309
+  raw_gpu_model: NVIDIA-SMI A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 1309
+- id: reviewed_excel_row_1310
+  raw_gpu_model: NVIDIA1080Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1310
+- id: reviewed_excel_row_1312
+  raw_gpu_model: Nvidia2080Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1312
+- id: reviewed_excel_row_1313
+  raw_gpu_model: NVIVIA A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 1313
+- id: reviewed_excel_row_1318
+  raw_gpu_model: orce GTX Titan Xp Graphic Card
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1318
+- id: reviewed_excel_row_1319
+  raw_gpu_model: Orin Nano 8G
+  benchmark_gpu_name: NVIDIA Jetson Orin Nano 8GB
+  source_row: 1319
+- id: reviewed_excel_row_1323
+  raw_gpu_model: P80
+  benchmark_gpu_name: NVIDIA Quadro RTX 8000
+  source_row: 1323
+- id: reviewed_excel_row_1328
+  raw_gpu_model: Pascal P100
+  benchmark_gpu_name: NVIDIA Tesla P100 PCIe 16GB
+  source_row: 1328
+- id: reviewed_excel_row_1329
+  raw_gpu_model: Pascal Tesla P100
+  benchmark_gpu_name: NVIDIA Tesla P100 PCIe 16GB
+  source_row: 1329
+- id: reviewed_excel_row_1330
+  raw_gpu_model: Pascal TITAN
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1330
+- id: reviewed_excel_row_1331
+  raw_gpu_model: Pascal TITAN X
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1331
+- id: reviewed_excel_row_1333
+  raw_gpu_model: Pascal TITAN XP
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1333
+- id: reviewed_excel_row_1334
+  raw_gpu_model: Pascal Titan-X
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1334
+- id: reviewed_excel_row_1335
+  raw_gpu_model: Pascal TitanX
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1335
+- id: reviewed_excel_row_1336
+  raw_gpu_model: Pascal V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1336
+- id: reviewed_excel_row_1337
+  raw_gpu_model: Pascal100 P100
+  benchmark_gpu_name: NVIDIA Tesla P100 PCIe 16GB
+  source_row: 1337
+- id: reviewed_excel_row_1339
+  raw_gpu_model: PH402 SKU 200 12G
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 1339
+- id: reviewed_excel_row_1340
+  raw_gpu_model: Quadro 400
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 1340
+- id: reviewed_excel_row_1341
+  raw_gpu_model: Quadro K2100M
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 1341
+- id: reviewed_excel_row_1342
+  raw_gpu_model: Quadro K5200
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 1342
+- id: reviewed_excel_row_1343
+  raw_gpu_model: Quadro M5000 8GB
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 1343
+- id: reviewed_excel_row_1344
+  raw_gpu_model: Quadro M6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1344
+- id: reviewed_excel_row_1345
+  raw_gpu_model: Quadro M6000 24GB
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1345
+- id: reviewed_excel_row_1346
+  raw_gpu_model: Quadro M6000 Maxwell
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1346
+- id: reviewed_excel_row_1347
+  raw_gpu_model: Quadro P2000
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 1347
+- id: reviewed_excel_row_1348
+  raw_gpu_model: Quadro P3200
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 1348
+- id: reviewed_excel_row_1349
+  raw_gpu_model: Quadro RT 6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1349
+- id: reviewed_excel_row_1352
+  raw_gpu_model: Quadro RTX 600
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1352
+- id: reviewed_excel_row_1353
+  raw_gpu_model: Quadro RTX 6000 24576MiB
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1353
+- id: reviewed_excel_row_1354
+  raw_gpu_model: Quadro RTX 800
+  benchmark_gpu_name: NVIDIA Quadro RTX 8000
+  source_row: 1354
+- id: reviewed_excel_row_1355
+  raw_gpu_model: Quadro RTX153 8000
+  benchmark_gpu_name: NVIDIA Quadro RTX 8000
+  source_row: 1355
+- id: reviewed_excel_row_1356
+  raw_gpu_model: Quadro RTX600
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1356
+- id: reviewed_excel_row_1357
+  raw_gpu_model: Quadro T1000 4GB
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 1357
+- id: reviewed_excel_row_1358
+  raw_gpu_model: Quadro T2000
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 1358
+- id: reviewed_excel_row_1359
+  raw_gpu_model: Quadro-RTX600 16GB
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1359
+- id: reviewed_excel_row_1360
+  raw_gpu_model: QuadroM2200
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 1360
+- id: reviewed_excel_row_1362
+  raw_gpu_model: QuadroRTX 8000
+  benchmark_gpu_name: NVIDIA Quadro RTX 8000
+  source_row: 1362
+- id: reviewed_excel_row_1363
+  raw_gpu_model: QuadroRTX6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1363
+- id: reviewed_excel_row_1372
+  raw_gpu_model: Quatro GP100
+  benchmark_gpu_name: NVIDIA Tesla P100 PCIe 16GB
+  source_row: 1372
+- id: reviewed_excel_row_1378
+  raw_gpu_model: RTA A6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1378
+- id: reviewed_excel_row_1380
+  raw_gpu_model: RTX 2060 6GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 2060 SUPER
+  source_row: 1380
+- id: reviewed_excel_row_1381
+  raw_gpu_model: RTX 2060 Max-Q
+  benchmark_gpu_name: NVIDIA GeForce RTX 2060 SUPER
+  source_row: 1381
+- id: reviewed_excel_row_1382
+  raw_gpu_model: RTX 2060S
+  benchmark_gpu_name: NVIDIA GeForce RTX 2060 SUPER
+  source_row: 1382
+- id: reviewed_excel_row_1383
+  raw_gpu_model: RTX 2070 Max-Q
+  benchmark_gpu_name: NVIDIA GeForce RTX 2070
+  source_row: 1383
+- id: reviewed_excel_row_1384
+  raw_gpu_model: RTX 2070 Mobile
+  benchmark_gpu_name: NVIDIA GeForce RTX 2070
+  source_row: 1384
+- id: reviewed_excel_row_1386
+  raw_gpu_model: RTX 2080 GTX
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1386
+- id: reviewed_excel_row_1387
+  raw_gpu_model: RTX 2080 Rev
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1387
+- id: reviewed_excel_row_1388
+  raw_gpu_model: RTX 2080GTX
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1388
+- id: reviewed_excel_row_1389
+  raw_gpu_model: RTX 3060 Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 3060
+  source_row: 1389
+- id: reviewed_excel_row_1390
+  raw_gpu_model: RTX 3070 Ti Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 3070
+  source_row: 1390
+- id: reviewed_excel_row_1391
+  raw_gpu_model: RTX 3080 Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 3080
+  source_row: 1391
+- id: reviewed_excel_row_1393
+  raw_gpu_model: RTX 40
+  benchmark_gpu_name: NVIDIA RTX A4500
+  source_row: 1393
+- id: reviewed_excel_row_1394
+  raw_gpu_model: RTX 4060
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  source_row: 1394
+- id: reviewed_excel_row_1395
+  raw_gpu_model: RTX 4060 8G
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  source_row: 1395
+- id: reviewed_excel_row_1396
+  raw_gpu_model: RTX 4060 8GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  source_row: 1396
+- id: reviewed_excel_row_1397
+  raw_gpu_model: RTX 4060 Laptop 8GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  source_row: 1397
+- id: reviewed_excel_row_1398
+  raw_gpu_model: RTX 4070 Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 4070
+  source_row: 1398
+- id: reviewed_excel_row_1399
+  raw_gpu_model: RTX 4070 Ti SUPER
+  benchmark_gpu_name: NVIDIA GeForce RTX 4070 Ti
+  source_row: 1399
+- id: reviewed_excel_row_1401
+  raw_gpu_model: RTX 4070 Ti Super Desktop
+  benchmark_gpu_name: NVIDIA GeForce RTX 4070 Ti
+  source_row: 1401
+- id: reviewed_excel_row_1402
+  raw_gpu_model: RTX 4080 Super
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 1402
+- id: reviewed_excel_row_1403
+  raw_gpu_model: RTX 4080 Super 16G
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 1403
+- id: reviewed_excel_row_1404
+  raw_gpu_model: RTX 4090Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 1404
+- id: reviewed_excel_row_1405
+  raw_gpu_model: RTX 4500
+  benchmark_gpu_name: NVIDIA RTX A4500
+  source_row: 1405
+- id: reviewed_excel_row_1406
+  raw_gpu_model: RTX 5000 Ada
+  benchmark_gpu_name: NVIDIA Quadro RTX 5000
+  source_row: 1406
+- id: reviewed_excel_row_1407
+  raw_gpu_model: RTX 5000 Turing 16GB
+  benchmark_gpu_name: NVIDIA Quadro RTX 5000
+  source_row: 1407
+- id: reviewed_excel_row_1408
+  raw_gpu_model: RTX 5880
+  benchmark_gpu_name: NVIDIA Quadro RTX 5000
+  source_row: 1408
+- id: reviewed_excel_row_1409
+  raw_gpu_model: RTX 5880 48GB
+  benchmark_gpu_name: NVIDIA Quadro RTX 5000
+  source_row: 1409
+- id: reviewed_excel_row_1410
+  raw_gpu_model: RTX 6000A
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1410
+- id: reviewed_excel_row_1411
+  raw_gpu_model: RTX A2000
+  benchmark_gpu_name: NVIDIA A30
+  source_row: 1411
+- id: reviewed_excel_row_1412
+  raw_gpu_model: RTX A3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 1412
+- id: reviewed_excel_row_1413
+  raw_gpu_model: RTX A500
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 1413
+- id: reviewed_excel_row_1414
+  raw_gpu_model: RTX A600
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1414
+- id: reviewed_excel_row_1415
+  raw_gpu_model: RTX A800
+  benchmark_gpu_name: NVIDIA A800 PCIe 40 GB
+  source_row: 1415
+- id: reviewed_excel_row_1416
+  raw_gpu_model: RTX GeForce 2080-Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1416
+- id: reviewed_excel_row_1417
+  raw_gpu_model: RTX GeForce 4080 Super
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 1417
+- id: reviewed_excel_row_1419
+  raw_gpu_model: RTX L40s
+  benchmark_gpu_name: NVIDIA L40S
+  source_row: 1419
+- id: reviewed_excel_row_1420
+  raw_gpu_model: RTX Nvidia Titan
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1420
+- id: reviewed_excel_row_1421
+  raw_gpu_model: RTX Pro 6000
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1421
+- id: reviewed_excel_row_1422
+  raw_gpu_model: RTX Quodra 8000
+  benchmark_gpu_name: NVIDIA Quadro RTX 8000
+  source_row: 1422
+- id: reviewed_excel_row_1423
+  raw_gpu_model: RTX TITAN XP
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1423
+- id: reviewed_excel_row_1425
+  raw_gpu_model: RTX-100 24GB
+  benchmark_gpu_name: NVIDIA Quadro RTX 5000
+  source_row: 1425
+- id: reviewed_excel_row_1428
+  raw_gpu_model: RTX-6k
+  benchmark_gpu_name: NVIDIA Quadro RTX 6000
+  source_row: 1428
+- id: reviewed_excel_row_1429
+  raw_gpu_model: RTX2070S
+  benchmark_gpu_name: NVIDIA GeForce RTX 2070
+  source_row: 1429
+- id: reviewed_excel_row_1432
+  raw_gpu_model: RTX3060 Laptop
+  benchmark_gpu_name: NVIDIA GeForce RTX 3060
+  source_row: 1432
+- id: reviewed_excel_row_1433
+  raw_gpu_model: RTX3070 8G
+  benchmark_gpu_name: NVIDIA GeForce RTX 3070
+  source_row: 1433
+- id: reviewed_excel_row_1434
+  raw_gpu_model: RTX3090Ti R2
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 1434
+- id: reviewed_excel_row_1435
+  raw_gpu_model: RTX3090Ti R4
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 1435
+- id: reviewed_excel_row_1436
+  raw_gpu_model: RTX4000
+  benchmark_gpu_name: NVIDIA Quadro P4000
+  source_row: 1436
+- id: reviewed_excel_row_1437
+  raw_gpu_model: RTX4060
+  benchmark_gpu_name: NVIDIA GeForce RTX 4060 Ti
+  source_row: 1437
+- id: reviewed_excel_row_1438
+  raw_gpu_model: RTX4080 mobile
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 1438
+- id: reviewed_excel_row_1439
+  raw_gpu_model: RTX4080 Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 4080
+  source_row: 1439
+- id: reviewed_excel_row_1440
+  raw_gpu_model: RTX4090D
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 1440
+- id: reviewed_excel_row_1441
+  raw_gpu_model: RTX4090ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 4090
+  source_row: 1441
+- id: reviewed_excel_row_1442
+  raw_gpu_model: RTX600
+  benchmark_gpu_name: NVIDIA RTX A6000
+  source_row: 1442
+- id: reviewed_excel_row_1443
+  raw_gpu_model: RX6800
+  benchmark_gpu_name: NVIDIA Quadro RTX 8000
+  source_row: 1443
+- id: reviewed_excel_row_1447
+  raw_gpu_model: single A100 GPU
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 1447
+- id: reviewed_excel_row_1452
+  raw_gpu_model: SMX4 A100 80GB
+  benchmark_gpu_name: NVIDIA A100 SXM4 80 GB
+  source_row: 1452
+- id: reviewed_excel_row_1459
+  raw_gpu_model: T5
+  benchmark_gpu_name: NVIDIA Tesla T4
+  source_row: 1459
+- id: reviewed_excel_row_1463
+  raw_gpu_model: Tesla 1080Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1463
+- id: reviewed_excel_row_1464
+  raw_gpu_model: Tesla 16GB V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1464
+- id: reviewed_excel_row_1465
+  raw_gpu_model: Tesla 2080Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1465
+- id: reviewed_excel_row_1466
+  raw_gpu_model: Tesla 2080Ti 11GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1466
+- id: reviewed_excel_row_1467
+  raw_gpu_model: Tesla 3090 24GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 1467
+- id: reviewed_excel_row_1468
+  raw_gpu_model: Tesla A10
+  benchmark_gpu_name: NVIDIA A10
+  source_row: 1468
+- id: reviewed_excel_row_1469
+  raw_gpu_model: Tesla A100 Super
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 1469
+- id: reviewed_excel_row_1470
+  raw_gpu_model: Tesla A5000
+  benchmark_gpu_name: NVIDIA RTX A5000
+  source_row: 1470
+- id: reviewed_excel_row_1471
+  raw_gpu_model: Tesla G40
+  benchmark_gpu_name: NVIDIA Tesla T4
+  source_row: 1471
+- id: reviewed_excel_row_1472
+  raw_gpu_model: Tesla GPU V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1472
+- id: reviewed_excel_row_1473
+  raw_gpu_model: Tesla K20
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 1473
+- id: reviewed_excel_row_1474
+  raw_gpu_model: Tesla K20m
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 1474
+- id: reviewed_excel_row_1475
+  raw_gpu_model: Tesla K20Xm
+  benchmark_gpu_name: NVIDIA Tesla K20c
+  source_row: 1475
+- id: reviewed_excel_row_1476
+  raw_gpu_model: Tesla K40cm
+  benchmark_gpu_name: NVIDIA Tesla K40s
+  source_row: 1476
+- id: reviewed_excel_row_1477
+  raw_gpu_model: Tesla K80G
+  benchmark_gpu_name: NVIDIA Tesla K80
+  source_row: 1477
+- id: reviewed_excel_row_1478
+  raw_gpu_model: Tesla M10
+  benchmark_gpu_name: NVIDIA Tesla T4
+  source_row: 1478
+- id: reviewed_excel_row_1479
+  raw_gpu_model: Tesla M2070
+  benchmark_gpu_name: NVIDIA GeForce RTX 2070
+  source_row: 1479
+- id: reviewed_excel_row_1480
+  raw_gpu_model: Tesla NVIDIA V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1480
+- id: reviewed_excel_row_1481
+  raw_gpu_model: Tesla P
+  benchmark_gpu_name: NVIDIA Tesla T4
+  source_row: 1481
+- id: reviewed_excel_row_1482
+  raw_gpu_model: Tesla Titan X
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1482
+- id: reviewed_excel_row_1483
+  raw_gpu_model: Tesla V
+  benchmark_gpu_name: NVIDIA Tesla T4
+  source_row: 1483
+- id: reviewed_excel_row_1485
+  raw_gpu_model: Tesla V100 16384MB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1485
+- id: reviewed_excel_row_1486
+  raw_gpu_model: Tesla V100 DGCS 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1486
+- id: reviewed_excel_row_1487
+  raw_gpu_model: Tesla V100 Super
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1487
+- id: reviewed_excel_row_1488
+  raw_gpu_model: Tesla V100 Volta
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1488
+- id: reviewed_excel_row_1489
+  raw_gpu_model: Tesla V100 Volta 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1489
+- id: reviewed_excel_row_1490
+  raw_gpu_model: Tesla V100-SXM3
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1490
+- id: reviewed_excel_row_1491
+  raw_gpu_model: Tesla V100-SXM3-32GB-H
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1491
+- id: reviewed_excel_row_1492
+  raw_gpu_model: Tesla V100c 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1492
+- id: reviewed_excel_row_1493
+  raw_gpu_model: Tesla V100M32
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1493
+- id: reviewed_excel_row_1494
+  raw_gpu_model: Tesla V100S GPU 32G
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1494
+- id: reviewed_excel_row_1495
+  raw_gpu_model: Tesla V100S-PCI
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1495
+- id: reviewed_excel_row_1497
+  raw_gpu_model: Tesla X
+  benchmark_gpu_name: NVIDIA TITAN X Pascal
+  source_row: 1497
+- id: reviewed_excel_row_1498
+  raw_gpu_model: TESLA X (Pascal)
+  benchmark_gpu_name: NVIDIA TITAN X Pascal
+  source_row: 1498
+- id: reviewed_excel_row_1499
+  raw_gpu_model: Tesla XP
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1499
+- id: reviewed_excel_row_1500
+  raw_gpu_model: TeslaA100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 1500
+- id: reviewed_excel_row_1501
+  raw_gpu_model: TeslaA100 80GB
+  benchmark_gpu_name: NVIDIA A100 PCIe 80GB
+  source_row: 1501
+- id: reviewed_excel_row_1502
+  raw_gpu_model: TeslaA40
+  benchmark_gpu_name: NVIDIA A40 PCIe
+  source_row: 1502
+- id: reviewed_excel_row_1503
+  raw_gpu_model: TeslaP100
+  benchmark_gpu_name: NVIDIA Tesla P100 PCIe 16GB
+  source_row: 1503
+- id: reviewed_excel_row_1504
+  raw_gpu_model: TeslaP100 12G
+  benchmark_gpu_name: NVIDIA Tesla P100 PCIe 16GB
+  source_row: 1504
+- id: reviewed_excel_row_1505
+  raw_gpu_model: TeslaT4
+  benchmark_gpu_name: NVIDIA Tesla T4
+  source_row: 1505
+- id: reviewed_excel_row_1506
+  raw_gpu_model: TeslaV100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1506
+- id: reviewed_excel_row_1507
+  raw_gpu_model: TeslaV100 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1507
+- id: reviewed_excel_row_1508
+  raw_gpu_model: TeslaV100-SXM2-16GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1508
+- id: reviewed_excel_row_1509
+  raw_gpu_model: Test V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1509
+- id: reviewed_excel_row_1512
+  raw_gpu_model: Ti 1080
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1512
+- id: reviewed_excel_row_1513
+  raw_gpu_model: Ti 1080 11GB
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1513
+- id: reviewed_excel_row_1514
+  raw_gpu_model: Ti2080
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1514
+- id: reviewed_excel_row_1516
+  raw_gpu_model: Titan 1080 Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1516
+- id: reviewed_excel_row_1517
+  raw_gpu_model: Titan 1080Ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1517
+- id: reviewed_excel_row_1519
+  raw_gpu_model: TiTAN 2080
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1519
+- id: reviewed_excel_row_1520
+  raw_gpu_model: TITAN 2080Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1520
+- id: reviewed_excel_row_1523
+  raw_gpu_model: Titan 2080Ti 11GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1523
+- id: reviewed_excel_row_1524
+  raw_gpu_model: TITAN 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 1524
+- id: reviewed_excel_row_1526
+  raw_gpu_model: TITAN A100
+  benchmark_gpu_name: NVIDIA A100 PCIe
+  source_row: 1526
+- id: reviewed_excel_row_1527
+  raw_gpu_model: TITAN BLACK
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1527
+- id: reviewed_excel_row_1530
+  raw_gpu_model: Titan GTX
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1530
+- id: reviewed_excel_row_1531
+  raw_gpu_model: TITAN GTX1080
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1531
+- id: reviewed_excel_row_1532
+  raw_gpu_model: Titan Pascal
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1532
+- id: reviewed_excel_row_1533
+  raw_gpu_model: Titan Pascal X
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1533
+- id: reviewed_excel_row_1534
+  raw_gpu_model: Titan RT
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1534
+- id: reviewed_excel_row_1535
+  raw_gpu_model: TITAN RTX 2080Ti
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1535
+- id: reviewed_excel_row_1536
+  raw_gpu_model: TITAN RTX 2080Ti 24GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1536
+- id: reviewed_excel_row_1537
+  raw_gpu_model: TITAN RTX RTX 2080 TI
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1537
+- id: reviewed_excel_row_1538
+  raw_gpu_model: Titan RTX Ti
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1538
+- id: reviewed_excel_row_1539
+  raw_gpu_model: Titan RTX2080
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1539
+- id: reviewed_excel_row_1540
+  raw_gpu_model: Titan RTX3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 1540
+- id: reviewed_excel_row_1541
+  raw_gpu_model: TITAN RX
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1541
+- id: reviewed_excel_row_1542
+  raw_gpu_model: Titan T4
+  benchmark_gpu_name: NVIDIA Tesla T4
+  source_row: 1542
+- id: reviewed_excel_row_1543
+  raw_gpu_model: TITAN Tesla V100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1543
+- id: reviewed_excel_row_1544
+  raw_gpu_model: Titan X 1080
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1544
+- id: reviewed_excel_row_1545
+  raw_gpu_model: Titan X GTX 12GB
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1545
+- id: reviewed_excel_row_1546
+  raw_gpu_model: TITAN X Pascal 1080
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1546
+- id: reviewed_excel_row_1547
+  raw_gpu_model: Titan X-equivalent
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1547
+- id: reviewed_excel_row_1548
+  raw_gpu_model: Titan XP 2080
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1548
+- id: reviewed_excel_row_1549
+  raw_gpu_model: Titan Xp Pascal
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1549
+- id: reviewed_excel_row_1550
+  raw_gpu_model: Titan Z
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1550
+- id: reviewed_excel_row_1551
+  raw_gpu_model: TITAN-X Nvidia
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1551
+- id: reviewed_excel_row_1552
+  raw_gpu_model: Titan-X Nvidia GPU
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1552
+- id: reviewed_excel_row_1553
+  raw_gpu_model: TitanX 1080ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1553
+- id: reviewed_excel_row_1554
+  raw_gpu_model: TitanX 2080
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1554
+- id: reviewed_excel_row_1555
+  raw_gpu_model: TitanX GPU v100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1555
+- id: reviewed_excel_row_1556
+  raw_gpu_model: TitanXP 1080ti
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1556
+- id: reviewed_excel_row_1557
+  raw_gpu_model: TitanZ
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1557
+- id: reviewed_excel_row_1558
+  raw_gpu_model: Titax X
+  benchmark_gpu_name: NVIDIA GeForce GTX TITAN X
+  source_row: 1558
+- id: reviewed_excel_row_1559
+  raw_gpu_model: Titax X 12GB
+  benchmark_gpu_name: NVIDIA GeForce GTX TITAN X
+  source_row: 1559
+- id: reviewed_excel_row_1560
+  raw_gpu_model: Titax X Pacal 12GB
+  benchmark_gpu_name: NVIDIA GeForce GTX TITAN X
+  source_row: 1560
+- id: reviewed_excel_row_1562
+  raw_gpu_model: TURBO-GTX1080-8G
+  benchmark_gpu_name: NVIDIA GeForce GTX 1080 Ti
+  source_row: 1562
+- id: reviewed_excel_row_1575
+  raw_gpu_model: v100 cluster
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1575
+- id: reviewed_excel_row_1576
+  raw_gpu_model: V100 SMX2 16GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1576
+- id: reviewed_excel_row_1577
+  raw_gpu_model: V100 SXM3 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1577
+- id: reviewed_excel_row_1578
+  raw_gpu_model: V100 Tesla 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1578
+- id: reviewed_excel_row_1579
+  raw_gpu_model: V100-SMX2 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1579
+- id: reviewed_excel_row_1580
+  raw_gpu_model: V100-SXM3
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1580
+- id: reviewed_excel_row_1581
+  raw_gpu_model: V100/A100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1581
+- id: reviewed_excel_row_1582
+  raw_gpu_model: V100DX-16C 10G
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1582
+- id: reviewed_excel_row_1583
+  raw_gpu_model: v100l
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1583
+- id: reviewed_excel_row_1584
+  raw_gpu_model: V100X
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1584
+- id: reviewed_excel_row_1585
+  raw_gpu_model: V100X 32GB
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1585
+- id: reviewed_excel_row_1591
+  raw_gpu_model: Volta 10
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1591
+- id: reviewed_excel_row_1592
+  raw_gpu_model: Volta 100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1592
+- id: reviewed_excel_row_1593
+  raw_gpu_model: Volta 332
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 32 GB
+  source_row: 1593
+- id: reviewed_excel_row_1594
+  raw_gpu_model: Volta GV100
+  benchmark_gpu_name: NVIDIA Tesla V100 PCIe 16 GB
+  source_row: 1594
+- id: reviewed_excel_row_1595
+  raw_gpu_model: Volta P100
+  benchmark_gpu_name: NVIDIA Tesla P100 PCIe 16GB
+  source_row: 1595
+- id: reviewed_excel_row_1596
+  raw_gpu_model: Volta Quadro GP100
+  benchmark_gpu_name: NVIDIA Tesla P100 PCIe 16GB
+  source_row: 1596
+- id: reviewed_excel_row_1599
+  raw_gpu_model: X 2080
+  benchmark_gpu_name: NVIDIA GeForce RTX 2080 Ti 11GB
+  source_row: 1599
+- id: reviewed_excel_row_1600
+  raw_gpu_model: X 3080 12GB
+  benchmark_gpu_name: NVIDIA GeForce RTX 3080
+  source_row: 1600
+- id: reviewed_excel_row_1601
+  raw_gpu_model: X 3090
+  benchmark_gpu_name: NVIDIA GeForce RTX 3090
+  source_row: 1601
+- id: reviewed_excel_row_1604
+  raw_gpu_model: XP
+  benchmark_gpu_name: NVIDIA TITAN Xp
+  source_row: 1604

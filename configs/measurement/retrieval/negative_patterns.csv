@@ -1,0 +1,11 @@
+pattern_id,pattern,normalized_pattern,source_id,suppresses_labels,confidence,match_type,case_sensitive,word_boundary,notes
+NEG_0001,\\bcomputational complexity\\b,computational_complexity,SRC_MANUAL,L1_INTERNAL|L2_CLOUD|L3_PUBLIC_HPC|L6_AMBIGUOUS_COMPUTE,high,regex,false,true,Mathematical complexity is not compute-resource use.
+NEG_0002,\\bcompute the\\b,compute_the,SRC_MANUAL,L1_INTERNAL|L2_CLOUD|L3_PUBLIC_HPC|L6_AMBIGUOUS_COMPUTE,medium,regex,false,false,"Verb compute, usually not resource use."
+NEG_0003,\\bcomputed as\\b,computed_as,SRC_MANUAL,L1_INTERNAL|L2_CLOUD|L3_PUBLIC_HPC|L6_AMBIGUOUS_COMPUTE,medium,regex,false,false,Mathematical computation phrase.
+NEG_0004,\\bFLOPs?\\b,flops_metric,SRC_MANUAL,L1_INTERNAL|L2_CLOUD|L3_PUBLIC_HPC|L6_AMBIGUOUS_COMPUTE,low,regex,true,true,"FLOPs alone is a cost metric, not resource use."
+NEG_0005,\\bGPU memory\\b,gpu_memory_metric,SRC_MANUAL,L6_AMBIGUOUS_COMPUTE,low,regex,false,true,May describe memory requirement rather than actual resource use.
+NEG_0006,\\bhardware-aware\\b,hardware_aware,SRC_MANUAL,L6_AMBIGUOUS_COMPUTE,medium,regex,false,true,"Algorithm property, not necessarily hardware use."
+NEG_0007,\\bhardware-friendly\\b,hardware_friendly,SRC_MANUAL,L6_AMBIGUOUS_COMPUTE,medium,regex,false,true,"Algorithm property, not necessarily hardware use."
+NEG_0008,\\bAPI\b.*\\bdefinition\\b,api_definition,SRC_MANUAL,L4_EXTERNAL_API,medium,regex,false,false,Software API definition may not be external model API.
+NEG_0009,\\bwe compare with\\b,compare_with_model,SRC_MANUAL,L5_OPEN_MODEL,low,regex,false,false,"Could be baseline reuse, but often related-work comparison; review."
+NEG_0010,\\bpretrained from scratch\\b,pretrained_from_scratch,SRC_MANUAL,L5_OPEN_MODEL,medium,regex,false,false,Contradictory phrase; review before label 5.

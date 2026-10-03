@@ -1,0 +1,344 @@
+{
+  "schema": "retrieval_rule_snapshot_v1",
+  "source_snapshot": "random_3000_2017_2025/rule_data/active",
+  "package_role": "supplementary measurement-method rules",
+  "source_files": [
+    {
+      "source_relative_path": "data/annotation_gold/annotation_sampling/random_3000_2017_2025/rule_data/active/candidate_recall_terms.csv",
+      "source_sha256": "29b2ffc993451bd6b74dff6f47f282502d20eec71eda2e74f3fa84874ecda51c",
+      "source_bytes": 11678530,
+      "source_columns": [
+        "rule_id",
+        "term",
+        "normalized_term",
+        "source_table",
+        "source_row_id",
+        "source_id",
+        "candidate_labels",
+        "recall_tier",
+        "confidence",
+        "match_type",
+        "case_sensitive",
+        "word_boundary",
+        "term_type",
+        "notes"
+      ],
+      "destination_file": "candidate_recall_terms.parquet",
+      "destination_sha256": "8f4240acee4b533a9ba266b127ab71882615f04d46506c039846a6d556932de5",
+      "destination_bytes": 1240034,
+      "destination_columns": [
+        "rule_id",
+        "term",
+        "normalized_term",
+        "source_group",
+        "source_table_name",
+        "source_row_id",
+        "source_id",
+        "candidate_labels",
+        "recall_tier",
+        "confidence",
+        "match_type",
+        "case_sensitive",
+        "word_boundary",
+        "term_type",
+        "notes"
+      ],
+      "rows": 32706,
+      "counts": {
+        "candidate_labels": {
+          "L1_INTERNAL": 541,
+          "L2_CLOUD": 323,
+          "L3_PUBLIC_HPC": 574,
+          "L4_EXTERNAL_API": 700,
+          "L5_OPEN_MODEL": 30568
+        },
+        "recall_tier": {
+          "tier_1_high_precision": 818,
+          "tier_2_broad_recall": 31794,
+          "tier_3_weak_context": 94
+        },
+        "confidence": {
+          "high": 584,
+          "low": 29680,
+          "medium": 2442
+        },
+        "match_type": {
+          "contains": 31323,
+          "word": 1383
+        }
+      },
+      "source_table_mapping": [
+        {
+          "source_table": "active/api_terms.csv",
+          "source_group": "active",
+          "source_table_name": "api_terms.csv"
+        },
+        {
+          "source_table": "active/cloud_terms.csv",
+          "source_group": "active",
+          "source_table_name": "cloud_terms.csv"
+        },
+        {
+          "source_table": "active/internal_terms.csv",
+          "source_group": "active",
+          "source_table_name": "internal_terms.csv"
+        },
+        {
+          "source_table": "active/open_model_terms.csv",
+          "source_group": "active",
+          "source_table_name": "open_model_terms.csv"
+        },
+        {
+          "source_table": "active/public_hpc_terms.csv",
+          "source_group": "active",
+          "source_table_name": "public_hpc_terms.csv"
+        },
+        {
+          "source_table": "imports/api_terms_from_epoch_ai_models.csv",
+          "source_group": "imports",
+          "source_table_name": "api_terms_from_epoch_ai_models.csv"
+        },
+        {
+          "source_table": "imports/api_terms_imported.csv",
+          "source_group": "imports",
+          "source_table_name": "api_terms_imported.csv"
+        },
+        {
+          "source_table": "imports/cloud_terms_imported.csv",
+          "source_group": "imports",
+          "source_table_name": "cloud_terms_imported.csv"
+        },
+        {
+          "source_table": "imports/open_model_terms_from_epoch_ai_models.csv",
+          "source_group": "imports",
+          "source_table_name": "open_model_terms_from_epoch_ai_models.csv"
+        },
+        {
+          "source_table": "imports/open_model_terms_imported.csv",
+          "source_group": "imports",
+          "source_table_name": "open_model_terms_imported.csv"
+        },
+        {
+          "source_table": "imports/public_hpc_terms_imported.csv",
+          "source_group": "imports",
+          "source_table_name": "public_hpc_terms_imported.csv"
+        }
+      ]
+    },
+    {
+      "source_relative_path": "data/annotation_gold/annotation_sampling/random_3000_2017_2025/rule_data/active/candidate_recall_patterns.csv",
+      "source_sha256": "46f047dabe6b3f9c0260b381c60aa8c1015a9bfae6a6b1b468e21b076ad73bfd",
+      "source_bytes": 11430,
+      "source_columns": [
+        "rule_id",
+        "pattern",
+        "normalized_pattern",
+        "source_table",
+        "source_row_id",
+        "source_id",
+        "candidate_labels",
+        "recall_tier",
+        "confidence",
+        "match_type",
+        "case_sensitive",
+        "word_boundary",
+        "notes"
+      ],
+      "destination_file": "candidate_recall_patterns.csv",
+      "destination_sha256": "af8c52510872f136cb1f213b8f5aec2a3cc2b41ad3c6704b1b6c27de3ffa7bfc",
+      "destination_bytes": 11448,
+      "destination_columns": [
+        "rule_id",
+        "pattern",
+        "normalized_pattern",
+        "source_group",
+        "source_table_name",
+        "source_row_id",
+        "source_id",
+        "candidate_labels",
+        "recall_tier",
+        "confidence",
+        "match_type",
+        "case_sensitive",
+        "word_boundary",
+        "notes"
+      ],
+      "rows": 35,
+      "counts": {
+        "candidate_labels": {
+          "L1_INTERNAL": 7,
+          "L5_OPEN_MODEL": 3,
+          "L6_AMBIGUOUS_COMPUTE": 25
+        },
+        "recall_tier": {
+          "tier_1_high_precision": 22,
+          "tier_2_broad_recall": 3,
+          "tier_3_weak_context": 10
+        },
+        "confidence": {
+          "high": 8,
+          "low": 6,
+          "medium": 21
+        },
+        "match_type": {
+          "regex": 35
+        }
+      },
+      "source_table_mapping": [
+        {
+          "source_table": "active/ambiguous_compute_patterns.csv",
+          "source_group": "active",
+          "source_table_name": "ambiguous_compute_patterns.csv"
+        },
+        {
+          "source_table": "generated/gold_audit_patterns",
+          "source_group": "generated",
+          "source_table_name": "gold_audit_patterns"
+        },
+        {
+          "source_table": "generated/weak_recall_patterns",
+          "source_group": "generated",
+          "source_table_name": "weak_recall_patterns"
+        }
+      ]
+    },
+    {
+      "source_relative_path": "data/annotation_gold/annotation_sampling/random_3000_2017_2025/rule_data/active/negative_patterns.csv",
+      "source_sha256": "eda28c75576f3307aeb7213b91a9e446aae971b34b08cd16f4f79a15793cca08",
+      "source_bytes": 1826,
+      "source_columns": [
+        "pattern_id",
+        "pattern",
+        "normalized_pattern",
+        "source_id",
+        "suppresses_labels",
+        "confidence",
+        "match_type",
+        "case_sensitive",
+        "word_boundary",
+        "notes"
+      ],
+      "destination_file": "negative_patterns.csv",
+      "destination_sha256": "3d16a09dea36355a4018bfb6902baf12147188a6d0f73fef4fa06114654da112",
+      "destination_bytes": 1796,
+      "destination_columns": [
+        "pattern_id",
+        "pattern",
+        "normalized_pattern",
+        "source_id",
+        "suppresses_labels",
+        "confidence",
+        "match_type",
+        "case_sensitive",
+        "word_boundary",
+        "notes"
+      ],
+      "rows": 10,
+      "counts": {
+        "confidence": {
+          "high": 1,
+          "low": 3,
+          "medium": 6
+        },
+        "match_type": {
+          "regex": 10
+        }
+      }
+    },
+    {
+      "source_relative_path": "data/annotation_gold/annotation_sampling/random_3000_2017_2025/rule_data/active/label_rules.csv",
+      "source_sha256": "e133a36ffe4a9bede08a793eb1f5db4d4c2825c4445c1459318d87179b0f78f2",
+      "source_bytes": 2625,
+      "source_columns": [
+        "rule_id",
+        "rule_name",
+        "rule_type",
+        "pattern_or_table",
+        "labels",
+        "exclude_if_labels",
+        "confidence",
+        "evidence_scope",
+        "requires_any",
+        "excludes_any",
+        "notes"
+      ],
+      "destination_file": "label_rules.csv",
+      "destination_sha256": "f861e2d241095b6a2f8422f0c1f758d6119bdf2b08ca694bca4572ae476cea78",
+      "destination_bytes": 2615,
+      "destination_columns": [
+        "rule_id",
+        "rule_name",
+        "rule_type",
+        "pattern_or_table",
+        "labels",
+        "exclude_if_labels",
+        "confidence",
+        "evidence_scope",
+        "requires_any",
+        "excludes_any",
+        "notes"
+      ],
+      "rows": 9,
+      "counts": {
+        "confidence": {
+          "high": 6,
+          "medium": 3
+        },
+        "rule_type": {
+          "fallback": 1,
+          "metadata": 1,
+          "negative_table": 1,
+          "pattern_table": 1,
+          "term_table": 5
+        }
+      }
+    },
+    {
+      "source_relative_path": "data/annotation_gold/annotation_sampling/random_3000_2017_2025/rule_data/active/label_definitions.csv",
+      "source_sha256": "018ff93aee2774c2def1f43e58824fd1dc975b7de8799f08100ba3ae8bac86d2",
+      "source_bytes": 3034,
+      "source_columns": [
+        "label_id",
+        "label_code",
+        "label_name",
+        "label_type",
+        "definition",
+        "positive_evidence",
+        "negative_boundary",
+        "exclusive_with",
+        "notes"
+      ],
+      "destination_file": "label_definitions.csv",
+      "destination_sha256": "46e2d4ace96fa8c533eb4127d4697f3cd299c8b5dc15ff6f144407c3e667e0d6",
+      "destination_bytes": 2986,
+      "destination_columns": [
+        "label_id",
+        "label_code",
+        "label_name",
+        "label_type",
+        "definition",
+        "positive_evidence",
+        "negative_boundary",
+        "exclusive_with",
+        "notes"
+      ],
+      "rows": 7,
+      "counts": {}
+    }
+  ],
+  "term_counts": {
+    "rule_rows": 32706,
+    "distinct_terms": 32696,
+    "distinct_normalized_terms": 17639
+  },
+  "supplementary_l5_context_rule_ids": [
+    "RECALL_L5_CONTEXT_000033",
+    "RECALL_L5_CONTEXT_000034",
+    "RECALL_L5_CONTEXT_000035"
+  ],
+  "projection": {
+    "source_table": "source_group plus source_table_name; mapping retained per source file",
+    "scientific_values": "All remaining values, rule rows, notes, term text and regex strings preserved."
+  },
+  "round_trip_verified": true
+}

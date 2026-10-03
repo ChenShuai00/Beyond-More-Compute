@@ -1,0 +1,18 @@
+# Local reference manuscript
+Beyond_More_Compute__How_Capabilities_and_Constraints_Shape_Scientific_Value.zip
+
+# Environments and generated runs
+.venv/
+.tmp/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+results/reproduced*/
+release/
+.env
+.env.*
+
+# Planning notes are maintained locally
+docs/submission_repository_plan.zh-CN.md
+docs/paper_artifact_map.csv
+docs/source_inventory.json

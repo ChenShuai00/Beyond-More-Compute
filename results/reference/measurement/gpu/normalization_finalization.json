@@ -1,0 +1,24 @@
+{
+  "status": "final",
+  "decision": "remaining unresolved GPU labels were manually checked and confirmed not reliably normalizable with the current catalog",
+  "finalized_at": "2026-08-06",
+  "reviewed_unresolved_mapping_count": 336,
+  "reviewed_unresolved_entity_count": 1532,
+  "manual_reviewed_mapping_rule_count": 1151,
+  "manual_reviewed_source_mapping_row_count": 1267,
+  "manual_reviewed_entity_count": 2037,
+  "gpu_main_entity_count": 88673,
+  "gpu_paper_config_count": 70085,
+  "source_workbook": "compute/outputs/gpu_normalization_review_excel_20260806/gpu_normalization_review.xlsx",
+  "source_workbook_sha256": "4c1b854951fa1922caaf7d5cbab80914b39facf71ab94e476677799f254801bf",
+  "non_catalog_exception_count": 1,
+  "non_catalog_exception": {
+    "raw_gpu_model": "K",
+    "entered_benchmark_gpu_name": "Baidu Kunlun K200",
+    "reason": "target is outside the current catalog and the source label is too generic"
+  },
+  "review_workbooks": {
+    "mapping": "compute/outputs/gpu_normalization_review_remaining_excel_20260806/gpu_normalization_review_remaining.xlsx",
+    "entity": "compute/outputs/gpu_normalization_review_remaining_excel_20260806/gpu_entities_normalization_audit_remaining.xlsx"
+  }
+}

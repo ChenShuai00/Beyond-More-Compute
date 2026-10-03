@@ -1,0 +1,266 @@
+{
+  "teacher": {
+    "label_scope": [
+      "L1_INTERNAL",
+      "L2_CLOUD",
+      "L3_PUBLIC_HPC",
+      "L4_EXTERNAL_API"
+    ],
+    "rows": 2472,
+    "papers": 1565,
+    "exact_match_l1_l4": 0.9660194174757282,
+    "micro": {
+      "tp": 789,
+      "fp": 43,
+      "fn": 42,
+      "precision": 0.9483173076923077,
+      "recall": 0.9494584837545126,
+      "f1": 0.9488875526157546
+    },
+    "macro_f1": 0.9492021795092485,
+    "per_label": {
+      "L1_INTERNAL": {
+        "tp": 252,
+        "fp": 15,
+        "fn": 5,
+        "precision": 0.9438202247191011,
+        "recall": 0.980544747081712,
+        "f1": 0.9618320610687023,
+        "tn": 2200,
+        "support": 257,
+        "predicted_positive": 267
+      },
+      "L2_CLOUD": {
+        "tp": 167,
+        "fp": 18,
+        "fn": 1,
+        "precision": 0.9027027027027027,
+        "recall": 0.9940476190476191,
+        "f1": 0.9461756373937676,
+        "tn": 2286,
+        "support": 168,
+        "predicted_positive": 185
+      },
+      "L3_PUBLIC_HPC": {
+        "tp": 173,
+        "fp": 2,
+        "fn": 7,
+        "precision": 0.9885714285714285,
+        "recall": 0.9611111111111111,
+        "f1": 0.9746478873239437,
+        "tn": 2290,
+        "support": 180,
+        "predicted_positive": 175
+      },
+      "L4_EXTERNAL_API": {
+        "tp": 197,
+        "fp": 8,
+        "fn": 29,
+        "precision": 0.9609756097560975,
+        "recall": 0.8716814159292036,
+        "f1": 0.9141531322505799,
+        "tn": 2238,
+        "support": 226,
+        "predicted_positive": 205
+      }
+    }
+  },
+  "bert_base": {
+    "label_scope": [
+      "L1_INTERNAL",
+      "L2_CLOUD",
+      "L3_PUBLIC_HPC",
+      "L4_EXTERNAL_API"
+    ],
+    "rows": 4658,
+    "papers": 1565,
+    "exact_match_l1_l4": 0.9435379991412624,
+    "micro": {
+      "tp": 963,
+      "fp": 205,
+      "fn": 99,
+      "precision": 0.824486301369863,
+      "recall": 0.9067796610169492,
+      "f1": 0.8636771300448431
+    },
+    "macro_f1": 0.8620880312016312,
+    "per_label": {
+      "L1_INTERNAL": {
+        "tp": 391,
+        "fp": 68,
+        "fn": 28,
+        "precision": 0.8518518518518519,
+        "recall": 0.9331742243436754,
+        "f1": 0.8906605922551253,
+        "tn": 4171,
+        "support": 419,
+        "predicted_positive": 459
+      },
+      "L2_CLOUD": {
+        "tp": 149,
+        "fp": 38,
+        "fn": 30,
+        "precision": 0.7967914438502673,
+        "recall": 0.8324022346368715,
+        "f1": 0.8142076502732241,
+        "tn": 4441,
+        "support": 179,
+        "predicted_positive": 187
+      },
+      "L3_PUBLIC_HPC": {
+        "tp": 172,
+        "fp": 15,
+        "fn": 12,
+        "precision": 0.9197860962566845,
+        "recall": 0.9347826086956522,
+        "f1": 0.9272237196765498,
+        "tn": 4459,
+        "support": 184,
+        "predicted_positive": 187
+      },
+      "L4_EXTERNAL_API": {
+        "tp": 251,
+        "fp": 84,
+        "fn": 29,
+        "precision": 0.7492537313432835,
+        "recall": 0.8964285714285715,
+        "f1": 0.8162601626016259,
+        "tn": 4294,
+        "support": 280,
+        "predicted_positive": 335
+      }
+    }
+  },
+  "roberta_base": {
+    "label_scope": [
+      "L1_INTERNAL",
+      "L2_CLOUD",
+      "L3_PUBLIC_HPC",
+      "L4_EXTERNAL_API"
+    ],
+    "rows": 4658,
+    "papers": 1565,
+    "exact_match_l1_l4": 0.9506225848003435,
+    "micro": {
+      "tp": 968,
+      "fp": 153,
+      "fn": 94,
+      "precision": 0.863514719000892,
+      "recall": 0.911487758945386,
+      "f1": 0.8868529546495647
+    },
+    "macro_f1": 0.8864503944215857,
+    "per_label": {
+      "L1_INTERNAL": {
+        "tp": 379,
+        "fp": 55,
+        "fn": 40,
+        "precision": 0.8732718894009217,
+        "recall": 0.9045346062052506,
+        "f1": 0.8886283704572099,
+        "tn": 4184,
+        "support": 419,
+        "predicted_positive": 434
+      },
+      "L2_CLOUD": {
+        "tp": 150,
+        "fp": 36,
+        "fn": 29,
+        "precision": 0.8064516129032258,
+        "recall": 0.8379888268156425,
+        "f1": 0.821917808219178,
+        "tn": 4443,
+        "support": 179,
+        "predicted_positive": 186
+      },
+      "L3_PUBLIC_HPC": {
+        "tp": 177,
+        "fp": 11,
+        "fn": 7,
+        "precision": 0.9414893617021277,
+        "recall": 0.9619565217391305,
+        "f1": 0.9516129032258065,
+        "tn": 4463,
+        "support": 184,
+        "predicted_positive": 188
+      },
+      "L4_EXTERNAL_API": {
+        "tp": 262,
+        "fp": 51,
+        "fn": 18,
+        "precision": 0.8370607028753994,
+        "recall": 0.9357142857142857,
+        "f1": 0.8836424957841483,
+        "tn": 4327,
+        "support": 280,
+        "predicted_positive": 313
+      }
+    }
+  },
+  "scibert": {
+    "label_scope": [
+      "L1_INTERNAL",
+      "L2_CLOUD",
+      "L3_PUBLIC_HPC",
+      "L4_EXTERNAL_API"
+    ],
+    "rows": 4658,
+    "papers": 1565,
+    "exact_match_l1_l4": 0.9568484328037784,
+    "micro": {
+      "tp": 957,
+      "fp": 110,
+      "fn": 105,
+      "precision": 0.8969072164948454,
+      "recall": 0.9011299435028248,
+      "f1": 0.8990136214185064
+    },
+    "macro_f1": 0.8997910780314691,
+    "per_label": {
+      "L1_INTERNAL": {
+        "tp": 387,
+        "fp": 54,
+        "fn": 32,
+        "precision": 0.8775510204081632,
+        "recall": 0.9236276849642004,
+        "f1": 0.8999999999999999,
+        "tn": 4185,
+        "support": 419,
+        "predicted_positive": 441
+      },
+      "L2_CLOUD": {
+        "tp": 151,
+        "fp": 21,
+        "fn": 28,
+        "precision": 0.877906976744186,
+        "recall": 0.8435754189944135,
+        "f1": 0.8603988603988604,
+        "tn": 4458,
+        "support": 179,
+        "predicted_positive": 172
+      },
+      "L3_PUBLIC_HPC": {
+        "tp": 172,
+        "fp": 6,
+        "fn": 12,
+        "precision": 0.9662921348314607,
+        "recall": 0.9347826086956522,
+        "f1": 0.9502762430939227,
+        "tn": 4468,
+        "support": 184,
+        "predicted_positive": 178
+      },
+      "L4_EXTERNAL_API": {
+        "tp": 247,
+        "fp": 29,
+        "fn": 33,
+        "precision": 0.894927536231884,
+        "recall": 0.8821428571428571,
+        "f1": 0.8884892086330936,
+        "tn": 4349,
+        "support": 280,
+        "predicted_positive": 276
+      }
+    }
+  }
+}

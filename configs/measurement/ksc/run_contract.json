@@ -1,0 +1,151 @@
+{
+  "created_at": "2026-09-13T16:17:31+00:00",
+  "embedding": {
+    "allow_tf32": false,
+    "batch_size": 48,
+    "benchmark_rows": 384,
+    "chunk_rows": 100000,
+    "deterministic_max_abs_tolerance": 1e-06,
+    "deterministic_min_cosine": 0.999999,
+    "deterministic_sample_size": 96,
+    "l2_normalized": true,
+    "max_length": 512,
+    "model_name": "allenai/specter",
+    "model_sha256": "18658d272d3830441c06187926047f23e58a052e351f539bdc0c1cd487603e72",
+    "norm_tolerance": 2e-05,
+    "padding": "max_length",
+    "pooling": "last_hidden_state.mean(dim=1)_including_padding",
+    "precision": "float32",
+    "random_seed": 20260824,
+    "text_rule": "str(title or '') + str(abstract or '')",
+    "truncation": true,
+    "vector_dimension": 768
+  },
+  "inputs": {
+    "config": {
+      "bytes": 2035,
+      "path": "compute/configs/analysis/knowledge_complexity/ksc_v1_20260912_v14r1.yaml",
+      "sha256": "7b8ae895c3891e56485b33fbd16cd1996102731708df09b0138bbc14d2253ac6"
+    },
+    "reference_context_manifest": {
+      "bytes": 10444,
+      "path": "compute/data/derived/scientometrics/ksc_reference_context_v1_20260912_v14r1/current/run_manifest.json",
+      "sha256": "720fac605b41ef974e7b8e6d2f8b150e911f1ed6f4c98f0b7601fe21411a4f45"
+    },
+    "reference_context_release_status": {
+      "bytes": 377,
+      "path": "compute/data/derived/scientometrics/ksc_reference_context_v1_20260912_v14r1/current/release_status.json",
+      "sha256": "5a18e8afdd48461b71bd14219c1157fd38e92bd7acd7e048c67107e658e4a4f6"
+    },
+    "reference_context_run_contract": {
+      "bytes": 4580,
+      "path": "compute/data/derived/scientometrics/ksc_reference_context_v1_20260912_v14r1/current/run_contract.json",
+      "sha256": "fa95d218c2f76f23c0ab63f8261245585ebaf7baf6e76be2a689571df195cbc4"
+    },
+    "reference_context_validation": {
+      "bytes": 5747,
+      "path": "compute/data/derived/scientometrics/ksc_reference_context_v1_20260912_v14r1/current/qa/validation_report.json",
+      "sha256": "029a66400181a19031d67d503fa8db5d2cc5322a25654461d9ed4981704e7ede"
+    },
+    "specter_contract": {
+      "bytes": 7771,
+      "path": "compute/data/derived/scientometrics/science_novelty_specter_strict_v2_20260827/formal_frozen/run_contract.json",
+      "sha256": "4c05f85106ee9924f94f84aebf3db38589af7ecd1a2b7b84745f6a10dc1b8de4"
+    }
+  },
+  "product_id": "ksc_v1_20260912_v14r1",
+  "quality": {
+    "h_lower_bound": 0.0,
+    "h_upper_bound": 2.0,
+    "identity_absolute_tolerance": 1e-10,
+    "min_reference_coverage": 0.7,
+    "min_valid_references": 5,
+    "primary_min_historical_papers": 100,
+    "robustness_min_historical_papers": [
+      50,
+      200
+    ]
+  },
+  "schema_version": "ksc_v1_20260912",
+  "scope": {
+    "exclude_same_work_per_focal_window": true,
+    "focal_year_max": 2025,
+    "focal_year_min": 2020,
+    "history_year_max": 2024,
+    "history_year_min": 2015,
+    "prior_window_years": 5,
+    "same_year_reference_allowed": true
+  },
+  "specter_model_files": [
+    {
+      "bytes": 1,
+      "path": ".cache/huggingface/.gitignore",
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1"
+    },
+    {
+      "bytes": 195,
+      "path": ".cache/huggingface/CACHEDIR.TAG",
+      "sha256": "e8893e2dcb3f4545ef67a0a5b7b769113d38eef1aa61c7c7ba14659b02af955f"
+    },
+    {
+      "bytes": 104,
+      "path": ".cache/huggingface/download/config.json.metadata",
+      "sha256": "f1f809ef7432fb07f7f6c62427f142d27412b1f3070aa51646d0adf7c259abfa"
+    },
+    {
+      "bytes": 128,
+      "path": ".cache/huggingface/download/pytorch_model.bin.metadata",
+      "sha256": "b43f29f4fedd8178ed16cd78d93a0e839563adc4363a58bdec383d43341667bf"
+    },
+    {
+      "bytes": 104,
+      "path": ".cache/huggingface/download/README.md.metadata",
+      "sha256": "84d0aef129477a54994a0a77fc528a8d7a98a769a6afbfa4a999d387017d4bfc"
+    },
+    {
+      "bytes": 104,
+      "path": ".cache/huggingface/download/special_tokens_map.json.metadata",
+      "sha256": "2b36b0b6922f787415c542c64455d9311b80b0346b64070a4a7f39868d7a060c"
+    },
+    {
+      "bytes": 104,
+      "path": ".cache/huggingface/download/tokenizer_config.json.metadata",
+      "sha256": "160bacb63234fab7eb1119c96c8643ca49865d8e9ee0b46630bb0b4cd7cbd375"
+    },
+    {
+      "bytes": 104,
+      "path": ".cache/huggingface/download/vocab.txt.metadata",
+      "sha256": "b7489609ccbd218da47d261894863877360d32b03ccae8643bffb2550dbf9ed2"
+    },
+    {
+      "bytes": 612,
+      "path": "config.json",
+      "sha256": "6bbfb71747935be052561b95cfeb1450ace786225f0a5379bb0e2b79604c33e2"
+    },
+    {
+      "bytes": 439803023,
+      "path": "pytorch_model.bin",
+      "sha256": "a260abd90ae4bbb5aae9e040b5910ab68f27bac0cc13b1d1c9b83e42e880972c"
+    },
+    {
+      "bytes": 1160,
+      "path": "README.md",
+      "sha256": "f96b667d304d22019e55a5928baa6eed52636eaf2d9d74e1d590b9405e28af18"
+    },
+    {
+      "bytes": 112,
+      "path": "special_tokens_map.json",
+      "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3"
+    },
+    {
+      "bytes": 321,
+      "path": "tokenizer_config.json",
+      "sha256": "2e15575ac9455be4a3672e5ebe1c7760281e8239a0f0e43eb6992563cbdfd071"
+    },
+    {
+      "bytes": 222296,
+      "path": "vocab.txt",
+      "sha256": "f99aae27d5a572628760968078207b9d79ff241cc75de4b9e4323feabc61fd6b"
+    }
+  ]
+}

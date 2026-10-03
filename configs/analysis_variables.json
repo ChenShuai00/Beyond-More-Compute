@@ -1,0 +1,438 @@
+{
+  "schema_version": "analysis_variables_v1",
+  "description": "Units and frozen transformations for all fields in the five core analysis-ready datasets.",
+  "fields": {
+    "api": {
+      "dtype": "float64",
+      "description": "Indicator of reported hosted-model/API use in the frozen resource classification.",
+      "unit": "binary indicator",
+      "transform": "1 for reported hosted-model/API use; 0 for no reported API use."
+    },
+    "api_x_ksc": {
+      "dtype": "float64",
+      "description": "Interaction between API use and standardized KSC.",
+      "unit": "API indicator times KSC standard deviations",
+      "transform": "api * ksc_z."
+    },
+    "api_x_memory": {
+      "dtype": "float64",
+      "description": "API interaction with centered per-GPU VRAM.",
+      "unit": "API indicator times centered resource doublings",
+      "transform": "api * memory_centered."
+    },
+    "api_x_performance": {
+      "dtype": "float64",
+      "description": "API interaction with centered per-GPU performance.",
+      "unit": "API indicator times centered resource doublings",
+      "transform": "api * performance_centered."
+    },
+    "api_x_quantity": {
+      "dtype": "float64",
+      "description": "API interaction with centered GPU quantity.",
+      "unit": "API indicator times centered resource doublings",
+      "transform": "api * quantity_centered."
+    },
+    "base_eligible_history_count": {
+      "dtype": "int64",
+      "description": "Eligible historical-work count in the focal topic/window before focal-work self-exclusion.",
+      "unit": "works",
+      "transform": "Count eligible historical works in the same topic and [focal_year-5, focal_year-1] before subtracting an eligible focal work."
+    },
+    "base_primary_topic_id": {
+      "dtype": "string",
+      "description": "Primary Topic ID retained from the frozen integrated-data input.",
+      "unit": "OpenAlex Topic ID",
+      "transform": "Retained integrated-data topic mapping."
+    },
+    "citation_cumulative_from_publication_year_current": {
+      "dtype": "int64",
+      "description": "Cumulative annual citations from the current OpenAlex publication year through 2026, including same-year citations.",
+      "unit": "citations",
+      "transform": "Sum OpenAlex counts_by_year over publication_year through 2026; absent annual counts contribute zero."
+    },
+    "citation_current_total": {
+      "dtype": "int64",
+      "description": "Current total citations used for external top-cited comparisons.",
+      "unit": "citations",
+      "transform": "Retained OpenAlex cited_by_count at the 2026-09-12 snapshot."
+    },
+    "citation_metric_status": {
+      "dtype": "string",
+      "description": "Citation eligibility/status label: ok, ranking_ineligible_work_type, or not_found.",
+      "unit": "category",
+      "transform": "Frozen status; the 29,591-row input contains 29,547 ok, 42 ranking_ineligible_work_type and 2 not_found rows."
+    },
+    "citation_openalex_primary_topic_id": {
+      "dtype": "string",
+      "description": "Primary Topic ID in the citation snapshot; supplies the regression topic fixed effect.",
+      "unit": "OpenAlex Topic ID",
+      "transform": "Retained OpenAlex citation-snapshot primary_topic identifier."
+    },
+    "citation_openalex_primary_topic_name": {
+      "dtype": "string",
+      "description": "Primary Topic name in the citation snapshot.",
+      "unit": "topic name",
+      "transform": "Retained OpenAlex citation-snapshot primary_topic display name."
+    },
+    "citation_openalex_publication_year": {
+      "dtype": "int64",
+      "description": "OpenAlex publication year in the citation snapshot, used for accumulation and the top-cited reference cell.",
+      "unit": "calendar year",
+      "transform": "Retained publication_year from the 2026-09-12 citation snapshot."
+    },
+    "citation_openalex_type": {
+      "dtype": "string",
+      "description": "OpenAlex work type in the citation snapshot.",
+      "unit": "category",
+      "transform": "Retained OpenAlex work type."
+    },
+    "cluster_group": {
+      "dtype": "string",
+      "description": "Saved KSC-input covariance-cluster label.",
+      "unit": "category",
+      "transform": "Equal to venue_year_v14."
+    },
+    "company": {
+      "dtype": "float64",
+      "description": "Indicator of company participation in the focal team.",
+      "unit": "binary indicator",
+      "transform": "1 for company participation; 0 for no company participation."
+    },
+    "compute_benchmark_gpu_name": {
+      "dtype": "string",
+      "description": "Normalized GPU benchmark-model name used for hardware specification matching.",
+      "unit": "GPU model name",
+      "transform": "Retained normalized specification-matching name."
+    },
+    "compute_gpu_scale_strict_main_sample": {
+      "dtype": "bool",
+      "description": "Current complete, positive, configuration-aligned hardware flag, including supplemented performance values.",
+      "unit": "boolean",
+      "transform": "True when the final selected normalized configuration has eligible positive GPU count, per-GPU performance and VRAM."
+    },
+    "compute_has_count_conflict": {
+      "dtype": "bool",
+      "description": "Paper-level flag for conflicting GPU-count mentions in normalized extraction records.",
+      "unit": "boolean",
+      "transform": "True when normalized GPU extraction records contain conflicting count mentions."
+    },
+    "compute_has_missing_count_mention": {
+      "dtype": "bool",
+      "description": "Paper-level flag for a normalized GPU mention without a count.",
+      "unit": "boolean",
+      "transform": "True when at least one normalized GPU mention lacks a count."
+    },
+    "compute_performance_donor_model_count": {
+      "dtype": "float64",
+      "description": "Number of unique GPU models contributing to the same-generation performance mean.",
+      "unit": "GPU models",
+      "transform": "Count of unique same-generation models with positive original per-GPU specification values used as donors."
+    },
+    "compute_performance_imputed": {
+      "dtype": "bool",
+      "description": "Flag for same-generation performance supplementation in the final selected configuration.",
+      "unit": "boolean",
+      "transform": "True when final selected per-GPU performance uses the arithmetic mean of positive original specification values from unique GPU models in the same generation; configurations are reselected after supplementation."
+    },
+    "compute_performance_original_flops": {
+      "dtype": "float64",
+      "description": "Original per-GPU performance value retained for the final selected configuration.",
+      "unit": "FLOP/s",
+      "transform": "Original specification value before generation-mean supplementation; may be missing."
+    },
+    "compute_selected_config_id": {
+      "dtype": "string",
+      "description": "Identifier of the selected normalized hardware configuration row.",
+      "unit": "configuration identifier",
+      "transform": "Retained selected-configuration identifier."
+    },
+    "compute_selected_config_total_compute_capability": {
+      "dtype": "float64",
+      "description": "Total theoretical peak performance of the selected normalized hardware configuration.",
+      "unit": "FLOP/s",
+      "transform": "compute_selected_gpu_count * compute_selected_per_gpu_capability."
+    },
+    "compute_selected_gpu_count": {
+      "dtype": "int64",
+      "description": "GPU count in the selected normalized configuration.",
+      "unit": "GPUs",
+      "transform": "Count retained from the configuration selected by maximum count times measurable per-GPU theoretical peak performance."
+    },
+    "compute_selected_per_gpu_capability": {
+      "dtype": "float64",
+      "description": "Per-GPU theoretical Tensor FP16/BF16 peak performance in the selected normalized configuration.",
+      "unit": "FLOP/s",
+      "transform": "Specification-matched value, with same-generation supplementation when flagged; divide by 1e12 for TFLOP/s."
+    },
+    "compute_selected_vram_gb": {
+      "dtype": "float64",
+      "description": "Per-GPU VRAM capacity in the selected normalized configuration.",
+      "unit": "GB",
+      "transform": "Specification-matched VRAM value aligned to the selected GPU count and performance."
+    },
+    "compute_strict_gpu": {
+      "dtype": "bool",
+      "description": "Preserved historical strict-GPU eligibility flag.",
+      "unit": "boolean",
+      "transform": "Retained source flag."
+    },
+    "eligible_historical_paper_count_after_self_exclusion": {
+      "dtype": "int64",
+      "description": "Eligible historical-work count supporting the focal KSC value after self-exclusion.",
+      "unit": "works",
+      "transform": "base_eligible_history_count minus one when own_h_p_subtracted is True."
+    },
+    "eligible_impact": {
+      "dtype": "bool",
+      "description": "Joint baseline outcome and fixed-effect eligibility before recursive singleton removal.",
+      "unit": "boolean",
+      "transform": "Frozen eligibility flag; 29,547 rows are eligible."
+    },
+    "eligible_venue_year_topic_impact": {
+      "dtype": "bool",
+      "description": "Joint KSC, outcome and fixed-effect eligibility before recursive singleton removal.",
+      "unit": "boolean",
+      "transform": "Frozen eligibility flag; 29,279 rows are eligible."
+    },
+    "fe_topic": {
+      "dtype": "string",
+      "description": "Saved KSC-input alias of the citation-snapshot topic fixed-effect label.",
+      "unit": "OpenAlex Topic ID",
+      "transform": "Equal to citation_openalex_primary_topic_id."
+    },
+    "fe_venue_year": {
+      "dtype": "string",
+      "description": "Saved KSC-input alias of the venue/year fixed-effect label.",
+      "unit": "category",
+      "transform": "Equal to venue_year_v14."
+    },
+    "focal_self_history_conflict": {
+      "dtype": "bool",
+      "description": "Flag indicating that the focal work's bibliographic year places it in its own prior-window history.",
+      "unit": "boolean",
+      "transform": "True when the mapped focal work occurs in the topic/window history under its bibliographic publication year."
+    },
+    "focal_work_id": {
+      "dtype": "string",
+      "description": "OpenAlex Work ID used for the focal KSC mapping.",
+      "unit": "OpenAlex Work ID",
+      "transform": "Retained focal bibliographic mapping identifier."
+    },
+    "focal_year": {
+      "dtype": "int32",
+      "description": "Canonical focal year anchoring the prior five-year KSC window.",
+      "unit": "calendar year",
+      "transform": "Retained canonical focal year; history window is [focal_year-5, focal_year-1]."
+    },
+    "included_impact": {
+      "dtype": "bool",
+      "description": "Final inclusion in the baseline/API statistical sample.",
+      "unit": "boolean",
+      "transform": "eligible_impact and no recursive singleton removal; 29,487 rows are included."
+    },
+    "included_venue_year_topic_impact": {
+      "dtype": "bool",
+      "description": "Final inclusion in the KSC statistical sample.",
+      "unit": "boolean",
+      "transform": "eligible_venue_year_topic_impact and no recursive singleton removal; 29,239 rows are included."
+    },
+    "ksc": {
+      "dtype": "float64",
+      "description": "Equal-weighted mean historical reference-semantic span in the same focal topic during the previous five canonical years.",
+      "unit": "mean cosine distance",
+      "transform": "Average eligible historical-work spans over [focal_year-5, focal_year-1] after focal-work self-exclusion; requires at least 100 eligible historical works. Historical spans use at least five usable unique references, at least 70% coverage and no future-year references."
+    },
+    "ksc_primary_topic_id": {
+      "dtype": "string",
+      "description": "Focal Primary Topic ID used for historical KSC mapping.",
+      "unit": "OpenAlex Topic ID",
+      "transform": "Retained frozen focal-topic mapping."
+    },
+    "ksc_primary_topic_name": {
+      "dtype": "string",
+      "description": "Focal Primary Topic name used for historical KSC mapping.",
+      "unit": "topic name",
+      "transform": "Retained frozen focal-topic display name."
+    },
+    "ksc_z": {
+      "dtype": "float64",
+      "description": "KSC standardized using all 29,322 available mappings in the frozen input.",
+      "unit": "full-input KSC standard deviations",
+      "transform": "(ksc - 0.2212022498317855) / 0.014462611340978518; population standard deviation uses ddof=0."
+    },
+    "log_org": {
+      "dtype": "float64",
+      "description": "Transformed number of organizations represented in the focal team.",
+      "unit": "natural log of one plus organizations",
+      "transform": "log1p(organization count)."
+    },
+    "log_team": {
+      "dtype": "float64",
+      "description": "Transformed number of authors in the focal team.",
+      "unit": "natural log of one plus authors",
+      "transform": "log1p(author count)."
+    },
+    "mapping_status": {
+      "dtype": "string",
+      "description": "Availability status of the focal historical KSC mapping.",
+      "unit": "category",
+      "transform": "available for 29,322 input rows; insufficient_history for 269 rows. ksc and ksc_z are missing for insufficient_history."
+    },
+    "memory": {
+      "dtype": "float64",
+      "description": "Per-GPU VRAM measure for the selected normalized configuration.",
+      "unit": "log2(GB)",
+      "transform": "log2(compute_selected_vram_gb); a one-unit increase is a doubling."
+    },
+    "memory_centered": {
+      "dtype": "float64",
+      "description": "Per-GPU VRAM log2 measure centered at its full 29,591-row input median.",
+      "unit": "doublings from the full-input median",
+      "transform": "memory - 4.584962500721156."
+    },
+    "memory_x_ksc": {
+      "dtype": "float64",
+      "description": "Interaction between centered per-GPU VRAM and standardized KSC.",
+      "unit": "centered resource doublings times KSC standard deviations",
+      "transform": "memory_centered * ksc_z."
+    },
+    "own_h_p": {
+      "dtype": "float64",
+      "description": "Focal work's reference-semantic span when available for the self-exclusion audit.",
+      "unit": "cosine distance",
+      "transform": "Mean pairwise cosine distance of eligible normalized SPECTER reference vectors: 1 - (norm(sum(z_r))^2 - m) / (m * (m-1)); requires at least five usable unique references and at least 70% reference coverage."
+    },
+    "own_h_p_subtracted": {
+      "dtype": "bool",
+      "description": "Flag indicating subtraction of the focal work's own eligible semantic span from its historical KSC mapping.",
+      "unit": "boolean",
+      "transform": "True when an eligible focal span and its row are removed from the historical sum and count."
+    },
+    "paper_id": {
+      "dtype": "string",
+      "description": "Unique focal-record identifier and join key across the core datasets.",
+      "unit": "identifier",
+      "transform": "Retained canonical corpus identifier; one row per paper_id in each core dataset."
+    },
+    "performance": {
+      "dtype": "float64",
+      "description": "Per-GPU theoretical Tensor FP16/BF16 peak-performance measure for the selected configuration.",
+      "unit": "log2(FLOP/s)",
+      "transform": "log2(compute_selected_per_gpu_capability); a one-unit increase is a doubling."
+    },
+    "performance_centered": {
+      "dtype": "float64",
+      "description": "Per-GPU performance log2 measure centered at its full 29,591-row input median.",
+      "unit": "doublings from the full-input median",
+      "transform": "performance - 46.7591667416251."
+    },
+    "performance_x_ksc": {
+      "dtype": "float64",
+      "description": "Interaction between centered per-GPU performance and standardized KSC.",
+      "unit": "centered resource doublings times KSC standard deviations",
+      "transform": "performance_centered * ksc_z."
+    },
+    "prior_team_productivity_5y": {
+      "dtype": "float64",
+      "description": "Mean across team authors of log-transformed distinct eligible prior-publication counts.",
+      "unit": "mean natural log of one plus prior publications",
+      "transform": "For each author, count distinct eligible OpenAlex works in [year-5, year-1], take log1p(count), then average across all listed authors; eligible measurements have resolved identities and complete histories for every author. Entered directly in the regression."
+    },
+    "quantity": {
+      "dtype": "float64",
+      "description": "GPU-count resource measure for the selected normalized configuration.",
+      "unit": "log2(GPU count)",
+      "transform": "log2(compute_selected_gpu_count); a one-unit increase is a doubling."
+    },
+    "quantity_centered": {
+      "dtype": "float64",
+      "description": "GPU-count log2 measure centered at its full 29,591-row input median.",
+      "unit": "doublings from the full-input median",
+      "transform": "quantity - 0.0."
+    },
+    "quantity_x_ksc": {
+      "dtype": "float64",
+      "description": "Interaction between centered GPU quantity and standardized KSC.",
+      "unit": "centered resource doublings times KSC standard deviations",
+      "transform": "quantity_centered * ksc_z."
+    },
+    "resource_L1": {
+      "dtype": "int64",
+      "description": "Reported physical-hardware access label.",
+      "unit": "binary indicator",
+      "transform": "Frozen multi-label classification; 1 indicates physical-hardware access."
+    },
+    "resource_L2": {
+      "dtype": "int64",
+      "description": "Reported commercial-cloud access label.",
+      "unit": "binary indicator",
+      "transform": "Frozen multi-label classification; 1 indicates commercial-cloud access."
+    },
+    "resource_L3": {
+      "dtype": "int64",
+      "description": "Reported public/shared-HPC access label.",
+      "unit": "binary indicator",
+      "transform": "Frozen multi-label classification; 1 indicates public/shared-HPC access."
+    },
+    "resource_L4": {
+      "dtype": "int64",
+      "description": "Reported hosted-model/API-service access label.",
+      "unit": "binary indicator",
+      "transform": "Frozen multi-label classification; 1 indicates hosted-model/API-service access."
+    },
+    "singleton_iteration_impact": {
+      "dtype": "int64",
+      "description": "Recursive singleton-removal iteration in the baseline fixed-effect sample.",
+      "unit": "iteration number",
+      "transform": "Zero denotes no singleton removal; a positive integer records the iteration that removed the row."
+    },
+    "singleton_iteration_venue_year_topic_impact": {
+      "dtype": "int64",
+      "description": "Recursive singleton-removal iteration in the KSC venue/year and topic fixed-effect sample.",
+      "unit": "iteration number",
+      "transform": "Zero denotes no singleton removal; a positive integer records the iteration that removed the row."
+    },
+    "venue": {
+      "dtype": "string",
+      "description": "Canonical corpus conference or venue label.",
+      "unit": "category",
+      "transform": "Retained canonical venue label."
+    },
+    "venue_year_v14": {
+      "dtype": "string",
+      "description": "Frozen combined venue/year label for the first fixed effect and covariance clustering.",
+      "unit": "category",
+      "transform": "Frozen venue-by-year label; the fitted samples contain 69 cluster groups."
+    },
+    "y_cumulative_citations": {
+      "dtype": "float64",
+      "description": "Transformed cumulative-citation outcome used in OLS.",
+      "unit": "natural log of one plus citations",
+      "transform": "log1p(citation_cumulative_from_publication_year_current)."
+    },
+    "y_top1": {
+      "dtype": "int8",
+      "description": "Top-1-percent cited indicator relative to the external OpenAlex publication-year/Primary-Topic reference population.",
+      "unit": "binary indicator",
+      "transform": "1 when citation_current_total is at least the descending ceil(0.01 * N) cutoff for core article, conference-paper and preprint records in the same publication year and primary topic; cutoff ties are included."
+    },
+    "y_top10": {
+      "dtype": "int8",
+      "description": "Top-10-percent cited indicator relative to the external OpenAlex publication-year/Primary-Topic reference population.",
+      "unit": "binary indicator",
+      "transform": "1 when citation_current_total is at least the descending ceil(0.10 * N) cutoff for core article, conference-paper and preprint records in the same publication year and primary topic; cutoff ties are included."
+    },
+    "y_top5": {
+      "dtype": "int8",
+      "description": "Top-5-percent cited indicator relative to the external OpenAlex publication-year/Primary-Topic reference population.",
+      "unit": "binary indicator",
+      "transform": "1 when citation_current_total is at least the descending ceil(0.05 * N) cutoff for core article, conference-paper and preprint records in the same publication year and primary topic; cutoff ties are included."
+    },
+    "year": {
+      "dtype": "int64",
+      "description": "Canonical corpus/conference publication year.",
+      "unit": "calendar year",
+      "transform": "Retained canonical year; anchors the author-history and KSC windows."
+    }
+  }
+}

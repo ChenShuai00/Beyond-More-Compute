@@ -1,0 +1,482 @@
+{
+  "schema_version": "frozen_reference_v1",
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "results/reference/figure_data/annual_gpu_hardware_configuration_quantiles.csv",
+      "bytes": 1387,
+      "sha256": "249fd8439b32d72f36dc03e7373b5b11491ba7cce4bd6bc88aee89effbc8003f"
+    },
+    {
+      "path": "results/reference/figure_data/annual_gpu_hardware_configuration_quantiles.parquet",
+      "bytes": 6632,
+      "sha256": "52adb9fe205131b42c2a56437fdedf5f963f97b73454e2c3ceb587dfe3d45876",
+      "rows": 18,
+      "columns": [
+        "year",
+        "variable",
+        "display_name",
+        "unit",
+        "provenance_cohort_n",
+        "measurement_n",
+        "q25",
+        "median",
+        "q75",
+        "p90"
+      ]
+    },
+    {
+      "path": "results/reference/figure_data/annual_hardware_api_configurations.csv",
+      "bytes": 1684,
+      "sha256": "d72f1ce32ebbd61f919cf50c710edc8787170ea31a2837ed66a3eed95d071f6c"
+    },
+    {
+      "path": "results/reference/figure_data/annual_hardware_api_configurations.parquet",
+      "bytes": 5285,
+      "sha256": "29d607991cfe6152802ba662ebc17ea5a2c5c92fa1b3d191e1445ea2503356a1",
+      "rows": 24,
+      "columns": [
+        "year",
+        "configuration",
+        "display_name",
+        "stack_order",
+        "paper_count",
+        "year_denominator",
+        "paper_share"
+      ]
+    },
+    {
+      "path": "results/reference/figure_data/conditional_associations.csv",
+      "bytes": 20732,
+      "sha256": "0c62e84149ccf613ecf6f555c8a4d37631fd884be7febb54723365373ebdac06"
+    },
+    {
+      "path": "results/reference/figure_data/conditional_associations.parquet",
+      "bytes": 19376,
+      "sha256": "4fda91a1ea0480f1def0fb7878ec5b4eb508337100a3bc8058cb1d89d28587f7",
+      "rows": 48,
+      "columns": [
+        "outcome",
+        "specification",
+        "family",
+        "model",
+        "resource",
+        "ksc_z_level",
+        "estimate",
+        "standard_error",
+        "ci_low",
+        "ci_high",
+        "p_value",
+        "effect_type",
+        "n",
+        "clusters",
+        "sample_sha256",
+        "p_value_holm",
+        "reject_holm_05",
+        "holm_family",
+        "holm_family_size",
+        "marginal_association",
+        "marginal_standard_error",
+        "marginal_ci_low",
+        "marginal_ci_high",
+        "marginal_unit"
+      ]
+    },
+    {
+      "path": "results/reference/figure_data/cumulative_citation_interaction_contrasts.csv",
+      "bytes": 2130,
+      "sha256": "60add137ec2dba9d0662275034ba868b2543f8cd56f7a53d19aae75f2ea76f83"
+    },
+    {
+      "path": "results/reference/figure_data/cumulative_citation_interaction_contrasts.parquet",
+      "bytes": 19401,
+      "sha256": "079ee466221a6922863539929365547eaad57abd73df256bf5782923e48965b1",
+      "rows": 3,
+      "columns": [
+        "outcome",
+        "family",
+        "model",
+        "hardware",
+        "hardware_main_term",
+        "interaction_term",
+        "slope_api_no",
+        "slope_api_no_se",
+        "slope_api_no_ci_low",
+        "slope_api_no_ci_high",
+        "slope_api_yes",
+        "slope_api_yes_se",
+        "slope_api_yes_ci_low",
+        "slope_api_yes_ci_high",
+        "interaction_difference",
+        "interaction_se",
+        "interaction_ci_low",
+        "interaction_ci_high",
+        "interaction_p_value",
+        "slope_api_no_outcome_sd",
+        "slope_api_yes_outcome_sd",
+        "interaction_outcome_sd",
+        "n",
+        "clusters",
+        "sample_sha256",
+        "interaction_p_value_holm",
+        "holm_family",
+        "holm_family_size",
+        "reject_interaction_holm_05"
+      ]
+    },
+    {
+      "path": "results/reference/figure_data/cumulative_citation_interaction_predictions.csv",
+      "bytes": 124750,
+      "sha256": "663ae16bafb716f93c4776c3a35b298929399e4e1eceb50db526b968000e2d4c"
+    },
+    {
+      "path": "results/reference/figure_data/cumulative_citation_interaction_predictions.parquet",
+      "bytes": 28279,
+      "sha256": "5adf7a9b2c5f3209c7326f3ac1a6018017bbe636dc6e1bdbef87dc59d2167293",
+      "rows": 606,
+      "columns": [
+        "family",
+        "outcome",
+        "model",
+        "hardware",
+        "api",
+        "api_label",
+        "doublings_from_full_v14_median",
+        "adjusted_change",
+        "ci_low",
+        "ci_high",
+        "display_unit",
+        "n",
+        "clusters"
+      ]
+    },
+    {
+      "path": "results/reference/figure_data/marginal_figure_source.csv",
+      "bytes": 164178,
+      "sha256": "c4331473e7bfd73fed9f4e4c00f54bf681e96a04f1d8e08dadeeed025dcbc6a1"
+    },
+    {
+      "path": "results/reference/figure_data/marginal_figure_source.parquet",
+      "bytes": 46482,
+      "sha256": "35977f21715ff1e8991e029eebc9d9cf4c95c81d9b053ab46992717eff5bb5f6",
+      "rows": 404,
+      "columns": [
+        "specification",
+        "family",
+        "panel",
+        "outcome",
+        "outcome_label",
+        "model",
+        "resource",
+        "resource_label",
+        "ksc_z",
+        "estimate",
+        "standard_error",
+        "ci_low",
+        "ci_high",
+        "marginal_association",
+        "marginal_standard_error",
+        "marginal_ci_low",
+        "marginal_ci_high",
+        "marginal_unit",
+        "grid_quantile_low",
+        "grid_quantile_high",
+        "grid_value_low",
+        "grid_value_high",
+        "n",
+        "clusters",
+        "sample_sha256"
+      ]
+    },
+    {
+      "path": "results/reference/figures/combined_computational_resource_evolution.pdf",
+      "bytes": 51121,
+      "sha256": "d35bde2fa4887b0914cc511ec85c6e13416df8876208f4d037599f8425c9050b"
+    },
+    {
+      "path": "results/reference/figures/combined_computational_resource_evolution.png",
+      "bytes": 545602,
+      "sha256": "e2cc5793e8f74e3071da07646d313c09481f4f2b7c63813e4b4bc6826f3ff931"
+    },
+    {
+      "path": "results/reference/figures/combined_computational_resource_evolution.svg",
+      "bytes": 69191,
+      "sha256": "7b40396060aff9fb5897f5505346f2b5f2cd9a5cb50a092c091d2156c96a1910"
+    },
+    {
+      "path": "results/reference/figures/combined_computational_resource_evolution.tiff",
+      "bytes": 1385378,
+      "sha256": "a20f30e5a761e04da120585e2d9a375ab31c9ca39ab04c71a64b30f6483a9c31"
+    },
+    {
+      "path": "results/reference/figures/interaction_slopes_cumulative_citations.pdf",
+      "bytes": 66519,
+      "sha256": "243a87168e0f9a81cb7e531e1f4f9f43837a91faaa887d9113d064de45064004"
+    },
+    {
+      "path": "results/reference/figures/interaction_slopes_cumulative_citations.png",
+      "bytes": 260447,
+      "sha256": "d33de18f24b456c13eeef92e469a5c06e79d371d51f710cdab2b13a5c11f7ded"
+    },
+    {
+      "path": "results/reference/figures/interaction_slopes_cumulative_citations.svg",
+      "bytes": 77777,
+      "sha256": "2ec9418fea149bb85d4a842db457b3dbda2908d49699a607ad589bbd52eb88b2"
+    },
+    {
+      "path": "results/reference/figures/interaction_slopes_cumulative_citations.tiff",
+      "bytes": 633378,
+      "sha256": "4907603c3913747e5cca8a5829b665852ca4930bec89706b06a1c958f372e705"
+    },
+    {
+      "path": "results/reference/figures/ksc_marginal_associations.pdf",
+      "bytes": 58199,
+      "sha256": "aa431ef98d6d2fe21df42d466282a230ebeed8e15011b0c211eb847924184c8d"
+    },
+    {
+      "path": "results/reference/figures/ksc_marginal_associations.png",
+      "bytes": 483604,
+      "sha256": "45dce8dd8d426bb0d2e369d183ccc86ca5b9064ad68c27c1dab7c24c31a01ace"
+    },
+    {
+      "path": "results/reference/figures/ksc_marginal_associations.svg",
+      "bytes": 63625,
+      "sha256": "c920299fb60caebcb75da7d72597f1326100fb7352772e79e068cbfe196cd5f8"
+    },
+    {
+      "path": "results/reference/figures/ksc_marginal_associations.tiff",
+      "bytes": 1126718,
+      "sha256": "445d284c257fc35bf9536f92c4df0397fc1948839b3af5a3088fa673eaf186d9"
+    },
+    {
+      "path": "results/reference/measurement/classification/bert_base_metrics.json",
+      "bytes": 2902,
+      "sha256": "85a27e0f9cbcd3b5da99a3093e705838c7d8d5d1d44479174173b37c35e5c8aa"
+    },
+    {
+      "path": "results/reference/measurement/classification/roberta_base_metrics.json",
+      "bytes": 2875,
+      "sha256": "e4c6ea859762530872f0bd115833ac3855459957ec458d173a0963b3985565dc"
+    },
+    {
+      "path": "results/reference/measurement/classification/scibert_metrics.json",
+      "bytes": 2854,
+      "sha256": "47eb49119d2ccab6a77b2e169aa5ae1ad1844d2e542cbca77ffcaa3191a8b27d"
+    },
+    {
+      "path": "results/reference/measurement/classification/split_audit.json",
+      "bytes": 4024,
+      "sha256": "5d3e95ab880ded4b04abf92d7eaec46b50e083315832056fbb6ae339b68a4b7f"
+    },
+    {
+      "path": "results/reference/measurement/classification/teacher_metrics.json",
+      "bytes": 2714,
+      "sha256": "2e4f8811017dba5f007b9fd77a13dc31181ba70eaf8baa65af6241c136085bb2"
+    },
+    {
+      "path": "results/reference/measurement/gpu/normalization_finalization.json",
+      "bytes": 1241,
+      "sha256": "d5a76f3497f2f0a2448641b99bc615be4cb441e36a1023df0d7af0a5aa608dc3"
+    },
+    {
+      "path": "results/reference/measurement/gpu/normalization_summary.json",
+      "bytes": 3591,
+      "sha256": "f4579268c00e280878170976b625e39fcb60cc6802fe362a20ba4180f988310d"
+    },
+    {
+      "path": "results/reference/measurement/gpu/thinking_disabled_metrics.json",
+      "bytes": 1394,
+      "sha256": "3ed2d4fb76b65d1db7a4a29a1a782b825d55a522f363a4dc289a484dbf83d052"
+    },
+    {
+      "path": "results/reference/measurement/gpu/thinking_enabled_metrics.json",
+      "bytes": 1393,
+      "sha256": "90d145a5a4f6159deec54cd726c554218c6c53daa9036082fd1fcfc3aa099356"
+    },
+    {
+      "path": "results/reference/measurement/ksc/aggregate_summary.json",
+      "bytes": 258,
+      "sha256": "39aa0f0cc20fc7fe2e1b80200e8066bd63d81442d71bf8119990905da8df108d"
+    },
+    {
+      "path": "results/reference/measurement/ksc/release_status.json",
+      "bytes": 287,
+      "sha256": "93d446e51adcf594fbdae1ed085d66447d2a6ef3797974534b2d3dd66b9bdc66"
+    },
+    {
+      "path": "results/reference/measurement/ksc/validation_report.json",
+      "bytes": 2406,
+      "sha256": "6bbabe0a4903a6f68ccc8c8ce02834c553c4c28a33ae5545ee9c44e555007e7d"
+    },
+    {
+      "path": "results/reference/measurement/reproduced/classification/metrics.json",
+      "bytes": 6542,
+      "sha256": "dd2cd6b118180198dee9965d9220e884695f63210f45f222af26133937e29b82"
+    },
+    {
+      "path": "results/reference/measurement/reproduced/classification/model_metrics.csv",
+      "bytes": 649,
+      "sha256": "c07de13198f2bdc2ce93a479da370afa80b1369768cb7258daea55a7d24a7137"
+    },
+    {
+      "path": "results/reference/measurement/reproduced/classification/per_label_metrics.csv",
+      "bytes": 1802,
+      "sha256": "b614d03a8a53629fd8b1a322a3ad54aa9aeabea6b38d4ea78e9c4aa525112cdb"
+    },
+    {
+      "path": "results/reference/measurement/reproduced/classification/split_overlap.csv",
+      "bytes": 209,
+      "sha256": "ce80f38e2612a8466d0fb95948e5ab0ce79ca9802b1baf38de7ffd963f489401"
+    },
+    {
+      "path": "results/reference/measurement/reproduced/gpu/extraction_metrics.csv",
+      "bytes": 1289,
+      "sha256": "f3f1072ad3d97185b28b14bb7cf532eda8fc9dd14518bc3beca02e5090e94c62"
+    },
+    {
+      "path": "results/reference/measurement/reproduced/gpu/generation_donors_recomputed.csv",
+      "bytes": 370,
+      "sha256": "25bca3ecf97ea7e047edfbfb8f82fdec70ec826db68aea6e782a6cabf76d1fb7"
+    },
+    {
+      "path": "results/reference/measurement/reproduced/gpu/metrics.json",
+      "bytes": 3057,
+      "sha256": "dabb5dd034347e7e9eeef1672232c5607c4ba47f3fdfa37833b9bbc664e5e272"
+    },
+    {
+      "path": "results/reference/measurement/reproduced/gpu/normalization_inventory.json",
+      "bytes": 1108,
+      "sha256": "dc92c1828f60562c83588459d60490f7913cea455deda869838376bf28b41362"
+    },
+    {
+      "path": "results/reference/measurement/reproduced/gpu/performance_supplement_validation.json",
+      "bytes": 299,
+      "sha256": "2ab7a8f9c342eafb4798558d350fe433abaf6061760ac6b710f10da406e830ec"
+    },
+    {
+      "path": "results/reference/measurement/reproduced/ksc/focal_summary_by_year.csv",
+      "bytes": 621,
+      "sha256": "c2a8fdd444a5dede9270232c05c5951af62799c9b70c2d3a448ae72cc254520a"
+    },
+    {
+      "path": "results/reference/measurement/reproduced/ksc/threshold_availability.csv",
+      "bytes": 176,
+      "sha256": "75a9c5cd10eba6639d48f389c0bf79dc4bc178b9ad7fa90bc0dd30eb5e0abd1c"
+    },
+    {
+      "path": "results/reference/measurement/reproduced/ksc/validation.json",
+      "bytes": 345,
+      "sha256": "42b16545a8083bd9f3c7c5cc4a23b1368056f4299efc7871ca1364643c1dddcc"
+    },
+    {
+      "path": "results/reference/measurement/reproduced/validation.json",
+      "bytes": 2784,
+      "sha256": "d42394dd36ddf450f6dc330b18fd23250f94cf17cf525f2bb6ff77ac190dd645"
+    },
+    {
+      "path": "results/reference/tables/appendix_full_model_details.csv",
+      "bytes": 66925,
+      "sha256": "24a61de19a5aef3f2f8788b1be62e7052df8497ebe996ab1f8ded2529c7742fd"
+    },
+    {
+      "path": "results/reference/tables/appendix_interaction_impact_table.csv",
+      "bytes": 25568,
+      "sha256": "f273ce7667498e8dc9fc4eeaa1188a1cb0a8584b39bfd91a8e0192a5f1aea59c"
+    },
+    {
+      "path": "results/reference/tables/appendix_interaction_multiple_testing_table.csv",
+      "bytes": 2355,
+      "sha256": "4e58add59f498c36f0d8f7202211280789c10ab30dc517f913136e9c4fd84ce4"
+    },
+    {
+      "path": "results/reference/tables/baseline_coefficients.csv",
+      "bytes": 24379,
+      "sha256": "fad2e30623e8d295d35c8909b85f529ed6ca91e078f41c5527ec0abc0a609c3e"
+    },
+    {
+      "path": "results/reference/tables/baseline_main_effects.csv",
+      "bytes": 7838,
+      "sha256": "ce3aa7d46b703c1e04d56bbf04f28dc33a5ce316fba7f9539bc39bee127650fa"
+    },
+    {
+      "path": "results/reference/tables/baseline_regression_impact_table.csv",
+      "bytes": 12575,
+      "sha256": "3eb7d6dae52167955b91c26ea5937ba3a9f1229ffd6f3458d42820b7ee05d12e"
+    },
+    {
+      "path": "results/reference/tables/conditional_associations.csv",
+      "bytes": 20171,
+      "sha256": "6b0baf424b25475f50b85bcc3b9a0ce47071379404f117f8f162266d7187d94f"
+    },
+    {
+      "path": "results/reference/tables/conference_year_counts.csv",
+      "bytes": 627,
+      "sha256": "0fc38e9b15a241d7b54ce782e87c892e492092a5352bef191389965054a1c9cb"
+    },
+    {
+      "path": "results/reference/tables/interaction_coefficients.csv",
+      "bytes": 35563,
+      "sha256": "7bbd0da5689d24ee7e801634bce0385796114b352b7699d950f50be0439c170e"
+    },
+    {
+      "path": "results/reference/tables/interaction_results.csv",
+      "bytes": 7313,
+      "sha256": "2cb793ba11797849b6401f3646fc50d0a8ff1778b813f5989504b4f869bfe5ae"
+    },
+    {
+      "path": "results/reference/tables/key_marginal_associations.csv",
+      "bytes": 7463,
+      "sha256": "6c9aa0b12044976c3015a44395bb1908d5451607e700124b0f493a80ba391a16"
+    },
+    {
+      "path": "results/reference/tables/linear_coefficients.csv",
+      "bytes": 48568,
+      "sha256": "34e1f973345f38f7765568e3c0f594efed4978f067f684ac9ad44129971a4995"
+    },
+    {
+      "path": "results/reference/tables/linear_model_comparisons.csv",
+      "bytes": 4018,
+      "sha256": "f3813bd273d5ce898c0bea380abd86d9e60871e7799c9d92704973a2df39c017"
+    },
+    {
+      "path": "results/reference/tables/linear_model_metrics.csv",
+      "bytes": 3956,
+      "sha256": "99ca16b2f31688ecd56621c54d4a7bca1df19bcf5bda28b8f28b1d824e86fc26"
+    },
+    {
+      "path": "results/reference/tables/model_comparisons.csv",
+      "bytes": 5756,
+      "sha256": "487f7480943331e7cea4432f4ea96aa319c04332c4801d14beec25488e9b1280"
+    },
+    {
+      "path": "results/reference/tables/model_metrics.csv",
+      "bytes": 4193,
+      "sha256": "a79ab73a1f0ff58dd309c3916ebf5bebd25e038f410211ae0874519498adf669"
+    },
+    {
+      "path": "results/reference/tables/resource_access_modes.csv",
+      "bytes": 92,
+      "sha256": "5e4beaf985356092595ef9fcc16eac45faa1ce36615011570825918f84e8463e"
+    },
+    {
+      "path": "results/reference/tables/sample_flow.csv",
+      "bytes": 304,
+      "sha256": "831452cafbd7ab63c4bdc31bea3a2654ec9280a78154e7d2b448a2e3dbd9542b"
+    },
+    {
+      "path": "results/reference/tables/self_exclusion_audit.csv",
+      "bytes": 216168,
+      "sha256": "aaddba566bba3d715c7930c9f58136dc76d3ff59f6d70a7569dfb8df06131ab8"
+    },
+    {
+      "path": "results/reference/tables/table4_impact_ksc_interactions.csv",
+      "bytes": 1709,
+      "sha256": "9c8738407bc51704d1fe236b317b100c71726927e09ed69c4e442352704d37eb"
+    },
+    {
+      "path": "results/reference/tables/table4_interaction_source.csv",
+      "bytes": 7604,
+      "sha256": "49b92481462f2107ef8edda79f39f04cf6700567d359adc44933328a8cc26136"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "label_set": "primary_l1_l5_l0",
+  "row_counts": {
+    "gold": 4658,
+    "evaluated_gold": 4658,
+    "predictions": 4658,
+    "matched": 4658
+  },
+  "per_label": {
+    "L1_INTERNAL": {
+      "tp": 391,
+      "fp": 68,
+      "fn": 28,
+      "precision": 0.8518518518518519,
+      "recall": 0.9331742243436754,
+      "f1": 0.8906605922551253,
+      "support": 419,
+      "predicted_positive": 459
+    },
+    "L2_CLOUD": {
+      "tp": 149,
+      "fp": 38,
+      "fn": 30,
+      "precision": 0.7967914438502673,
+      "recall": 0.8324022346368715,
+      "f1": 0.8142076502732241,
+      "support": 179,
+      "predicted_positive": 187
+    },
+    "L3_PUBLIC_HPC": {
+      "tp": 172,
+      "fp": 15,
+      "fn": 12,
+      "precision": 0.9197860962566845,
+      "recall": 0.9347826086956522,
+      "f1": 0.9272237196765498,
+      "support": 184,
+      "predicted_positive": 187
+    },
+    "L4_EXTERNAL_API": {
+      "tp": 251,
+      "fp": 84,
+      "fn": 29,
+      "precision": 0.7492537313432835,
+      "recall": 0.8964285714285715,
+      "f1": 0.8162601626016259,
+      "support": 280,
+      "predicted_positive": 335
+    },
+    "L5_OPEN_MODEL": {
+      "tp": 428,
+      "fp": 147,
+      "fn": 127,
+      "precision": 0.7443478260869565,
+      "recall": 0.7711711711711712,
+      "f1": 0.7575221238938052,
+      "support": 555,
+      "predicted_positive": 575
+    },
+    "L0_NO_SPECIFIC_RESOURCE": {
+      "tp": 2981,
+      "fp": 166,
+      "fn": 217,
+      "precision": 0.9472513504925326,
+      "recall": 0.9321450906816761,
+      "f1": 0.9396375098502758,
+      "support": 3198,
+      "predicted_positive": 3147
+    }
+  },
+  "thresholds": {
+    "L1_INTERNAL": 0.95,
+    "L2_CLOUD": 0.78,
+    "L3_PUBLIC_HPC": 0.81,
+    "L4_EXTERNAL_API": 0.95,
+    "L5_OPEN_MODEL": 0.8
+  },
+  "primary_l1_l5": {
+    "label_set": "primary_l1_l5",
+    "target_labels": [
+      "L1_INTERNAL",
+      "L2_CLOUD",
+      "L3_PUBLIC_HPC",
+      "L4_EXTERNAL_API",
+      "L5_OPEN_MODEL"
+    ],
+    "micro": {
+      "tp": 1391,
+      "fp": 352,
+      "fn": 226,
+      "precision": 0.7980493402180149,
+      "recall": 0.860235003092146,
+      "f1": 0.8279761904761904,
+      "support": 1617,
+      "predicted_positive": 1743
+    },
+    "macro_f1": 0.8411748497400661,
+    "min_f1": 0.7575221238938052,
+    "labels_below_0_85": [
+      "L2_CLOUD",
+      "L4_EXTERNAL_API",
+      "L5_OPEN_MODEL"
+    ],
+    "passes_all_labels_f1_0_85": false
+  },
+  "evaluated_labels": [
+    "L1_INTERNAL",
+    "L2_CLOUD",
+    "L3_PUBLIC_HPC",
+    "L4_EXTERNAL_API",
+    "L5_OPEN_MODEL",
+    "L0_NO_SPECIFIC_RESOURCE"
+  ],
+  "target_labels": [
+    "L1_INTERNAL",
+    "L2_CLOUD",
+    "L3_PUBLIC_HPC",
+    "L4_EXTERNAL_API",
+    "L5_OPEN_MODEL"
+  ],
+  "exact_match": {
+    "count": 4139,
+    "rate": 0.8885787891799055
+  }
+}

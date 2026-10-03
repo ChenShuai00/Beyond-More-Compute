@@ -1,0 +1,8 @@
+# Preserve the bytes recorded in the scientific SHA-256 manifests.
+# This keeps Windows and Linux clones consistent.
+* -text
+# Recognize retained CRLF line endings in whitespace checks.
+* whitespace=trailing-space,space-before-tab,cr-at-eol
+# Frozen datasets and reference assets retain their source formatting.
+data/** -whitespace
+results/reference/** -whitespace

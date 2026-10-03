@@ -1,0 +1,265 @@
+{
+  "figures": {
+    "population": {
+      "input_n": 107872,
+      "hardware_n": 49090,
+      "measurement_n": 34483,
+      "api_n": 20633,
+      "performance_imputed_n": 3524
+    },
+    "figures": {
+      "resource_trends": {
+        "alignment": "PASS",
+        "font_minimum_pt": 5,
+        "collision_failures": 0,
+        "collision_warnings": 0,
+        "formats": [
+          "figures/combined_computational_resource_evolution.png",
+          "figures/combined_computational_resource_evolution.pdf",
+          "figures/combined_computational_resource_evolution.svg"
+        ]
+      },
+      "hardware_api_interactions": {
+        "alignment": "PASS",
+        "font_minimum_pt": 5,
+        "collision_failures": 0,
+        "collision_warnings": 0,
+        "formats": [
+          "figures/interaction_slopes_cumulative_citations.png",
+          "figures/interaction_slopes_cumulative_citations.pdf",
+          "figures/interaction_slopes_cumulative_citations.svg"
+        ]
+      },
+      "ksc_marginal_associations": {
+        "alignment": "PASS",
+        "font_minimum_pt": 5,
+        "collision_failures": 0,
+        "collision_warnings": 0,
+        "formats": [
+          "figures/ksc_marginal_associations.png",
+          "figures/ksc_marginal_associations.pdf",
+          "figures/ksc_marginal_associations.svg"
+        ]
+      }
+    },
+    "mode": "released-data and recomputed-model coordinates"
+  },
+  "annual_data_comparison": {
+    "annual_hardware_api_configurations": {
+      "rows": 24,
+      "max_numeric_error": 0.0
+    },
+    "annual_gpu_hardware_configuration_quantiles": {
+      "rows": 18,
+      "max_numeric_error": 0.0
+    }
+  },
+  "pixel_comparison": {
+    "combined_computational_resource_evolution": {
+      "same_dimensions": true,
+      "reference": "results/reference/figures/combined_computational_resource_evolution.png",
+      "identical_pixels": true,
+      "mean_absolute_channel_difference": 0.0,
+      "changed_pixel_fraction": 0.0
+    },
+    "interaction_slopes_cumulative_citations": {
+      "same_dimensions": true,
+      "reference": "results/reference/figures/interaction_slopes_cumulative_citations.png",
+      "identical_pixels": false,
+      "mean_absolute_channel_difference": 9.234665905922442e-05,
+      "changed_pixel_fraction": 0.00017405113807816646
+    },
+    "ksc_marginal_associations": {
+      "same_dimensions": true,
+      "reference": "results/reference/figures/ksc_marginal_associations.png",
+      "identical_pixels": false,
+      "mean_absolute_channel_difference": 2.449844621719077e-05,
+      "changed_pixel_fraction": 4.5841160379285777e-05
+    }
+  },
+  "visual_review": "All original and final regenerated panels inspected; labels and legends clear, 95% confidence bands intact, auxiliary zoom connections unambiguous; no clipping or overlap.",
+  "source_preflight": "Runner: 20 PASS, 1 WARN, 0 FAIL. Raster warning is intentional: requested exports use PNG preview plus editable PDF/SVG. The drawing-only helper is audited with the integrated runner, which performs alignment and exports.",
+  "statistical_contract": {
+    "evolution": "Annual paper distributions with linear quantiles, not confidence intervals; retain imputed configuration values.",
+    "api": "Venue-year-clustered 95% confidence limits; outcome-SD changes in fitted log1p citations relative to API=no and median hardware.",
+    "ksc": "Venue-year-clustered 95% limits; curves retain published 5th-95th percentile KSC grid, exponentiated cumulative-citation contrasts and LPM percentage points."
+  },
+  "figure_contracts": {
+    "combined_computational_resource_evolution": {
+      "claim": "Device performance and memory increase while device counts change more gradually; external API access grows.",
+      "archetype": "asymmetric quantitative grid",
+      "panels": {
+        "a": "GPU quantity distribution",
+        "b": "Per-GPU performance distribution",
+        "c": "Per-GPU memory distribution",
+        "d": "Hardware/API configuration shares and auxiliary zoom"
+      },
+      "row_groups": [
+        "a,b,c"
+      ],
+      "inset_exemption": "The auxiliary zoom has an intentional different extent and scale."
+    },
+    "interaction_slopes_cumulative_citations": {
+      "claim": "Fitted hardware gradients have similar slopes across API access groups.",
+      "archetype": "quantitative grid",
+      "panels": {
+        "a": "Quantity by API",
+        "b": "Performance by API",
+        "c": "Memory by API"
+      },
+      "center": "Fitted difference relative to API=no and median hardware, divided by outcome SD",
+      "spread": "95% venue-year-clustered confidence interval"
+    },
+    "ksc_marginal_associations": {
+      "claim": "GPU quantity associations weaken with greater KSC, with an API pattern for Top-Cited 1%.",
+      "archetype": "quantitative grid",
+      "panels": {
+        "a": "Quantity cumulative citations",
+        "b": "Quantity Top-Cited 10%",
+        "c": "Quantity Top-Cited 5%",
+        "d": "API Top-Cited 1%"
+      },
+      "spread": "95% venue-year-clustered confidence interval"
+    }
+  },
+  "final_validation": {
+    "schema_version": "figure_validation_v1",
+    "passed": true,
+    "figure_count": 3,
+    "figures": [
+      {
+        "figure_id": "resource_trends",
+        "stem": "combined_computational_resource_evolution",
+        "passed": true,
+        "alignment": {
+          "passed": true,
+          "verdict": "PASS",
+          "tolerance_pt": 1.5
+        },
+        "font": {
+          "passed": true,
+          "auditable": true,
+          "minimum_found_pt": 5.0,
+          "minimum_required_pt": 5,
+          "below_minimum_count": 0,
+          "text_run_count": 77
+        },
+        "collision": {
+          "passed": true,
+          "auditable": true,
+          "failures": 0,
+          "warnings": 0
+        },
+        "visual_review": {
+          "passed": true,
+          "render_style_sha256": "c319ab6fc12e02cc8b1dba37e4fdd78c837ce3e84cbd9b7f24ba37ac0af5d542",
+          "reviewed_style_matches": true,
+          "manual_review_record": "configs/figures/qa_review.json",
+          "manual_review_scope": "Original and locally regenerated panels with the retained drawing styles",
+          "manual_review_result": "All original and final regenerated panels inspected; labels and legends clear, 95% confidence bands intact, auxiliary zoom connections unambiguous; no clipping or overlap.",
+          "current_render": {
+            "same_dimensions": true,
+            "reference": "results/reference/figures/combined_computational_resource_evolution.png",
+            "identical_pixels": true,
+            "mean_absolute_channel_difference": 0.0,
+            "changed_pixel_fraction": 0.0
+          }
+        },
+        "formats": [
+          "figures/combined_computational_resource_evolution.png",
+          "figures/combined_computational_resource_evolution.pdf",
+          "figures/combined_computational_resource_evolution.svg"
+        ]
+      },
+      {
+        "figure_id": "hardware_api_interactions",
+        "stem": "interaction_slopes_cumulative_citations",
+        "passed": true,
+        "alignment": {
+          "passed": true,
+          "verdict": "PASS",
+          "tolerance_pt": 1.5
+        },
+        "font": {
+          "passed": true,
+          "auditable": true,
+          "minimum_found_pt": 6.0,
+          "minimum_required_pt": 5,
+          "below_minimum_count": 0,
+          "text_run_count": 42
+        },
+        "collision": {
+          "passed": true,
+          "auditable": true,
+          "failures": 0,
+          "warnings": 0
+        },
+        "visual_review": {
+          "passed": true,
+          "render_style_sha256": "c319ab6fc12e02cc8b1dba37e4fdd78c837ce3e84cbd9b7f24ba37ac0af5d542",
+          "reviewed_style_matches": true,
+          "manual_review_record": "configs/figures/qa_review.json",
+          "manual_review_scope": "Original and locally regenerated panels with the retained drawing styles",
+          "manual_review_result": "All original and final regenerated panels inspected; labels and legends clear, 95% confidence bands intact, auxiliary zoom connections unambiguous; no clipping or overlap.",
+          "current_render": {
+            "same_dimensions": true,
+            "reference": "results/reference/figures/interaction_slopes_cumulative_citations.png",
+            "identical_pixels": false,
+            "mean_absolute_channel_difference": 9.234665905922442e-05,
+            "changed_pixel_fraction": 0.00017405113807816646
+          }
+        },
+        "formats": [
+          "figures/interaction_slopes_cumulative_citations.png",
+          "figures/interaction_slopes_cumulative_citations.pdf",
+          "figures/interaction_slopes_cumulative_citations.svg"
+        ]
+      },
+      {
+        "figure_id": "ksc_marginal_associations",
+        "stem": "ksc_marginal_associations",
+        "passed": true,
+        "alignment": {
+          "passed": true,
+          "verdict": "PASS",
+          "tolerance_pt": 1.5
+        },
+        "font": {
+          "passed": true,
+          "auditable": true,
+          "minimum_found_pt": 6.0,
+          "minimum_required_pt": 5,
+          "below_minimum_count": 0,
+          "text_run_count": 56
+        },
+        "collision": {
+          "passed": true,
+          "auditable": true,
+          "failures": 0,
+          "warnings": 0
+        },
+        "visual_review": {
+          "passed": true,
+          "render_style_sha256": "c319ab6fc12e02cc8b1dba37e4fdd78c837ce3e84cbd9b7f24ba37ac0af5d542",
+          "reviewed_style_matches": true,
+          "manual_review_record": "configs/figures/qa_review.json",
+          "manual_review_scope": "Original and locally regenerated panels with the retained drawing styles",
+          "manual_review_result": "All original and final regenerated panels inspected; labels and legends clear, 95% confidence bands intact, auxiliary zoom connections unambiguous; no clipping or overlap.",
+          "current_render": {
+            "same_dimensions": true,
+            "reference": "results/reference/figures/ksc_marginal_associations.png",
+            "identical_pixels": false,
+            "mean_absolute_channel_difference": 2.449844621719077e-05,
+            "changed_pixel_fraction": 4.5841160379285777e-05
+          }
+        },
+        "formats": [
+          "figures/ksc_marginal_associations.png",
+          "figures/ksc_marginal_associations.pdf",
+          "figures/ksc_marginal_associations.svg"
+        ]
+      }
+    ]
+  },
+  "reviewed_render_style_sha256": "c319ab6fc12e02cc8b1dba37e4fdd78c837ce3e84cbd9b7f24ba37ac0af5d542"
+}

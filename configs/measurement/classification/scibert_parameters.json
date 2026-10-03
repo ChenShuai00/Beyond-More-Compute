@@ -1,0 +1,21 @@
+{
+  "trial_number": 1,
+  "params": {
+    "learning_rate": 6.510053334885834e-06,
+    "weight_decay": 0.08447660601349016,
+    "warmup_ratio": 0.002623146333550458,
+    "warmup_epochs": 3,
+    "batch_size": 8,
+    "grad_accum_steps": 2,
+    "max_length": 384,
+    "max_pos_weight": 30.832611042737962,
+    "supervised_loss_weight": 0.7383246821275402,
+    "candidate_loss_weight": 1.6728481225771754,
+    "tau_conf": 0.8759079830625913,
+    "out_of_candidate_threshold": 0.9784038664183319,
+    "out_of_candidate_weight": 0.0
+  },
+  "objective": "weak_guarded_macro",
+  "selection_objective": "weak_guarded_macro",
+  "run_test_each_trial": false
+}

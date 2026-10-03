@@ -1,0 +1,115 @@
+{
+  "status": "complete",
+  "created_at": "2026-08-06T03:53:50.625833+00:00",
+  "input_dir": "compute/outputs/gpu",
+  "output_dir": "compute/outputs/gpu",
+  "source_shard_count": 144,
+  "catalog_row_count": 191,
+  "catalog_type_counts": {
+    "gpu": 168,
+    "npu": 5,
+    "station": 9,
+    "tpu": 9
+  },
+  "catalog_alias_count": 521,
+  "variant_rule_count": 352,
+  "manual_rule_count": 63,
+  "manual_rule_pattern_count": 87,
+  "manual_reviewed_mapping_count": 1151,
+  "invalid_unused_variant_target_count": 6,
+  "invalid_unused_variant_targets": [
+    {
+      "input_name": "DGX-2",
+      "target_name": "Nvidia DGX-2"
+    },
+    {
+      "input_name": "DGX-2 GPU",
+      "target_name": "Nvidia DGX-2"
+    },
+    {
+      "input_name": "H100 80GB SXM",
+      "target_name": "NVIDIA H100 SXM5 80 GB"
+    },
+    {
+      "input_name": "NVIDIA DGX-2",
+      "target_name": "Nvidia DGX-2"
+    },
+    {
+      "input_name": "NVIDIA HGX H20O",
+      "target_name": "NNVIDIA H200 PCIe"
+    },
+    {
+      "input_name": "g5.12xlarge AWS instance",
+      "target_name": "AWS EC2 g5.12xlarge"
+    }
+  ],
+  "normalization_mapping_count": 5752,
+  "review_mapping_count": 336,
+  "input_entity_count": 90363,
+  "audit_entity_count": 90363,
+  "gpu_entity_count": 88673,
+  "excluded_entity_count": 1690,
+  "paper_config_count": 70085,
+  "gpu_paper_count": 52346,
+  "unique_entity_key_count": 90363,
+  "unique_raw_gpu_model_count": 5752,
+  "default_variant_entity_count": 14645,
+  "manual_override_entity_count": 432,
+  "manual_reviewed_mapping_entity_count": 2037,
+  "review_required_entity_count": 1532,
+  "count_missing_entity_count": 19395,
+  "by_output_disposition": {
+    "excluded_cpu": 22,
+    "excluded_model_or_framework": 6,
+    "excluded_npu": 5,
+    "excluded_station": 8,
+    "excluded_tpu": 5,
+    "excluded_unresolved": 1644,
+    "retained_gpu": 88673
+  },
+  "by_normalize_reason": {
+    "alias_match": 18952,
+    "cpu_fallback": 22,
+    "exact_match": 16422,
+    "input describes capacity without a specific GPU model": 72,
+    "input describes vendor and capacity without a specific GPU model": 48,
+    "input is a model or framework name, not a GPU device": 6,
+    "input is an instance type, not a GPU model": 7,
+    "input is generic or unknown": 788,
+    "input names a GPU family without a specific model": 31,
+    "input names a vendor but not a specific GPU model": 14,
+    "manual_default_variant_rule": 14645,
+    "manual_gpu_normalization_override": 432,
+    "manual_reviewed_mapping": 2037,
+    "no normalization rule matched": 566,
+    "normalized AMD instinct shorthand rule": 66,
+    "normalized AMD special-case rule": 13,
+    "normalized GTX-to-RTX correction rule": 22,
+    "normalized GeForce GTX shorthand rule": 1046,
+    "normalized GeForce RTX shorthand rule": 9475,
+    "normalized Huawei special-case rule": 3,
+    "normalized NVIDIA accelerator rule": 5656,
+    "normalized NVIDIA special-case rule": 17864,
+    "normalized RTX family rule": 1571,
+    "normalized RTX professional special-case rule": 544,
+    "normalized TPU special-case rule": 1,
+    "nvidia_accelerator_family_rule": 56,
+    "special_canonical_rule": 4
+  },
+  "by_match_status": {
+    "alias_match": 19195,
+    "exact_match": 16709,
+    "manual_override": 432,
+    "manual_reviewed_mapping": 2037,
+    "rule_match": 50071,
+    "unmatched": 1919
+  },
+  "by_benchmark_type": {
+    "cpu": 22,
+    "gpu": 88673,
+    "npu": 5,
+    "station": 8,
+    "tpu": 5,
+    "unresolved": 1650
+  }
+}
